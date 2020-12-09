@@ -1,0 +1,14 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Vorwort}{I}{chapter*.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{III}{chapter*.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{IV}{chapter*.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Literatur}{i}{chapter*.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Eidesstattliche Versicherung}{ii}{chapter*.6}% 

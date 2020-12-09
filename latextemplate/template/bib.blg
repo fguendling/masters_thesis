@@ -1,0 +1,17 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'bib.blg'
+[35] biber-darwin:315> INFO - === Wed Dec  9, 2020, 17:14:57
+[56] Biber.pm:371> INFO - Reading 'bib.bcf'
+[140] Biber.pm:886> INFO - Using all citekeys in bib section 0
+[152] Biber.pm:4093> INFO - Processing section 0
+[162] Biber.pm:4254> INFO - Looking for bibtex format file 'literatur.bib' for section 0
+[163] bibtex.pm:1523> INFO - LaTeX decoding ...
+[167] bibtex.pm:1340> INFO - Found BibTeX data source 'literatur.bib'
+[170] Utils.pm:193> WARN - year field 'Abgerufen am 20. July 2020' in entry 'Statista' is not an integer - this will probably not sort properly.
+[184] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[184] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[184] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[184] Biber.pm:3927> INFO - No sort tailoring available for locale 'de-DE'
+[191] bbl.pm:636> INFO - Writing 'bib.bbl' with encoding 'UTF-8'
+[192] bbl.pm:739> INFO - Output to bib.bbl
+[192] Biber.pm:110> INFO - WARNINGS: 1
