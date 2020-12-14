@@ -15,6 +15,11 @@ parskip=full-,
 BCOR=5mm %TODO
 ]{scrbook} %scrreprt, scrbook
 
+\RedeclareSectionCommand[
+  beforeskip=0pt,
+  afterindent=false% <- added
+  ]{chapter}
+
 \clubpenalty = 10000
 \widowpenalty = 10000 
 \displaywidowpenalty = 10000
@@ -137,7 +142,7 @@ uniquename=false,
 \usepackage{epigraph}
 
 % \epigraphsize{\small}% Default
-\setlength\epigraphwidth{8cm}
+\setlength\epigraphwidth{13cm}
 \setlength\epigraphrule{0pt}
 
 \usepackage{etoolbox}

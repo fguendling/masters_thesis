@@ -1534,6 +1534,32 @@
       \field{year}{2018}
       \true{nocite}
     \endentry
+    \entry{samuel}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a34c1ec201fc249b01c996cf319ea383}{%
+           family={Samuel},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {IBM Journal of research}%
+        {development, 3(3), 210-229.}%
+      }
+      \strng{namehash}{a34c1ec201fc249b01c996cf319ea383}
+      \strng{fullhash}{a34c1ec201fc249b01c996cf319ea383}
+      \strng{bibnamehash}{a34c1ec201fc249b01c996cf319ea383}
+      \strng{authorbibnamehash}{a34c1ec201fc249b01c996cf319ea383}
+      \strng{authornamehash}{a34c1ec201fc249b01c996cf319ea383}
+      \strng{authorfullhash}{a34c1ec201fc249b01c996cf319ea383}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Some studies in machine learning using the game of checkers}
+      \field{year}{1959}
+      \true{nocite}
+    \endentry
     \entry{servicenow}{book}{}
       \list{publisher}{1}{%
         {Datasheet. ServiceNow, Inc.}%
