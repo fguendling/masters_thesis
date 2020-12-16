@@ -8,3 +8,13 @@
 \contentsline {table}{\numberline {2.1}{\ignorespaces Beispiel f\IeC {\"u}r eine TDM. Fiktives Beispiel in Anlehnung an \cite [S. 62]{Anandarajan}}}{8}{table.2.1}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.1}{\ignorespaces Ausgangssituation bei der Themenerkennung}}{24}{table.3.1}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.1}{\ignorespaces Vergleich der Durchschnitts-Vektoren miteinander. Der Vergleich erfolgte mit der Similarity-Funktion von spaCy.}}{39}{table.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.2}{\ignorespaces Konfusionsmatrix zur Darstellung der NMF-Sch\IeC {\"a}tzungen}}{42}{table.4.2}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }

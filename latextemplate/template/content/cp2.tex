@@ -141,25 +141,90 @@ Neben COBIT gibt es weitere Frameworks, bzw. Modelle zum Umgang mit einzelnen Go
 Außerdem gibt es spezielle (Enterprise-)Architektur-Frameworks. Auf einige davon wird in einem späteren kurz eingegangen. 
 
 \subsection{Die Rolle von Textdokumenten für die IT-Governance}
-...
+Verschiedene IT-Projekte eines Unternehmens und damit verbunden auch Software-Entwicklungsprojekte stehen grundsätzlich in Konkurrenz zueinander. Mehrere Stakeholder möchten, dass ihr eigenes Projekt mit Priorität behandelt wird und erfolgreich umgesetzt wird. Dazu kommt, dass es Abhängigkeiten zwischen den einzelnen Vorhaben geben kann (Der Abschluss von Projekt A ist eine Voraussetzung für die erfolgreiche Umsetzung von Projekt B). Aus diesem Grund ist es wichtig, dass das IT-Management die Gesamtheit der Projekte im Blick hat, und sich weniger nur auf einzelne Projekte fokussiert \cite[S. 1]{frey}. Ein Portfolio muss also verwaltet und gesteuert werden.
 
-\subsection{Die Rolle von Textdokumenten für die IT-Governance}
-... 
+Neben dem voraussichtlichen Return on Investment (ROI) der sich durch die Umsetzung eines Projekts ergibt, müssen weitere Faktoren vor der Umsetzung von Projekten geschätzt werden. Dazu zählt das Risiko, dass mit einem Projekt einher geht \cite[S. 120ff.]{gadatsch}. Zunächst können für diese Schätzung die bereits erstellten Dokumentationen in Betracht gezogen werden. Der Begriff der Dokumentation bezeichnet in der Regel nachträglich erstellte Beschreibungen von Projekten. Unter dem Begriff können allerdings auch die zu einem noch laufenden oder geplanten Projekt gehörenden Dokumente verstanden werden. Dokumentationen erfüllen neben der Aufzeichnung von Ideen in Software-Entwicklungs-Projekten einen weiteren wichtigen Zweck: Sie gelten als wesentliches Werkzeug zur Umsetzung von Governance und zur Sicherstellung von Compliance \cite[S. 2]{reiss}. Diesen Zweck erfüllen sie, wenn Außenstehende die bereits abgeschlossenen oder geplanten Projekte oder Anwendungen bewerten müssen, um letztendlich Entscheidungen zum Umgang mit diesen treffen zu können. Deshalb wird in dieser Arbeit angenommen, dass Dokumentationen in Text-Form von hoher Bedeutung für die Gestaltung der Projekt- und Applikationslandschaft von Unternehmen sind. Die Güte von Dokumentationen ist dabei von entscheidender Bedeutung. Anforderungsgerechte Dokumente werden im Idealfall durch ein Dokumentationsmanagementsystem gewährleistet. Dabei können verschieden Vorgaben an die Struktur der Dokumente gemacht werden \cite[S. 29]{reiss}. Dazu zählt beispielsweise eine bestimmte Kapitelstruktur. Diese kann von einer Einteilung der Dokumente zu bestimmten Dokumententypen abhängig gemacht werden \cite[S. 34-39]{reiss}.
 
 \subsection {Das APM und verwandte Begriffe}
-...
+Es gibt im Zusammenhang mit der Idee des Application Portfolio Management in der Literatur diverse ähnliche Begriffe, die im Kern das beschreiben, was in dieser Arbeit unter APM verstanden wird. Ein solcher Begriff aus einer frühen Veröffentlichung zu APM ist etwa das IT Portfolio Management. Hier wird von stetigen „Kaufs-, Verkaufs- und Beibehaltungs-Entscheidungen“ gesprochen, um sogenannte IT-Portfolios zu gestalten bzw. um sie stets zu optimieren. APM bildet laut den Autoren gemeinsam mit dem Project Portfolio Management sowie dem IT Asset und Infrastructure Management die Disziplin des IT Portfolio Managements \cite[S. 2-14]{Gliedman}.
+
+Das oben bereits erwähnte Enterprise Architecture Management (EAM) verfolgt einen umfangreicheren, ganzheitlichen Ansatz zur Darstellung der gesamten Systemlandschaft von Unternehmen. Es werden sowohl die Prozess- als auch die Systemwelt strukturiert betrachtet. Dabei geht es stets um die Schaffung von Transparenz. Durch eine solche Transparenz können etwa unnötig redundante Systeme erkannt bzw. vermieden werden \cite[S. 7-10]{Bitkom}. Mit unnötig redundanten Systemen sind solche Systeme gemeint, welche Geschäftsfunktionen abdecken, die bereits durch andere Systeme oder Anwendungen unterstützt werden. Eine Business Support Matrix kann solche Beziehungen zwischen Anwendungen und Geschäftsfunktionen (auch: Capabilities) visualisieren \cite{jung1}. 
+Der Umfang von EAM wird dargestellt in Abbildung \ref{Abbildung:ea}. Die Abbildung soll verdeutlichen, dass der Fokus nicht wie im APM nur auf Applikationen (hier repräsentiert am ehesten durch den Kasten Anwendungsarchitektur) liegt, sondern dass sich EAM mit weiteren Ebenen beschäftigt (etwa mit der Geschäftsarchitektur oder auch mit der Strategie).
+ 
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.9]{content/pics/Picture_8.png}
+\caption{EA-Überblick, aus \cite[S. 13]{Bitkom}}
+\label{Abbildung:ea}
+\end{figure}
+
+Der enge Bezug von APM und EAM zeigt sich außerdem in Rahmenwerken, wie dem Architekturframework der Open Group (TOGAF). Dort zählt z. B. der Application Portfolio Catalog zu den grundlegenden Artefakten, die bei der Gestaltung einer Architektur nach TOGAF zu berücksichtigen sind. Schnittstellen zwischen Applikationen werden in dem Framework in einem Interface Catalog dokumentiert. Damit sind u. a. Abhängigkeiten visualisierbar und zentrale Anwendungen identifizierbar \cite[Kap. 31]{togaf}. Im Department of Defense Architecture Framework (DoDAF) gibt es verschiedene sogenannte Viewpoints, die wiederrum aus mehreren Views bestehen können. Eine Viewpoint in diesem Framework ist die Systems-Viewpoint. Eine konkrete View ist z. B. die „System Interface Description“ (SV-1). In ihr werden alle Systeme, die von Interesse sind, inklusive Schnittstellen zu anderen Systemen dargestellt. Die View ist vergleichbar mit dem TOGAF Interface Catalog. Es kann in anderen Views auch z. B. um die Unterstützung „operationaler Aktivitäten“ durch Software-/ oder System-Funktionen gehen (SV-5). Ein Beispiel wäre die Dokumentation darüber, dass der operationale Prozess „Einchecken von Passagieren“, durch ein System mit der Bezeichnung Airline Reservation and Ticketing System abgewickelt wird \cite[S. 311-344]{Rao}.
+
+Darüber hinaus zeigt eine Befragung von Enterprise-Architekten, dass diese sich in ihrer täglichen Arbeit mit Fragen zum Umgang mit Anwendungslandschaften beschäftigen \cite{jung2}. Dazu zählen zum Beispiel Fragen wie 
+
+\begin{itemize}
+  \item Welche Anwendungen sind in Verwendung?
+  \item Welchen Zweck erfüllen einzelne Anwendungen?
+  \item Welche Anwendungen sollen eingeführt oder abgeschaltet werden?
+  \item Welche Redundanzen in der Anwendungslandschaft gibt es?
+  \item Welche Abhängigkeiten oder Schnittstellen gibt es zwischen Anwendungen?
+  \item In welchen Anwendungen werden kritische oder schützenswerte Daten gehalten?
+\end{itemize}
+
+Als Kernelement von IT-Strategien wird der IT-Bebauungsplan in einer Veröffentlichung zum Thema IT-Controlling bezeichnet. Er gibt Aufschluss über die Informationssysteme, die derzeit in einem Unternehmen im Einsatz sind. Dazu zählen (u. a.) Informationen zu Release-Ständen, zu Schnittstellen der Systeme untereinander, sowie zu Geschäftsprozessen, die die von den Systemen unterstützt werden. \cite[S. 36]{gadatsch} Die Autoren dieses Beitrags nennen das IT-Portfoliomanagement als Werkzeug für IT-Controller (die dem Chief Information Officer gleichgestellt oder dieser Position direkt unterstellt sein können). Zu deren Aufgaben können die Auswahl und Steuerung von neuen Projekten oder von Wartungsprojekten gehören. \cite[S. 41-45]{gadatsch}
 
 \subsection {Handlungsfelder des APM}
-...
+Das grundlegende Ziel von APM ist stets die Reduzierung der Komplexität von Anwendungslandschaften. Anwendungen werden dabei aus technischer (etwa Aktualität der Software) und betriebswirtschaftlicher Sicht (Lizenzkosten) untersucht. Es handelt sich um einen kontinuierlichen, andauernden Vorgang \cite{schoder}. Nachfolgend aufgelistet sind Beispiele für Fragestellungen, mit denen sich das APM befasst. Sie werden im Folgenden als Handlungsfelder des Application Portfolio Management zusammengefasst. Die Fragen wurden abgeleitet aus \cite{apm}. Hervorgehoben sind Fragen, auf die im weiteren Verlauf der Arbeit noch stärker eingegangen werden soll. Es gibt auch jeweils einen Verweis auf das jeweilige Kapitel, in denen entsprechende Verfahren zum Umgang mit den Fragen diskutiert werden.
+
+Werden bei der Implementierung von neuer Software Legacy-Systeme als Grundlage verwendet?
+Werden die Anforderungen aus dem operativen Geschäft durch neue Anwendungen abgedeckt?
+Sind Anwendungen aus technischer und fachlicher Sicht „fit“ für die Zukunft?
+Werden durch Anwendungen bestimmte rechtliche Anforderungen umgesetzt?
+Was ist für einzelne Anwendungen „in-scope“ und was ist „out-of-scope“? (vgl. Abschnitt 4.3)
+Gibt es in den Dokumentationen der geplanten Softwareprojekte einen Projektplan oder ein Gantt-Diagramm?
+Wurde schon einmal versucht, ein bestimmtes Vorhaben umzusetzen und wie war das Resultat? (vgl. Abschnitt 4.1)
+Was sind die fachlichen Anforderungen, die durch ein bestimmtes Projektvorhaben abgedeckt werden sollen?
+Wie verhalten sich die Kosten, die durch das Ersetzen einer Software anfallen im Vergleich zu den Kosten die bei einer Modernisierung/ Weiterentwicklung entstehen?
+Ist es möglich, einzelne Anwendung zu verbessern/ weiterzuentwickeln?
+Was spricht für eine Wartung einer bestehenden Software, was für eine Neuentwicklung?
+Welche Anwendungen sind Kandidaten für eine Restrukturierung/ Optimierung
+Welche Abhängigkeiten von einzelnen Anwendungen gibt es zu anderen Anwendungen im Application Portfolio? (vgl. Abschnitt 4.4)
+Werden bei Neueinführung von Software Abhängigkeiten geschaffen?
+Mit welchen Kosten/ Aufwänden muss gerechnet werden bei der Einführung einer Anwendung?
+Welche Auswirkungen hat eine Nicht-Verfügbarkeit von einzelnen Anwendungen?
+In welcher Phase im Lebenszyklus befinden sich bestimmte Anwendungen?
+Sind Performance-Verbesserungen durch die Einführung von neuer Software identifizierbar?
+Werden bestehende Prozesse angemessen durch neue/ bestehende Anwendungen unterstützt?
+Mit welchen Risiken wird die Organisation konfrontiert durch den Betrieb der Anwendungen im Portfolio und wie können die Risiken minimiert werden?
+Was sind Dinge, die schief gehen könnten bei Veränderungen am Application Portfolio
+Ist ein Produkt auf Basis der eigenen Bedürfnisse neu zu entwickeln oder kann ein Standardprodukt (z. B. für die Zeiterfassung) gewählt werden?
+In welchen Fällen muss über den Abbruch eines laufenden Projekts nachgedacht werden?
+Geht es bei Projekten eher um das „Bekämpfen von Bränden“ (Engl.: „Firefighting“) oder um echte Verbesserungen der Geschäftsprozesse?
+Wie gut ist die Dokumentation einer Anwendung? (vgl. Abschnitt 4.2)
+Passen Implementierungsplanungen und strategische Planungen des Unternehmens zusammen?
+Wie stark werden Standards (z. B. Standard-Entwicklungsmethoden) eingehalten?
+Wie ist die Aktualität der Anwendungen im Portfolio – welche Anwendungen sind veraltet?
+Wie lange werden Anwendungen vom Vendor noch unterstützt im Hinblick auf „Support“?
+Wie ist die Kritikalität von Anwendungen? (mission-critical, critical, high, medium, low).
+Wer sind die Verantwortlichen (Engl.: „Owner“) der Anwendungen?
+Ist die Funktionalität einer Anwendung einzigartig und nicht redundant?
+Was sind „Lessons Learned“ die sich ergeben haben durch Betrieb von Software?
+Wie einfach ist eine Anwendung nutzbar?
+Welche sind die am häufigsten/ seltensten genutzten Anwendungen im Portfolio
+Gibt es SSO-Unterstützung (Single-Sign-On), wie erfolgt der Zugriff auf Anwendungen?
+Wie viele Nutzer hat eine Anwendung?
+Ist die Anwendungslandschaft mit jener von Wettbewerbern vergleichbar?
+
+Ein Großteil dieser Fragestellung setzt zur Beantwortung Expertenwissen voraus. Als Beispiel wird der Begriff der strategischen Planung herausgegriffen. Ein solcher Begriff wäre in der Realität zunächst durch Experten zu definieren. 
 
 \subsection{Unterstützung von APM durch Tools}
-Im vorangegangen Abschnitt wurden einzelne Fragen genannt. Bei der Bearbeitung der Fragen können  Experten durch Technologie unterstützt werden. Zum einen gibt es dazu die bereits erwähnten Frameworks wie COBIT, TOGAF, und weitere – zum anderen gibt es auch spezialisierte Software-Produkte, die an dieser Stelle unterstützen können, wie z. B.:
+Im vorangegangen Abschnitt wurden einzelne Fragen genannt. Bei der Bearbeitung der Fragen können  Experten durch Technologie unterstützt werden. Zum einen gibt es dazu die bereits erwähnten Frameworks wie COBIT, TOGAF, und weitere – zum anderen gibt es auch spezialisierte Software-Produkte, die an dieser Stelle unterstützen können, wie:
 
-- ServiceNow Application Portfolio Management. Die Use Cases umfassen u. a. das Darstellen der gesamten Applikationslandschaft, die Verlinkung von Anwendungen mit Projekten, sowie das Zuordnen von Anwendungen zu Lebenszyklus-Phasen [44].
-
-- LeanIX Enterprise Architecture Suite. Die Unterstützung des APM ist einer der grundlegenden Anwendungsfälle des Produkts. Mit dem Werkzeug können (u. a.) Anwendungen mit Business Capabilites verknüpft, Lebenszyklus-Phasen erfasst, und Anwendungslandschaften visualisiert werden. [45]
-
-- Alfabet (Software AG). Sowohl Anwendungsfälle im Bereich EAM als auch im sogenannten Integrated Portfolio Management (ITPM) werden durch die Software abgedeckt. Dabei sind bestimmte Features auch explizit für das APM von Relevanz, wie das Zusammenstellen eines Anwendungs-Inventars, das Zuordnen von Anwendungen zu Lebenszyklus-Phasen, sowie das Hinzufügen von Attributen zu Anwendungen, wie z. B. Kosten, Risiken, Nutzungsgrad, und Performance [46]. 
+\begin{itemize}
+\item ServiceNow Application Portfolio Management. Die Use Cases umfassen u. a. das Darstellen der gesamten Applikationslandschaft, die Verlinkung von Anwendungen mit Projekten, sowie das Zuordnen von Anwendungen zu Lebenszyklus-Phasen \cite{servicenow}.
+\item LeanIX Enterprise Architecture Suite. Die Unterstützung des APM ist einer der grundlegenden Anwendungsfälle des Produkts. Mit dem Werkzeug können (u. a.) Anwendungen mit Business Capabilites verknüpft, Lebenszyklus-Phasen erfasst, und Anwendungslandschaften visualisiert werden \cite{leanix}.
+\item Alfabet (Software AG). Sowohl Anwendungsfälle im Bereich EAM als auch im sogenannten Integrated Portfolio Management (ITPM) werden durch die Software abgedeckt. Dabei sind bestimmte Features auch explizit für das APM von Relevanz, wie das Zusammenstellen eines Anwendungs-Inventars, das Zuordnen von Anwendungen zu Lebenszyklus-Phasen, sowie das Hinzufügen von Attributen zu Anwendungen, wie beispielsweise Kosten, Risiken, Nutzungsgrad, und Performance \cite{softwareag}.
+\end{itemize} 
 
 All diese Tools sind laut den Herstellern geeignet, um das APM grundlegend zu unterstützen, wobei Inhalte manuell erfasst werden müssen. Die in Word-Dokumenten verborgenen Informationen werten sie jedoch nicht aus. Sie wenden darüber hinaus keine oder kaum Möglichkeiten aus dem Bereich des maschinellen Lernens auf die eigentlichen Inhalte an. Sie nutzen damit das bestehende Potenzial dieser Ansätze noch nicht. Hier sollen die Verfahren ansetzen, die in den nachfolgenden Abschnitten untersucht werden.
 

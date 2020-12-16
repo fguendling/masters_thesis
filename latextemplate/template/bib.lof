@@ -17,4 +17,40 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.5}{\ignorespaces COBIT-Kernmodell, aus \cite [S. 21]{isaca2}}}{15}{figure.2.5}% 
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces EA-\IeC {\"U}berblick, aus \cite [S. 13]{Bitkom}}}{17}{figure.2.6}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Potenziell m\IeC {\"o}gliche Befragung, eigener Entwurf in Anlehnung an \cite {Dang}}}{26}{figure.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Schnittstellen-Visualiserung (Interface Circle Map) aus LeanIX, aus \cite {leanix2} }}{27}{figure.3.2}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Darstellung verschiedener W\IeC {\"o}rter in 2 Dimensionen , eigene Erstellung.}}{30}{figure.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Similarity Berechnung mit spaCy. Die Texte wurden gek\IeC {\"u}rzt.}}{31}{figure.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Heatmap zur Dokumenten\IeC {\"a}hnlichkeit, eigene Erstellung}}{32}{figure.4.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Heatmap zur Dokumenten\IeC {\"a}hnlichkeit, mit Stoppwortentfernung, eigene Erstellung}}{32}{figure.4.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Darstellung aller verf\IeC {\"u}gbaren Dokumente, gruppiert nach Dokumententypen, eigene Erstellung}}{35}{figure.4.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Dokumenten-Cluster, erzeugt \IeC {\"u}ber Doc2Vec, aus \cite {Dai}}}{36}{figure.4.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Initiale Vorbereitung von durchschnittlichen Wort-Vektoren, eigene Erstellung}}{37}{figure.4.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Inferenz-Phase. Vergleich von Kapitel-Vektoren mit Durchschnitts-Vektoren, eigene Erstellung}}{38}{figure.4.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Tag Clouds zu 4 erkannten Topics, erstellt mit NMF (eigene Erstellung)}}{41}{figure.4.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Verwendung eines Abschnitts aus einem Testdokument f\IeC {\"u}r die Vorhersage des Topics, eigene Erstellung}}{42}{figure.4.10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Struktur der Daten, die f\IeC {\"u}r Evaluation in diesem Abschnitt genutzt wurden (geschw\IeC {\"a}rzt und gek\IeC {\"u}rzt)}}{43}{figure.4.11}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Evaluation der G\IeC {\"u}te von Zusammenfassungen, unter Ver\IeC {\"a}nderung des Ausgangs-Text-Korpus. Eigene Erstellung}}{46}{figure.4.12}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Veranschaulichung eines abstraktiven Verfahrens. Eigene Erstellung in Anlehnung an \cite {Raffel}}}{47}{figure.4.13}% 
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

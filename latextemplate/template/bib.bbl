@@ -577,6 +577,21 @@
       \field{year}{2020}
       \true{nocite}
     \endentry
+    \entry{gensim-license}{misc}{}
+      \field{sortinit}{g}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Python Software Foundation}
+      \field{title}{gensim}
+      \field{year}{Abgerufen am 16. Dezember 2020}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://pypi.org/project/gensim/
+      \endverb
+      \verb{url}
+      \verb https://pypi.org/project/gensim/
+      \endverb
+    \endentry
     \entry{Geron}{book}{}
       \name{author}{1}{}{%
         {{hash=e54e6c9ce5d233c7046a00f7b3faa6c0}{%
@@ -932,7 +947,7 @@
       \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Elaborating Potential for Improving Application Landscapes in Logistics}
+      \field{title}{Analysis Using the Business Support Matrix: Elaborating Potential for Improving Application Landscapes in Logistics}
       \field{year}{2018}
       \true{nocite}
     \endentry
@@ -1291,6 +1306,21 @@
       \field{year}{2015}
       \true{nocite}
     \endentry
+    \entry{numpy-license}{misc}{}
+      \field{sortinit}{n}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Python Software Foundation}
+      \field{title}{numpy}
+      \field{year}{Abgerufen am 17. Dezember 2020}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://pypi.org/project/numpy/
+      \endverb
+      \verb{url}
+      \verb https://pypi.org/project/numpy/
+      \endverb
+    \endentry
     \entry{softwareag}{book}{}
       \name{author}{1}{}{%
         {{hash=88b23cc9977aad9ca7a777a8f05de3c3}{%
@@ -1345,6 +1375,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{GloVe: Global Vectors for Word Representation}
+      \field{year}{Abgerufen am 19. Dezember 2020}
       \true{nocite}
       \verb{urlraw}
       \verb https://nlp.stanford.edu/projects/glove/
@@ -1560,6 +1591,21 @@
       \field{year}{1959}
       \true{nocite}
     \endentry
+    \entry{scikit-license}{misc}{}
+      \field{sortinit}{s}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Python Software Foundation}
+      \field{title}{scikit-learn}
+      \field{year}{Abgerufen am 16. Dezember 2020}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://pypi.org/project/scikit-learn/
+      \endverb
+      \verb{url}
+      \verb https://pypi.org/project/scikit-learn/
+      \endverb
+    \endentry
     \entry{servicenow}{book}{}
       \list{publisher}{1}{%
         {Datasheet. ServiceNow, Inc.}%
@@ -1663,7 +1709,7 @@
       \verb https://spacy.io/api/doc
       \endverb
     \endentry
-    \entry{spacy}{misc}{}
+    \entry{spacy-license}{misc}{}
       \name{author}{1}{}{%
         {{hash=6ebb2116c5dde36a3b61b14aa5a82835}{%
            family={spacy.io},
@@ -1676,6 +1722,33 @@
       \strng{authornamehash}{6ebb2116c5dde36a3b61b14aa5a82835}
       \strng{authorfullhash}{6ebb2116c5dde36a3b61b14aa5a82835}
       \field{extraname}{2}
+      \field{sortinit}{s}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{English Available pretrained statistical models for English}
+      \field{year}{Abgerufen am 16. Dezember 2020}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://spacy.io/models/en
+      \endverb
+      \verb{url}
+      \verb https://spacy.io/models/en
+      \endverb
+    \endentry
+    \entry{spacy}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6ebb2116c5dde36a3b61b14aa5a82835}{%
+           family={spacy.io},
+           familyi={s\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ebb2116c5dde36a3b61b14aa5a82835}
+      \strng{fullhash}{6ebb2116c5dde36a3b61b14aa5a82835}
+      \strng{bibnamehash}{6ebb2116c5dde36a3b61b14aa5a82835}
+      \strng{authorbibnamehash}{6ebb2116c5dde36a3b61b14aa5a82835}
+      \strng{authornamehash}{6ebb2116c5dde36a3b61b14aa5a82835}
+      \strng{authorfullhash}{6ebb2116c5dde36a3b61b14aa5a82835}
+      \field{extraname}{3}
       \field{sortinit}{s}
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{labelnamesource}{author}
@@ -1702,7 +1775,7 @@
       \strng{authorbibnamehash}{6ebb2116c5dde36a3b61b14aa5a82835}
       \strng{authornamehash}{6ebb2116c5dde36a3b61b14aa5a82835}
       \strng{authorfullhash}{6ebb2116c5dde36a3b61b14aa5a82835}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{s}
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{labelnamesource}{author}
@@ -1785,12 +1858,28 @@
       \field{title}{The Definitive Guide to Application Portfolio Management}
       \true{nocite}
     \endentry
+    \entry{MIT}{misc}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Open Source Initiative}
+      \field{title}{The MIT License}
+      \field{year}{Abgerufen am 16. Dezember 2020}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://opensource.org/licenses/MIT
+      \endverb
+      \verb{url}
+      \verb https://opensource.org/licenses/MIT
+      \endverb
+    \endentry
     \entry{togaf}{misc}{}
       \field{sortinit}{T}
       \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
       \field{labeltitlesource}{title}
       \field{howpublished}{The Open Group}
       \field{title}{The TOGAF Standard 9.2}
+      \field{year}{Abgerufen am 19. Dezember 2020}
       \true{nocite}
       \verb{urlraw}
       \verb https://pubs.opengroup.org/architecture/togaf92-doc/arch/index.html
