@@ -24,7 +24,7 @@ Lösungsansatz 1 für diesen Anwendungsfall verwendet einen Ansatz auf Basis von
 \label{Abbildung:wordvecintuition}
 \end{figure}
 
-Abbildung \ref{Abbildung:wordvecintuition} basiert auf einem eigenen Experiment, in dem die verfügbaren Kunden-Dokumente in Kleinschreibung (etwa 330 000 Wörter; entspricht einer Größe von 2.1 Megabyte) für das Training eines eigenen Wort-Vektor-Modells verwendet wurden. Das so erzeugte Modell kennt zwar spezielle Begriffe (etwa die Namen von einzelnen Projekten) aus den Dokumenten, es hat aber z. B. keine Idee davon, wie beliebige Begriffe wie ``London`` oder ``Paris`` einzuordnen sind. Diese Begriffe sind nicht einmal Teil des Vokabulars . Das zeigt, dass ein selbst trainiertes Modell nur bedingt für den Vergleich von Dokumenten geeignet ist. Es kann geschlussfolgert werden, dass das Training eines geeigneten Modells domänenspezifische Dokumente und zusätzlich einen „allgemeinen“ Textkorpus voraussetzen würde, damit sinnvoll mit dem Modell gearbeitet werden könnte. 
+Abbildung \ref{Abbildung:wordvecintuition} basiert auf einem eigenen Experiment, in dem die verfügbaren Kunden-Dokumente in Kleinschreibung (etwa 330 000 Wörter; entspricht einer Größe von 2.1 Megabyte) für das Training eines eigenen Wort-Vektor-Modells verwendet wurden. Das so erzeugte Modell kennt zwar spezielle Begriffe (etwa die Namen von einzelnen Projekten) aus den Dokumenten, es hat aber z. B. keine Idee davon, wie beliebige Begriffe wie ``London`` oder ``Paris`` einzuordnen sind. Diese Begriffe sind nicht einmal Teil des Vokabulars . Das zeigt, dass ein selbst trainiertes Modell nur bedingt für den Vergleich von Dokumenten geeignet ist. Es kann geschlussfolgert werden, dass das Training eines geeigneten Modells domänenspezifische Dokumente und zusätzlich einen ``allgemeinen`` Textkorpus voraussetzen würde, damit sinnvoll mit dem Modell gearbeitet werden könnte. 
 
 \subsection{Ansatz 1: Ähnlichkeitsvergleich mit einem Word2Vec-Modell}
 
@@ -59,7 +59,7 @@ Unten dargestellt (Abbildung \ref{Abbildung:heatmap1}) ist eine Heatmap, welche 
 Es sind weitere Verfeinerungen denkbar, wie die Entfernung aller Verben oder Adjektive, oder die manuelle Gewichtung von bestimmten Substantiven. Ein solches Vorgehen geht in Richtung regelbasierte Sprachverarbeitung und wird daher hier nicht weiterverfolgt. 
 
 Der Ansatz ist also mit der gegebenen Datenmenge (20-40 Dokumente) sinnvoll einsetzbar, auch wenn durch ein Training eigener Vektoren noch Verbesserungen im Hinblick auf die Ergebnisse zu erwarten sind. Er liefert zumindest Hinweise darauf, in welchen Dokumenten bzw. Projekten mit ähnlicher Sprache gearbeitet wird.
-Die Metrik (etwa „Ähnlichkeit von 0,99“) kann zum Beispiel genutzt werden, um zu überprüfen, ob ein Dokument anderen existierenden Dokumenten ähnelt. Ein Entscheider könnte sich dieses ähnliche Dokument dann noch einmal genauer ansehen um zu prüfen, ob beispielsweise Systeme mit ähnlichen Anforderungen entdeckt wurden.
+Die Metrik (etwa ``Ähnlichkeit von 0,99``) kann zum Beispiel genutzt werden, um zu überprüfen, ob ein Dokument anderen existierenden Dokumenten ähnelt. Ein Entscheider könnte sich dieses ähnliche Dokument dann noch einmal genauer ansehen um zu prüfen, ob beispielsweise Systeme mit ähnlichen Anforderungen entdeckt wurden.
 
 {\bf Kriterium 2: Generelle Einsetzbarkeit des Ansatzes im APM-Kontext, unter der Annahme einer beliebig großen Datenmenge}
 
@@ -167,7 +167,7 @@ Es werden hier auch keine Metriken im Sinne einer Konfusionsmatrix präsentiert,
 \label{table:4}
 \end{table}
 
-Als Ursache für die Ähnlichkeit der Vektoren (mit Ausnahme des Referenzkorpus „Logistics“, wo durchaus eine Unterscheidung möglich ist) wird von der inhaltlichen Nähe der Text-Körper zueinander (vgl. etwa „Design“ und „Architecture“) ausgegangen. Die gewählten Topics sind sich inhaltlich sehr ähnlich, weshalb hier die sorgfältige Auswahl der Trainingsdokumente in den jeweiligen Kategorien eine Rolle spielen kann. Die einfache Durchschnittsbildung (averaging) führt also im Kontext des APM eher weniger zu sinnvollen Vektoren, weshalb mit einer derart geringen Datenmenge der Ansatz nicht sinnvoll genutzt werden kann.
+Als Ursache für die Ähnlichkeit der Vektoren (mit Ausnahme des Referenzkorpus ``Logistics``, wo durchaus eine Unterscheidung möglich ist) wird von der inhaltlichen Nähe der Text-Körper zueinander (vgl. etwa ``Design`` und ``Architecture``) ausgegangen. Die gewählten Topics sind sich inhaltlich sehr ähnlich, weshalb hier die sorgfältige Auswahl der Trainingsdokumente in den jeweiligen Kategorien eine Rolle spielen kann. Die einfache Durchschnittsbildung (averaging) führt also im Kontext des APM eher weniger zu sinnvollen Vektoren, weshalb mit einer derart geringen Datenmenge der Ansatz nicht sinnvoll genutzt werden kann.
 Aus den Ergebnissen folgt jedoch, dass man mit dem Verfahren zumindest ein Gefühl dafür bekommen kann, ob die Inhalte einzelner Kapitel grob in die richtige Richtung gehen. Texte wie etwa {\textit{lorem ipsum}}, könnten als unsinnige Inhalte identifiziert werden.
 
 {\bf Kriterium 2: Generelle Einsetzbarkeit des Ansatzes im APM-Kontext, unter der Annahme einer beliebig großen Datenmenge}
@@ -187,7 +187,7 @@ Es können frei verfügbare Software-Bibliotheken (u. a. spaCy \cite{spacy-licen
 
 \subsection{Ansatz 2: Topic Modelling mit Non-negative matrix factorization}
 
-Wie oben bereits angedeutet, gäbe es für die Lösung des Anwendungsfalls „Bestimmung von inhaltlicher Integrität“ weitere Möglichkeiten aus den Bereichen des überwachten, unüberwachten oder auch semi-überwachten Lernens. Mit verschiedenen Klassifizierungsverfahren können die Klassen beziehungsweise die Themen von einzelnen Kapiteln aus Text-Dokumenten geschätzt werden. In Frage kämen etwa Ansätze wie Naive Bayes, logistische Regression, neuronale Netze, und andere. Hier vorgestellt wird nun ein Ansatz auf Basis von Non-negative matrix factorization (Abk.: NMF). Zu beachten ist, dass es sich dabei nicht um ein Klassifizierungsverfahren, sondern um eine Methode aus der Kategorie des Topic Modelling handelt. Statt mit NMF könnten ähnliche Resultate auch unter Verwendung des Verfahrens Latent Dirichlet Allocation (Abk.: LDA) realisiert und evaluiert werden \cite{scikit1}.
+Wie oben bereits angedeutet, gäbe es für die Lösung des Anwendungsfalls ``Bestimmung von inhaltlicher Integrität`` weitere Möglichkeiten aus den Bereichen des überwachten, unüberwachten oder auch semi-überwachten Lernens. Mit verschiedenen Klassifizierungsverfahren können die Klassen beziehungsweise die Themen von einzelnen Kapiteln aus Text-Dokumenten geschätzt werden. In Frage kämen etwa Ansätze wie Naive Bayes, logistische Regression, neuronale Netze, und andere. Hier vorgestellt wird nun ein Ansatz auf Basis von Non-negative matrix factorization (Abk.: NMF). Zu beachten ist, dass es sich dabei nicht um ein Klassifizierungsverfahren, sondern um eine Methode aus der Kategorie des Topic Modelling handelt. Statt mit NMF könnten ähnliche Resultate auch unter Verwendung des Verfahrens Latent Dirichlet Allocation (Abk.: LDA) realisiert und evaluiert werden \cite{scikit1}.
 
 Als Trainingskorpus wird auch hier eine Menge von Dokumenten aus dem Internet verwendet. Verwendet wurden  wiederum die Textkorpora Requirements, Architectural Language, Design sowie Logistics. Bei näherer Betrachtung des Trainingskorpus fällt auf, dass die Trainingsdokumente in den einzelnen Kategorien sich durchaus durch bestimmte, typische Begriffe auszeichnen. Diese Begriffe sind die bedeutsamsten für ein bestimmtes Thema. Zur Visualisierung dieser Begriffe von Topics können Ansätze wie NMF oder LDA genutzt werden. Diese Ansätze verwenden intern den TF-IDF-Vectorizer. Zur Schätzung des Topics eines Testdokuments kann dann das erstellte Modell genutzt werden. Zunächst folgt allerdings in Abbildung \ref{Abbildung:word_clouds} eine Visualisierung der für die Themen typischen Begriffe. Die Begriffe die von Bedeutung sind für ein Thema wurden automatisch durch das Verfahren extrahiert und sind unten dargestellt.
  
@@ -207,11 +207,11 @@ Mit bloßem Auge erkennbar sind in Abbildung \ref{Abbildung:word-clouds} die The
 \label{Abbildung:nmf-inf}
 \end{figure}
  
-Dieses Verfahren sagt dem Nutzer lediglich, dass zum Beispiel Topic 3 als Ergebnis einer Vorhersage bestimmt wurde. Das Verfahren sagt nicht, wie das Topic zu interpretieren ist, also um welche „Klasse“ es sich bei dem Topic handelt. Die „Klassen“ müssen deshalb manuell auf Basis der Tag Clouds (Abbildung \ref{Abbildung:word-clouds}) bestimmt werden.
+Dieses Verfahren sagt dem Nutzer lediglich, dass zum Beispiel Topic 3 als Ergebnis einer Vorhersage bestimmt wurde. Das Verfahren sagt nicht, wie das Topic zu interpretieren ist, also um welche ``Klasse`` es sich bei dem Topic handelt. Die ``Klassen`` müssen deshalb manuell auf Basis der Tag Clouds (Abbildung \ref{Abbildung:word-clouds}) bestimmt werden.
 
 {\bf Kriterium 1: Einsetzbarkeit des Ansatzes unter den gegebenen Rahmenbedingungen}
 
-Es wurden per Hand Text-Beispiele für Tests ausgewählt und entsprechende Beschriftungen erzeugt. Es wurden manuell 4 Texte dem Thema Software Design zugeordnet, 13 der Kategorie Requirements, und 3 wurden als Architectural Language eingeordnet. Für jedes Beispiel wird eine Schätzung mit dem NMF-Modell durchgeführt. Die Ergebnisse der Schätzungen sind unten (Tabelle \ref{tab:confusion-nmf}) dargestellt. Topic 0 („Logistics“) kann als Kontroll-Klasse verstanden werden, die eigentlich nicht vorhergesagt werden sollte. Die Klasse „Requirements“ könnte aus fachlicher Sicht auch in zwei Klassen functional und non-functional aufgeteilt werden. Diese Unterscheidung wurde hier nicht gemacht.
+Es wurden per Hand Text-Beispiele für Tests ausgewählt und entsprechende Beschriftungen erzeugt. Es wurden manuell 4 Texte dem Thema Software Design zugeordnet, 13 der Kategorie Requirements, und 3 wurden als Architectural Language eingeordnet. Für jedes Beispiel wird eine Schätzung mit dem NMF-Modell durchgeführt. Die Ergebnisse der Schätzungen sind unten (Tabelle \ref{tab:confusion-nmf}) dargestellt. Topic 0 (``Logistics``) kann als Kontroll-Klasse verstanden werden, die eigentlich nicht vorhergesagt werden sollte. Die Klasse ``Requirements`` könnte aus fachlicher Sicht auch in zwei Klassen functional und non-functional aufgeteilt werden. Diese Unterscheidung wurde hier nicht gemacht.
 
 \begin{table}[h]
 \centering
@@ -326,27 +326,122 @@ Die Modelle (z. B. t5-small \cite{t5}) sowie die Transformer-Bibliothek \cite{Tr
 
 \section{Ergebnisse: Automatisierte Schnittstellen-Erkennung}
 
+Die beiden nachfolgenden Ansätze verwenden beschriftete Beispiele für das Training eines Klassifikationsmodells. Die so trainierten Modelle können anschließend genutzt werden, um einzelne Sätze von Textdokumenten in eine der beiden Klassen ``Technical Interface (TI)`` oder ``kein technisches Interface`` einzuordnen. Wenn die Vorhersage des Modells einem Satz aus der Testmenge die Klasse TI zuteilt, dann kann diese Vorhersage genutzt werden, um Sätze zu identifizieren, in denen eine technische Schnittstelle beschrieben wird. Die Genauigkeit (accuracy) dieser Vorhersage gilt es zu maximieren. Die Qualität und die Menge der Trainingsdaten haben entscheidenden Einfluss auf die Qualität der Vorhersage, wie nachfolgend beschrieben werden soll.
+
 \subsection{Ansatz 1: Klassifizierung auf Grundlage eines BERT-Modells}
+
+BERT, ein vortrainiertes Transformer-Modell, wird hier für die Klassifizierung verwendet, indem das vortrainierte Modell per Fine-Tuning auf den vorliegenden Kontext abgestimmt wird. Dabei werden weitere Schichten eines neuronalen Netzes trainiert, die hinter denen das BERT-Modells liegen, um eine Klassifizierungsaufgabe lösen zu können, wie beschrieben z. B. in \cite[S. 2]{Tang}. Dieser Ansatz heißt Transfer-Learning. Das BERT-Modell kennt bereits grundlegende Eigenschaften von natürlicher Sprache. Es wurde trainiert unter Verwendung des BookCorpus mit 800 Millionen Wörtern sowie der gesamten Englischsprachigen Wikipedia (2500 Millionen Wörter) \cite{devlin}.
 
 {\bf Kriterium 1: Einsetzbarkeit des Ansatzes unter den gegebenen Rahmenbedingungen}
 
+Die für die Feinabstimmung verwendeten Daten setzen sich zusammen aus 195 positiven Beispielen (Klasse TI), und 195 negativen Beispielen (zur Hälfte Sätze zu User Interfaces, zur anderen Hälfte Sätze vollständig ohne Interface-Information). Sie wurden manuell beschriftet. Es werden 70\% der Daten für das Training verwendet, 15\% für das Testen, und 15\% für die Validierung. Die Sätze wurden in einem vorausgegangenen Arbeitsschritt mit einem Ansatz, der auf Ontologien basiert, aus den Textdokumenten des Kunden extrahiert. Der erste Versuch ergab einen f1-score von 70\% (vgl. Abbildung \ref{Abbildung:bert-confusion}). Die interessierende Klasse TI ist erkennbar über die Ausprägung 1. die Ausprägung 0 gibt an, dass die Vorhersage ``kein TI`` lautete. Die 70\% sind zunächst ein Zeichen dafür, dass Overfitting hier nicht unbedingt ein Problem darstellt. Bei einer verdächtig hohen Genauigkeit müsste davon ausgegangen werden.
+ 
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.95]{content/pics/Picture_23.png}
+\caption{Klassifizierungsergebnisse unter Verwendung von BERT nach der Feinabstimmung. Eigene Bildschirmaufnahme}
+\label{Abbildung:bert-confusion}
+\end{figure}
+
+Die praktische Einsetzbarkeit in einem realen Szenario bei einer Erkennungsgenauigkeit von (etwa) zwei aus drei Fällen ist fraglich. Angemerkt werden muss, dass sowohl Trainings- als auch Testsätze aus dem gleichen Textkorpus stammen. Zur Folge hätte dies, dass in Produktion, d. h. bei Verwendung eines komplett anderen Dokuments, geschrieben in anderer Art- und Weise, das Modell viel schlechtere Leistung erbringen könnte, als bei den hier vorgestellten Ergebnissen vermutet werden kann. Nachfolgend soll diese Vermutung anhand eines Beispiels evaluiert werden. Es wird eine ``Requirement Specification`` aus dem Internet verwendet, um darin vorkommende Sätze in eine der beiden Klassen (``TI`` oder ``kein TI``) einzuteilen. Interessant ist, dass dieses Verfahren zunächst nicht direkt eine Klasse als Vorhersage ausgibt, sondern zwei Werte. Das sind die direkten Ausgaben des neuronalen Netzes, das für die Klassifizierung verwendet wird. Es wird der absolut größere Wert verwendet für die Bestimmung der Klasse. Eindeutig als ``kein technisches Interface`` (Klasse 0) können damit Sätze bestimmt werden, die offensichtlich kein Interface beschreiben (Abbildung \ref{Abbildung:bert-0}). Bei längeren Sätzen sind in diesem Beispiel allerdings auch viele Sätze dabei, die nichts mit Interfaces zu tun haben, aber als solche klassifiziert wurden (Abbildung \ref{Abbildung:bert-1}).
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.95]{content/pics/Picture_25.png}
+\caption{Klasse 0 (``kein TI``) gewinnt und bestimmt damit die Vorhersage. Eigene Bildschirmaufnahme}
+\label{Abbildung:bert-0}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.95]{content/pics/Picture_26.png}
+\caption{Beispiele, bei denen Klasse 1 als Vorhersage bestimmt wurde. Eigene Bildschirmaufnahme}
+\label{Abbildung:bert-1}
+\end{figure}
+
+Es wird festgehalten, dass die Feinabstimmung mit der gegebenen Datenmenge nicht ausreichend ist, um in der Praxis mit dem Ansatz sinnvolle Ergebnisse zu erreichen. Die Kernaussage ist aber, dass der Ansatz im Sinne eines Proof-of-Concepts funktionsfähig und in der Perspektive vielversprechend ist.
+
 {\bf Kriterium 2: Generelle Einsetzbarkeit des Ansatzes im APM-Kontext, unter der Annahme einer beliebig großen Datenmenge}
+
+Um die Güte des Verfahrens messen zu können, wären weitere beschriftete Daten notwendig. Diese müssen in ausreichender Qualität vorhanden sein, und am besten durch Experten beschriftet worden sein. Es wäre auch denkbar, dass mehrere Experten die Beschriftungen vergeben und letztendlich nur die Beschriftung für das Training verwendet wird, die von mehreren Personen als Beschriftung ausgewählt wurde. Damit würden Zweifel eliminiert werden, darüber welche Klasse die richtige für einzelne Sätze ist. In anderen Veröffentlichungen wird von Genauigkeiten von bis zu 97\% bei ausreichend großen Datenmengen berichtet \cite{Tang}. Daher wird zusammengefasst, dass dieser Ansatz generell einsetzbar sein könnte, um Schnittstellen in Texten zu identifizieren, allerdings erst dann, wenn beschriftete Trainings-Beispiele in ausreichender Menge vorliegen.
 
 {\bf Kriterium 3: Rechenaufwand}
 
+Es wird lediglich die Fein-Abstimmung eines BERT-Modells durchgeführt. Ein großer Teil der Gewichtungen des Netzes ist also bereits verfügbar und muss nicht erneut berechnet werden \cite{bert}.
+Das Training kann auf einer CPU oder auf einer GPU durchgeführt werden\footnote{vgl. Code im Anhang}. Die Dauer der Fein-Abstimmung ist stets abhängig davon welche Prozessorarchitektur verwendet werden kann. Außerdem ist sie von gewählten Hyperparametern (Epochen/ Learning Rate, etc.) abhängig. Auf einer CPU dauert die Feinabstimmung länger als auf einer GPU. Es muss mit einigen Minuten auf gewöhnlicher Hardware kalkuliert werden. Die Inferenz (Vorhersage) nach dem Training ist ohne größere Verzögerungen möglich.
+
 {\bf Kriterium 4: Kosten}
+
+Das Auszeichnen von Sätzen ist der Kostentreiber bei diesem Ansatz. Dieser Aufwand erfolgt bei Einführung des Ansatzes, im Laufe der Zeit können jedoch Anpassungen notwendig werden. Es wäre denkbar, dass mehrere Menschen über die Beschriftungen entscheiden, etwa nach dem Mehrheitsprinzip: es wird die Beschriftung von dem Modell verwendet, für die sich die Mehrheit entschieden hat. Da Kenntnisse auf Expertenniveau benötigt werden, kann dieser Ansatz entsprechende Kosten verursachen. Lizenzkosten sind nicht zu erwarten, da die Apache-2.0-Lizenz verwendet wird \cite{bert}.
 
 \subsection{Ansatz 2: Klassifizierung mit logistischer Regression auf Basis von N-Grammen}
 
+Das Ziel ist hier wie bereits schon in Abschnitt 4.4.1 die Erkennung von Interface-Sätzen. In Kontrast zu dem vorangegangenen Ansatz, der auf Deep Learning sowie dem Transformer-Modell basierte, wird hier nun ein anderer Ansatz untersucht. Dadurch können die Ergebnisse der beiden Klassifizierungs-Ansätze besser eingeschätzt und verglichen werden. 
+
+Es handelt sich bei diesem Ansatz um die Klassifizierung von einzelnen Sätzen mit logistischer Regression. Es wird auf Wort-Vektoren oder ein vortrainiertes Transformer-Modell verzichtet und stattdessen werden aus Texten nur N-Gramme gebildet, die später als Features für die logistische Regression verwendet werden. Es werden die typischen Schritte \cite[S. 124]{Gupta} für eine Klassifizierung verfolgt. Die Implementierung ist überschaubar, weshalb sie anhand des schematischen Programmcodes (Abbildung \ref{Abbildung:lr-code}) beschrieben werden sollen. Der Code ist gekürzt, unter anderem wurden die Importe der Bibliotheken entfernt.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.4]{content/pics/Listing_2_.png}
+\caption{Klassifizierung mit logistischer Regression. Eigene Erstellung}
+\label{Abbildung:lr-code}
+\end{figure}
+
 {\bf Kriterium 1: Einsetzbarkeit des Ansatzes unter den gegebenen Rahmenbedingungen}
+
+Es werden nachfolgend in \ref{Abbildung:lr-test} die Ergebnisse des Versuchs aus \ref{Abbildung:lr-code} präsentiert.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.95]{content/pics/Picture_27.png}
+\caption{Ergebnisse der Klassifizierung von Sätzen aus der Testmenge. Eigene Bildschirmaufnahme}
+\label{Abbildung:lr-test}
+\end{figure}
+
+Diese zunächst gutaussehenden Ergebnisse können wohl durch Overfitting erklärt werden. Dieser Umstand ist der geringen Datenmenge geschuldet. Ein Versuch mit einem komplett anderen Dokument (vgl. \ref{Abbildung:lr-eval}) etwa klassifiziert 153 der insgesamt 494 Sätze aus diesem Dokument in die TI-Klasse (entspricht Klasse 1 in \ref{Abbildung:lr-eval}; es geht um das gleiche Dokument bzw. das gleiche Vorgehen wie in 4.4.1). Zu sehen ist, dass Sätze in Klasse 0 (``kein technisches Interface``) tatsächlich häufig korrekt klassifiziert wurden. Genauso häufig werden aber auch Sätze, die offensichtlich nichts mit Interfaces zu tun haben, in Klasse 1 (technisches Interface) klassifiziert, was nicht korrekt ist.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.95]{content/pics/Picture_28.png}
+\caption{Einige Vorhersagen für ein Evaluations-Dokument. Eigene Bildschirmaufnahme}
+\label{Abbildung:lr-eval}
+\end{figure}
+
+Deshalb kann die produktive Einsetzbarkeit des Verfahrens unter den gegebenen Rahmenbedingungen mit relativ wenigen Datensätzen für das Training eines Modells nicht bestätigt werden.
 
 {\bf Kriterium 2: Generelle Einsetzbarkeit des Ansatzes im APM-Kontext, unter der Annahme einer beliebig großen Datenmenge}
 
+Hier \cite{Vogelsang} wurde eine ähnliche Klassifikation durchgeführt. Die Autoren verwendeten 89 Text-Dokumente für das Training des Klassifikationsmodells. Erreicht wurde, dass 4 von 5 Test-Dokumenten korrekt klassifiziert wurden – ein grundsätzlich gutes Ergebnis, erreicht mit einer kleinen Trainingsmenge. Es kann jedoch gesagt werden, dass bei steigenden Trainingsdatenmengen recht zuverlässige Ergebnisse erzielt werden können, was auch für den vorliegenden Kontext gelten würde. Damit kommt das Verfahren bei ausreichender Trainingsdatenmenge durchaus für den Einsatz in Frage. 
+
 {\bf Kriterium 3: Rechenaufwand}
+
+Die Vorverarbeitung, sowie das Training des Modells erfolgen in wenigen Sekunden. Die Anwendung zur Vorhersage von neuen Datensätzen erfolgt ebenfalls in wenigen Sekunden.
 
 {\bf Kriterium 4: Kosten}
 
+scikit-learn kann kostenfrei genutzt werden \cite{scikit-license}. Zur Verbesserung und Weiterentwicklung des Modells müssen weitere Sätze beschriftet und weitere Dokumente gesammelt werden. Das erzeugt manuellen Aufwand.
+
 \section{Zusammenfassung der Ergebnisse}
 
+Dieser Abschnitt stellt die Ergebnisse der Evaluation zusammenfassend in einer Übersicht dar. Des Weiteren enthält \ref{tab:zusammenfassung} eine Handlungsempfehlung zum weiteren Vorgehen mit den Verfahren.
 
 
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Kategorie}                                                                                                & \textbf{Ansatz}                                                                                              & \textbf{\begin{tabular}[c]{@{}c@{}}Handlungsempfehlung/ \\ Zusammenfassung\end{tabular}}                                          \\ \hline
+\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Ermittlung \\ von \\ Ähnlichkeiten\end{tabular}}                       & \begin{tabular}[c]{@{}c@{}}Mit einem (vortrainierten) \\ Word2Vec-Modell\end{tabular}                        & \begin{tabular}[c]{@{}c@{}}Gute Grundlage. \\ Weiterentwicklung \\ kann sinnvoll sein.\end{tabular}                               \\ \cline{2-3} 
+                                                                                                                  & \begin{tabular}[c]{@{}c@{}}Unter Verwendung des \\ Paragraph-Vector-Modells (Doc2Vec)\end{tabular}           & \begin{tabular}[c]{@{}c@{}}Kann bei ausreichenden\\ Datenmengen sinnvoll sein.\\ Weiterentwickeln.\end{tabular}                   \\ \hline
+\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Bestimmung von \\ inhaltlicher \\ Integrität\end{tabular}}             & \begin{tabular}[c]{@{}c@{}}Durch Erzeugung und den Vergleich \\ von Durchschnitts-Wort-Vektoren\end{tabular} & \begin{tabular}[c]{@{}c@{}}Ist höchstens sinnvoll, \\ um absolut unpassende Texte \\ (``lorem ipsum``) zu entdecken.\end{tabular} \\ \cline{2-3} 
+                                                                                                                  & Mit Topic Modeling (NMF)                                                                                     & \begin{tabular}[c]{@{}c@{}}Gute Grundlage. \\ Weiterentwicklung \\ kann sinnvoll sein.\end{tabular}                               \\ \hline
+\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Automatisierte \\ Erzeugung \\ von Zusammen-\\ fassungen\end{tabular}} & \begin{tabular}[c]{@{}c@{}}Mit einem \\ extraktiven Ansatz (TF-IDF)\end{tabular}                             & \begin{tabular}[c]{@{}c@{}}Nicht sinnvoll.\\ Idee verwerfen.\end{tabular}                                                         \\ \cline{2-3} 
+                                                                                                                  & \begin{tabular}[c]{@{}c@{}}Mit einem \\ abstraktiven Ansatz (T5)\end{tabular}                                & \begin{tabular}[c]{@{}c@{}}Noch nicht \\ sinnvoll einsetzbar. \\ Weiter beobachten\end{tabular}                                   \\ \hline
+\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Automatisierte\\ Schnittstellen-\\ erkennung\end{tabular}}             & \begin{tabular}[c]{@{}c@{}}Per Klassifizierung von Sätzen \\ mit BERT und einem neuronalen Netz\end{tabular} & \begin{tabular}[c]{@{}c@{}}Weiter beobachten. \\ Weitere Trainingsdaten \\ anlegen und weiterentwickeln.\end{tabular}             \\ \cline{2-3} 
+                                                                                                                  & \begin{tabular}[c]{@{}c@{}}Per Klassifizierung von Sätzen \\ mit logistischer Regression\end{tabular}        & \begin{tabular}[c]{@{}c@{}}Weiterentwickeln, insbesondere \\ um eine Referenz zu anderen\\  Ansätzen zu erhalten.\end{tabular}    \\ \hline
+\end{tabular}
+\caption{Zusammenfassung der Evaluations-Ergebnisse}
+\label{tab:zusammenfassung}
+\end{table}

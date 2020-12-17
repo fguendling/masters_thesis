@@ -5,7 +5,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{IV}{chapter*.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{V}{chapter*.4}% 
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{VI}{chapter*.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}% 
 \defcounter {refsection}{0}\relax 
@@ -41,7 +41,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.4}Handlungsfelder des APM}{19}{subsection.2.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.5}Unterst\IeC {\"u}tzung von APM durch Tools}{20}{subsection.2.3.5}% 
+\contentsline {subsection}{\numberline {2.3.5}Unterst\IeC {\"u}tzung von APM durch Tools}{21}{subsection.2.3.5}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Relevante Verfahren und Kriterien f\IeC {\"u}r die Evaluation}{22}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
@@ -79,9 +79,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.1}Ansatz 1: Klassifizierung auf Grundlage eines BERT-Modells}{50}{subsection.4.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Ansatz 2: Klassifizierung mit logistischer Regression auf Basis von N-Grammen}{50}{subsection.4.4.2}% 
+\contentsline {subsection}{\numberline {4.4.2}Ansatz 2: Klassifizierung mit logistischer Regression auf Basis von N-Grammen}{53}{subsection.4.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Zusammenfassung der Ergebnisse}{50}{section.4.5}% 
+\contentsline {section}{\numberline {4.5}Zusammenfassung der Ergebnisse}{56}{section.4.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Fazit und Ausblick}{57}{chapter.5}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Literatur}{i}{chapter*.5}% 
 \defcounter {refsection}{0}\relax 

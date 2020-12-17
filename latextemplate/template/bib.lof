@@ -13,7 +13,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Funktionsweise von Word2Vec (links) und von Paragraph Vector (rechts), aus \cite {mikolov2014}}}{12}{figure.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Vektoren der Begriffe \IeC {\quotedblbase }the\IeC {\textquotedblleft } \& \IeC {\quotedblbase }and\IeC {\textquotedblleft }. Eigene Bildschirmaufnahme.}}{12}{figure.2.4}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Vektoren der Begriffe ``the`` \& ``and``. Eigene Bildschirmaufnahme.}}{12}{figure.2.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.5}{\ignorespaces COBIT-Kernmodell, aus \cite [S. 21]{isaca2}}}{15}{figure.2.5}% 
 \defcounter {refsection}{0}\relax 
@@ -52,5 +52,19 @@
 \contentsline {figure}{\numberline {4.12}{\ignorespaces Evaluation der G\IeC {\"u}te von Zusammenfassungen, unter Ver\IeC {\"a}nderung des Ausgangs-Text-Korpus. Eigene Erstellung}}{46}{figure.4.12}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.13}{\ignorespaces Veranschaulichung eines abstraktiven Verfahrens. Eigene Erstellung in Anlehnung an \cite {Raffel}}}{47}{figure.4.13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Klassifizierungsergebnisse unter Verwendung von BERT nach der Feinabstimmung. Eigene Bildschirmaufnahme}}{51}{figure.4.14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Klasse 0 (``kein TI``) gewinnt und bestimmt damit die Vorhersage. Eigene Bildschirmaufnahme}}{52}{figure.4.15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Beispiele, bei denen Klasse 1 als Vorhersage bestimmt wurde. Eigene Bildschirmaufnahme}}{52}{figure.4.16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Klassifizierung mit logistischer Regression. Eigene Erstellung}}{54}{figure.4.17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Ergebnisse der Klassifizierung von S\IeC {\"a}tzen aus der Testmenge. Eigene Bildschirmaufnahme}}{54}{figure.4.18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Einige Vorhersagen f\IeC {\"u}r ein Evaluations-Dokument. Eigene Bildschirmaufnahme}}{55}{figure.4.19}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

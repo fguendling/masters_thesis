@@ -42,7 +42,7 @@ Es geht nachfolgend um Techniken zur Verarbeitung und Auswertung von Texten und 
 
 Die Vorverarbeitung (Engl.: Preprocessing) von Texten gilt als Voraussetzung für den Erfolg der späteren Auswertungen \cite[S. 46]{Anandarajan}. Daher werden hier zunächst einige der gängigen Schritte zur Vorverarbeitung von Texten skizziert und grundlegende Methoden erläutert.
 
-Bei der Token-Erstellung (Engl.: Tokenization) wird Text in sogenannte Tokens unterteilt. Im einfachsten Fall bestehen Tokens aus einem Wort – dann handelt es sich um Unigramme (Engl.: unigram). N-Gramme (Engl.: n-grams) stellen eine Alternative zu Unigrammen dar. N-Gramme sind Wort-Sequenzen mit der Länge n \cite[S. 48]{Anandarajan}. Stoppworte dienen zwar einem grammatikalischen Zweck, in Bezug auf den Inhalt von Texten erbringen sie aber nur einen geringen Mehrwert. Aus diesem Grund werden Stoppworte im Rahmen der Vorverarbeitung in der Regel aus Texten entfernt. Dazu kann z. B. ein Wörterbuch verwendet werden, das bekannte Stoppworte wie z. B. [und, er, ein, hat, …] enthält \cite[S. 50-53]{Anandarajan}. Die Reduktion von Begriffen auf die Stammform (Engl.: Stemming) verfolgt das Ziel, verschiedene grammatische Varianten des gleichen Wortes zu vereinheitlichen, um die Gesamtanzahl der unterschiedlichen Wörter innerhalb eines Textkörpers zu reduzieren. Die Erzeugung der Stammformen erfolgt z. B. durch den Porter-Stemmer, der Stammformen auf Basis von Regeln bilden kann. Die Lemmatisierung (Engl.: Lemmatization) führt Begriffe auf eine Art „Wörterbuchform“ zurück und kann dadurch besser interpretierbare Ergebnisse liefern als das Stemming \cite[S. 30-32]{Manning} Worttypen wie Adjektive, Verben, Substantive, etc. werden erkannt und markiert durch Part-of-Speech-Tags (Abk.: POS-Tags). Zur Realisierung dieser Markierung können Text-Korpora verwendet werden, bei denen manuell Wörter mit den entsprechenden Wortarten markiert wurden \cite[S. 58]{Anandarajan}.
+Bei der Token-Erstellung (Engl.: Tokenization) wird Text in sogenannte Tokens unterteilt. Im einfachsten Fall bestehen Tokens aus einem Wort – dann handelt es sich um Unigramme (Engl.: unigram). N-Gramme (Engl.: n-grams) stellen eine Alternative zu Unigrammen dar. N-Gramme sind Wort-Sequenzen mit der Länge n \cite[S. 48]{Anandarajan}. Stoppworte dienen zwar einem grammatikalischen Zweck, in Bezug auf den Inhalt von Texten erbringen sie aber nur einen geringen Mehrwert. Aus diesem Grund werden Stoppworte im Rahmen der Vorverarbeitung in der Regel aus Texten entfernt. Dazu kann z. B. ein Wörterbuch verwendet werden, das bekannte Stoppworte wie z. B. [und, er, ein, hat, …] enthält \cite[S. 50-53]{Anandarajan}. Die Reduktion von Begriffen auf die Stammform (Engl.: Stemming) verfolgt das Ziel, verschiedene grammatische Varianten des gleichen Wortes zu vereinheitlichen, um die Gesamtanzahl der unterschiedlichen Wörter innerhalb eines Textkörpers zu reduzieren. Die Erzeugung der Stammformen erfolgt z. B. durch den Porter-Stemmer, der Stammformen auf Basis von Regeln bilden kann. Die Lemmatisierung (Engl.: Lemmatization) führt Begriffe auf eine Art ``Wörterbuchform`` zurück und kann dadurch besser interpretierbare Ergebnisse liefern als das Stemming \cite[S. 30-32]{Manning} Worttypen wie Adjektive, Verben, Substantive, etc. werden erkannt und markiert durch Part-of-Speech-Tags (Abk.: POS-Tags). Zur Realisierung dieser Markierung können Text-Korpora verwendet werden, bei denen manuell Wörter mit den entsprechenden Wortarten markiert wurden \cite[S. 58]{Anandarajan}.
 
 \subsection{Repräsentation von Texten} 
 
@@ -64,14 +64,14 @@ Nach den beschriebenen Schritten zur Vorverarbeitung von Textdokumenten kann die
 
 In dieser Art der Darstellung wird die Menge der Wörter eines Dokuments als Bag-of-Words bezeichnet \cite[S. 46]{Anandarajan}. Die Ausprägungen in den Zellen der Tabelle \ref{tab:tdm} beschreiben in diesem Beispiel die Häufigkeit des Vorkommens der Begriffe in den jeweiligen Dokumenten. Um zur Term Frequency (Abk.: tf) zu gelangen, ist die Anzahl des Begriffs durch die Gesamtanzahl der Begriffe im jeweiligen Dokument zu dividieren. Für den Begriff cat ergibt sich in der ersten Spalte eine tf von \( \frac{1}{4} \), unter Vernachlässigung der Spalten und Zeilen ohne kardinale Ausprägungen.
 
-Eine weitere, für die spätere Auswertung relevante Kennzahl heißt Document Frequency (Abk. df). Dabei wird zunächst die Häufigkeit der Begriffe reduziert auf eine binäre Angabe 1 oder 0, die Häufigkeit wird also vernachlässigt und es verbleibt lediglich eine Information darüber, ob ein Wort in den Dokumenten vorkommt oder nicht. Die nun erzeugten Werte werden zeilenweise addiert, um die Kennzahl df zu erhalten. Das Beispiel „cat“ aus Tabelle \ref{tab:tdm} würde zu einer df von 1+1+0=2 führen. Df gibt damit an, in wie vielen Dokumenten ein Begriff vorkommt. Um seltenen, und damit aussagekräftigen Begriffen ein höheres Gewicht zu geben als Begriffen die zwar häufig vorkommen, dafür aber auch weniger Relevanz und Wirkung haben, existiert mit der inversen Dokumenten-Häufigkeit (Engl.: inverse document frequency, Abk.: idf) eine weitere Metrik. Sie wird berechnet als:
+Eine weitere, für die spätere Auswertung relevante Kennzahl heißt Document Frequency (Abk. df). Dabei wird zunächst die Häufigkeit der Begriffe reduziert auf eine binäre Angabe 1 oder 0, die Häufigkeit wird also vernachlässigt und es verbleibt lediglich eine Information darüber, ob ein Wort in den Dokumenten vorkommt oder nicht. Die nun erzeugten Werte werden zeilenweise addiert, um die Kennzahl df zu erhalten. Das Beispiel ``cat`` aus Tabelle \ref{tab:tdm} würde zu einer df von 1+1+0=2 führen. Df gibt damit an, in wie vielen Dokumenten ein Begriff vorkommt. Um seltenen, und damit aussagekräftigen Begriffen ein höheres Gewicht zu geben als Begriffen die zwar häufig vorkommen, dafür aber auch weniger Relevanz und Wirkung haben, existiert mit der inversen Dokumenten-Häufigkeit (Engl.: inverse document frequency, Abk.: idf) eine weitere Metrik. Sie wird berechnet als:
 
 \[ idf_i = log_2( \frac{n}{df_i}) + 1 \]
 
 wobei n die Anzahl der Dokumente ist, und df wie oben beschrieben berechnet wird. Die hier beschriebenen Metriken können kombiniert werden zur tf-idf-Metrik. Dabei wird tf mit idf lediglich multipliziert. Für den Beispielbegriff cat ergibt sich unter Vernachlässigung der Spalten und Zeilen ohne kardinale Ausprägungen ein Wert von \( \frac{1}{4} * (log_2( \frac{3}{2} )+1)=0,39 \) 
-für das erste Dokument. Der TF-IDF-Wert von Begriffen kann nun als Ausprägung in den Zellen einer TDM an Stelle der schlichten Anzahl der Begriffe verwendet werden [6, pp. 61-73].
+für das erste Dokument. Der TF-IDF-Wert von Begriffen kann nun als Ausprägung in den Zellen einer TDM an Stelle der schlichten Anzahl der Begriffe verwendet werden \cite[S. 61-73]{Anandarajan}.
 
-Die TF-IDF-Metrik ist zusammengefasst eine Grundlage für die Erkennung von wichtigen Begriffen, unter Betrachtung von mehreren Dokumenten. Dabei sollten die Dokumente möglichst einen Bezug zueinander haben. Ein Beispiel wäre eine Menge von Dokumenten über Software-Entwicklungsprojekte. In jenen Dokumenten würde der Begriff „Software“ häufig vorkommen. Die Bedeutung des Begriffs ist allerdings eher gering, da er wahrscheinlich in allen Dokumenten vorhanden sein wird. Beim TF-IDF-Maß erhalten seltene Begriffe einen hohen Wert, wodurch solche Begriffe als interessant identifiziert werden können. \cite[S. 107-110]{Manning}. Auf Basis der einfachen TDM oder auch auf Basis der erweiterten Variante unter Verwendung von TF-IDF-Werten können im Anschluss Auswertungen durchgeführt werden.
+Die TF-IDF-Metrik ist zusammengefasst eine Grundlage für die Erkennung von wichtigen Begriffen, unter Betrachtung von mehreren Dokumenten. Dabei sollten die Dokumente möglichst einen Bezug zueinander haben. Ein Beispiel wäre eine Menge von Dokumenten über Software-Entwicklungsprojekte. In jenen Dokumenten würde der Begriff ``Software`` häufig vorkommen. Die Bedeutung des Begriffs ist allerdings eher gering, da er wahrscheinlich in allen Dokumenten vorhanden sein wird. Beim TF-IDF-Maß erhalten seltene Begriffe einen hohen Wert, wodurch solche Begriffe als interessant identifiziert werden können. \cite[S. 107-110]{Manning}. Auf Basis der einfachen TDM oder auch auf Basis der erweiterten Variante unter Verwendung von TF-IDF-Werten können im Anschluss Auswertungen durchgeführt werden.
 
 \subsection{Regelbasierte Ansätze}
 
@@ -90,7 +90,7 @@ Word2Vec versucht, die Probleme des Bag-of-Word-Ansatzes beziehungsweise der One
 
 Neben Wort-Einbettungen kommen an dieser Stelle noch Dokumenten-Einbettungen in Betracht. Der Algorithmus dazu heißt Paragraph Vector. Im Vergleich zu Word2Vec werden für das Erstellen der Einbettungen zusätzlich zu den Wörtern auch jeweils Paragraphen in das Training der Vektoren mit einbezogen. Die Paragraphen liefern also zusätzlichen Kontext. Vergleichbar ist der Paragraph mit einer Angabe darüber, wo im Dokument bzw. auch in welchem Dokument sich ein Begriff in den Trainingsdaten befunden hat \cite{mikolov2014}. Eine Implementierung von Dokument-Einbetttungen findet sich unter dem Namen doc2vec \cite{rehurek}.
 
-In Abbildung \ref{Abbildung:mikolov} dargestellt sind einzelne Wörter, die als Vektoren abgebildet werden. Die Abkürzung W steht aus mathematischer Sicht für eine Matrix, die einzelnen Wort-Vektoren sind als Spalten in dieser Matrix enthalten. Nach Bildung der initialen Vektoren werden diese konkateniert („aufsummiert“), um den sogenannten Kontext abzubilden. In diesem Beispiel wird ein neuronales Netz verwendet, dass die Wahrscheinlichkeit des Wortes „on“ im Kontext der Begriffe „the cat sat“ ermittelt (Hier dargestellt ist das Continuous Bag of Word-Modell (CBOW), das genaue Gegenteil von Skip-Gram, das oben bereits erwähnt wurde). Bei der Verwendung des Paragraph Vector Ansatzes wird jeder Paragraph als Spalte in einer Matrix D abgebildet. Diese zusätzliche Information ergänzt den beschriebenen Kontext. Was genau als Paragraph definiert wird, kann frei gewählt werden. Es kann sich um längere Abschnitte, ganze Dokumente, oder auch eine Auswahl von Sätzen handeln \cite{mikolov2014}.
+In Abbildung \ref{Abbildung:mikolov} dargestellt sind einzelne Wörter, die als Vektoren abgebildet werden. Die Abkürzung W steht aus mathematischer Sicht für eine Matrix, die einzelnen Wort-Vektoren sind als Spalten in dieser Matrix enthalten. Nach Bildung der initialen Vektoren werden diese konkateniert (``aufsummiert``), um den sogenannten Kontext abzubilden. In diesem Beispiel wird ein neuronales Netz verwendet, dass die Wahrscheinlichkeit des Wortes ``on`` im Kontext der Begriffe ``the cat sat`` ermittelt (Hier dargestellt ist das Continuous Bag of Word-Modell (CBOW), das genaue Gegenteil von Skip-Gram, das oben bereits erwähnt wurde). Bei der Verwendung des Paragraph Vector Ansatzes wird jeder Paragraph als Spalte in einer Matrix D abgebildet. Diese zusätzliche Information ergänzt den beschriebenen Kontext. Was genau als Paragraph definiert wird, kann frei gewählt werden. Es kann sich um längere Abschnitte, ganze Dokumente, oder auch eine Auswahl von Sätzen handeln \cite{mikolov2014}.
  
 \begin{figure}[h]
 \centering
@@ -104,11 +104,11 @@ Einbettungen müssen nicht für jede Anwendung neu trainiert werden. Stattdessen
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.9]{content/pics/Picture_6.png}
-\caption{Vektoren der Begriffe „the“ \& „and“. Eigene Bildschirmaufnahme.}
+\caption{Vektoren der Begriffe ``the`` \& ``and``. Eigene Bildschirmaufnahme.}
 \label{Abbildung:word_vecs}
 \end{figure}
  
-Die größeren NLP-Modelle, etwa von spaCy, beinhalten standardmäßig nutzbare Wortvektoren. Eine eigene Untersuchung ergibt, dass diese Modelle auch gewisse fachspezifische Wörter berücksichtigen, etwa die Begriffe Shipments oder containerization. Allerdings existieren für echte domänenspezifische Begriffe wie Projekt- oder Systemnamen keine Wortvektoren. Solche Begriffe nennt man out-of-vocabulary \cite{spacy2}. Das erschwert die Verwendung von Modellen, die „gebrauchsfertig“ zur Verfügung stehen. 
+Die größeren NLP-Modelle, etwa von spaCy, beinhalten standardmäßig nutzbare Wortvektoren. Eine eigene Untersuchung ergibt, dass diese Modelle auch gewisse fachspezifische Wörter berücksichtigen, etwa die Begriffe Shipments oder containerization. Allerdings existieren für echte domänenspezifische Begriffe wie Projekt- oder Systemnamen keine Wortvektoren. Solche Begriffe nennt man out-of-vocabulary \cite{spacy2}. Das erschwert die Verwendung von Modellen, die ``gebrauchsfertig`` zur Verfügung stehen. 
 
 \subsection{Transformer-Ansätze}
 Transformer werden erstmals eingeführt Ende 2017. Laut den Autoren der Veröffentlichung ist der Ansatz in der Lage bessere Ergebnisse in bestimmten Bereichen zu erzielen als bisherige Ansätze auf Basis von RNNs oder CNNs; zudem ist das Training parallelisierbar und damit schneller als bei früheren Ansätzen \cite{Vaswani}. Transformer-Ansätze können für viele NLP-Teilbereiche verwendet werden, etwa für Named-Entity-Recognition, Übersetzungen, das Generieren von Zusammenfassungen, und weitere Anwendungsfälle. \cite[S. 25-26]{Gupta}. Die Nutzung von vortrainierten Modellen wird als Transfer-Learning bezeichnet. Transformer können dies ermöglichen. Gewisse Gewichtungen innerhalb von neuronalen Netzen können dabei übernommen werden und müssen nicht neu trainiert werden (z. B. grundlegende Sprach-Eigenschaften). Vortrainierte Modelle sind eine Option, wenn nur wenige Daten für das Training zur Verfügung stehen. Die vor-trainierten Modell erfahren eine Fein-Abstimmung (Engl.: Fine-Tuning), wodurch die Modelle an den jeweiligen Anwendungsfall angepasst werden \cite[S. 45-56]{Alom}.
@@ -138,15 +138,15 @@ Statt einem eigenen Management-Ziel zum Umgang mit Applikationen exisitert in CO
 
 Neben COBIT gibt es weitere Frameworks, bzw. Modelle zum Umgang mit einzelnen Governance-Themen. In \cite[S. 127-133]{gaulke} werden beispielsweise das CMMI - Capability Maturity Model (Integration) sowie die IT Infrastructure Library (ITIL) erwähnt. 
  
-Außerdem gibt es spezielle (Enterprise-)Architektur-Frameworks. Auf einige davon wird in einem späteren kurz eingegangen. 
+Außerdem gibt es spezielle (Enterprise-)Architektur-Frameworks. Auf einige davon wird in einem späteren Abschnitt kurz eingegangen. 
 
 \subsection{Die Rolle von Textdokumenten für die IT-Governance}
-Verschiedene IT-Projekte eines Unternehmens und damit verbunden auch Software-Entwicklungsprojekte stehen grundsätzlich in Konkurrenz zueinander. Mehrere Stakeholder möchten, dass ihr eigenes Projekt mit Priorität behandelt wird und erfolgreich umgesetzt wird. Dazu kommt, dass es Abhängigkeiten zwischen den einzelnen Vorhaben geben kann (Der Abschluss von Projekt A ist eine Voraussetzung für die erfolgreiche Umsetzung von Projekt B). Aus diesem Grund ist es wichtig, dass das IT-Management die Gesamtheit der Projekte im Blick hat, und sich weniger nur auf einzelne Projekte fokussiert \cite[S. 1]{frey}. Ein Portfolio muss also verwaltet und gesteuert werden.
+Verschiedene IT-Projekte eines Unternehmens und damit verbunden auch Softwareentwicklungsprojekte stehen grundsätzlich in Konkurrenz zueinander. Mehrere Stakeholder möchten, dass ihr eigenes Projekt mit Priorität behandelt wird und erfolgreich umgesetzt wird. Dazu kommt, dass es Abhängigkeiten zwischen den einzelnen Vorhaben geben kann (Der Abschluss von Projekt A ist eine Voraussetzung für die erfolgreiche Umsetzung von Projekt B). Aus diesem Grund ist es wichtig, dass das IT-Management die Gesamtheit der Projekte im Blick hat, und sich weniger nur auf einzelne Projekte fokussiert \cite[S. 1]{frey}. Ein Portfolio muss also verwaltet und gesteuert werden.
 
 Neben dem voraussichtlichen Return on Investment (ROI) der sich durch die Umsetzung eines Projekts ergibt, müssen weitere Faktoren vor der Umsetzung von Projekten geschätzt werden. Dazu zählt das Risiko, dass mit einem Projekt einher geht \cite[S. 120ff.]{gadatsch}. Zunächst können für diese Schätzung die bereits erstellten Dokumentationen in Betracht gezogen werden. Der Begriff der Dokumentation bezeichnet in der Regel nachträglich erstellte Beschreibungen von Projekten. Unter dem Begriff können allerdings auch die zu einem noch laufenden oder geplanten Projekt gehörenden Dokumente verstanden werden. Dokumentationen erfüllen neben der Aufzeichnung von Ideen in Software-Entwicklungs-Projekten einen weiteren wichtigen Zweck: Sie gelten als wesentliches Werkzeug zur Umsetzung von Governance und zur Sicherstellung von Compliance \cite[S. 2]{reiss}. Diesen Zweck erfüllen sie, wenn Außenstehende die bereits abgeschlossenen oder geplanten Projekte oder Anwendungen bewerten müssen, um letztendlich Entscheidungen zum Umgang mit diesen treffen zu können. Deshalb wird in dieser Arbeit angenommen, dass Dokumentationen in Text-Form von hoher Bedeutung für die Gestaltung der Projekt- und Applikationslandschaft von Unternehmen sind. Die Güte von Dokumentationen ist dabei von entscheidender Bedeutung. Anforderungsgerechte Dokumente werden im Idealfall durch ein Dokumentationsmanagementsystem gewährleistet. Dabei können verschieden Vorgaben an die Struktur der Dokumente gemacht werden \cite[S. 29]{reiss}. Dazu zählt beispielsweise eine bestimmte Kapitelstruktur. Diese kann von einer Einteilung der Dokumente zu bestimmten Dokumententypen abhängig gemacht werden \cite[S. 34-39]{reiss}.
 
 \subsection {Das APM und verwandte Begriffe}
-Es gibt im Zusammenhang mit der Idee des Application Portfolio Management in der Literatur diverse ähnliche Begriffe, die im Kern das beschreiben, was in dieser Arbeit unter APM verstanden wird. Ein solcher Begriff aus einer frühen Veröffentlichung zu APM ist etwa das IT Portfolio Management. Hier wird von stetigen „Kaufs-, Verkaufs- und Beibehaltungs-Entscheidungen“ gesprochen, um sogenannte IT-Portfolios zu gestalten bzw. um sie stets zu optimieren. APM bildet laut den Autoren gemeinsam mit dem Project Portfolio Management sowie dem IT Asset und Infrastructure Management die Disziplin des IT Portfolio Managements \cite[S. 2-14]{Gliedman}.
+Es gibt im Zusammenhang mit der Idee des Application Portfolio Management in der Literatur diverse ähnliche Begriffe, die im Kern das beschreiben, was in dieser Arbeit unter APM verstanden wird. Ein solcher Begriff aus einer frühen Veröffentlichung zu APM ist etwa das IT Portfolio Management. Hier wird von stetigen ``Kaufs-, Verkaufs- und Beibehaltungs-Entscheidungen`` gesprochen, um sogenannte IT-Portfolios zu gestalten bzw. um sie stets zu optimieren. APM bildet laut den Autoren gemeinsam mit dem Project Portfolio Management sowie dem IT Asset und Infrastructure Management die Disziplin des IT Portfolio Managements \cite[S. 2-14]{Gliedman}.
 
 Das oben bereits erwähnte Enterprise Architecture Management (EAM) verfolgt einen umfangreicheren, ganzheitlichen Ansatz zur Darstellung der gesamten Systemlandschaft von Unternehmen. Es werden sowohl die Prozess- als auch die Systemwelt strukturiert betrachtet. Dabei geht es stets um die Schaffung von Transparenz. Durch eine solche Transparenz können etwa unnötig redundante Systeme erkannt bzw. vermieden werden \cite[S. 7-10]{Bitkom}. Mit unnötig redundanten Systemen sind solche Systeme gemeint, welche Geschäftsfunktionen abdecken, die bereits durch andere Systeme oder Anwendungen unterstützt werden. Eine Business Support Matrix kann solche Beziehungen zwischen Anwendungen und Geschäftsfunktionen (auch: Capabilities) visualisieren \cite{jung1}. 
 Der Umfang von EAM wird dargestellt in Abbildung \ref{Abbildung:ea}. Die Abbildung soll verdeutlichen, dass der Fokus nicht wie im APM nur auf Applikationen (hier repräsentiert am ehesten durch den Kasten Anwendungsarchitektur) liegt, sondern dass sich EAM mit weiteren Ebenen beschäftigt (etwa mit der Geschäftsarchitektur oder auch mit der Strategie).
@@ -158,12 +158,12 @@ Der Umfang von EAM wird dargestellt in Abbildung \ref{Abbildung:ea}. Die Abbildu
 \label{Abbildung:ea}
 \end{figure}
 
-Der enge Bezug von APM und EAM zeigt sich außerdem in Rahmenwerken, wie dem Architekturframework der Open Group (TOGAF). Dort zählt z. B. der Application Portfolio Catalog zu den grundlegenden Artefakten, die bei der Gestaltung einer Architektur nach TOGAF zu berücksichtigen sind. Schnittstellen zwischen Applikationen werden in dem Framework in einem Interface Catalog dokumentiert. Damit sind u. a. Abhängigkeiten visualisierbar und zentrale Anwendungen identifizierbar \cite[Kap. 31]{togaf}. Im Department of Defense Architecture Framework (DoDAF) gibt es verschiedene sogenannte Viewpoints, die wiederrum aus mehreren Views bestehen können. Eine Viewpoint in diesem Framework ist die Systems-Viewpoint. Eine konkrete View ist z. B. die „System Interface Description“ (SV-1). In ihr werden alle Systeme, die von Interesse sind, inklusive Schnittstellen zu anderen Systemen dargestellt. Die View ist vergleichbar mit dem TOGAF Interface Catalog. Es kann in anderen Views auch z. B. um die Unterstützung „operationaler Aktivitäten“ durch Software-/ oder System-Funktionen gehen (SV-5). Ein Beispiel wäre die Dokumentation darüber, dass der operationale Prozess „Einchecken von Passagieren“, durch ein System mit der Bezeichnung Airline Reservation and Ticketing System abgewickelt wird \cite[S. 311-344]{Rao}.
+Der enge Bezug von APM und EAM zeigt sich außerdem in Rahmenwerken, wie dem Architekturframework der Open Group (TOGAF). Dort zählt z. B. der Application Portfolio Catalog zu den grundlegenden Artefakten, die bei der Gestaltung einer Architektur nach TOGAF zu berücksichtigen sind. Schnittstellen zwischen Applikationen werden in dem Framework in einem Interface Catalog dokumentiert. Damit sind u. a. Abhängigkeiten visualisierbar und zentrale Anwendungen identifizierbar \cite[Kap. 31]{togaf}. Im Department of Defense Architecture Framework (DoDAF) gibt es verschiedene sogenannte Viewpoints, die wiederrum aus mehreren Views bestehen können. Eine Viewpoint in diesem Framework ist die Systems-Viewpoint. Eine konkrete View ist z. B. die ``System Interface Description`` (SV-1). In ihr werden alle Systeme, die von Interesse sind, inklusive Schnittstellen zu anderen Systemen dargestellt. Die View ist vergleichbar mit dem TOGAF Interface Catalog. Es kann in anderen Views auch z. B. um die Unterstützung ``operationaler Aktivitäten`` durch Software-/ oder System-Funktionen gehen (SV-5). Ein Beispiel wäre die Dokumentation darüber, dass der operationale Prozess ``Einchecken von Passagieren``, durch ein System mit der Bezeichnung Airline Reservation and Ticketing System abgewickelt wird \cite[S. 311-344]{Rao}.
 
 Darüber hinaus zeigt eine Befragung von Enterprise-Architekten, dass diese sich in ihrer täglichen Arbeit mit Fragen zum Umgang mit Anwendungslandschaften beschäftigen \cite{jung2}. Dazu zählen zum Beispiel Fragen wie 
 
 \begin{itemize}
-  \item Welche Anwendungen sind in Verwendung?
+  \item Welche Anwendungen sind in Verwendung? 
   \item Welchen Zweck erfüllen einzelne Anwendungen?
   \item Welche Anwendungen sollen eingeführt oder abgeschaltet werden?
   \item Welche Redundanzen in der Anwendungslandschaft gibt es?
@@ -174,46 +174,48 @@ Darüber hinaus zeigt eine Befragung von Enterprise-Architekten, dass diese sich
 Als Kernelement von IT-Strategien wird der IT-Bebauungsplan in einer Veröffentlichung zum Thema IT-Controlling bezeichnet. Er gibt Aufschluss über die Informationssysteme, die derzeit in einem Unternehmen im Einsatz sind. Dazu zählen (u. a.) Informationen zu Release-Ständen, zu Schnittstellen der Systeme untereinander, sowie zu Geschäftsprozessen, die die von den Systemen unterstützt werden. \cite[S. 36]{gadatsch} Die Autoren dieses Beitrags nennen das IT-Portfoliomanagement als Werkzeug für IT-Controller (die dem Chief Information Officer gleichgestellt oder dieser Position direkt unterstellt sein können). Zu deren Aufgaben können die Auswahl und Steuerung von neuen Projekten oder von Wartungsprojekten gehören. \cite[S. 41-45]{gadatsch}
 
 \subsection {Handlungsfelder des APM}
-Das grundlegende Ziel von APM ist stets die Reduzierung der Komplexität von Anwendungslandschaften. Anwendungen werden dabei aus technischer (etwa Aktualität der Software) und betriebswirtschaftlicher Sicht (Lizenzkosten) untersucht. Es handelt sich um einen kontinuierlichen, andauernden Vorgang \cite{schoder}. Nachfolgend aufgelistet sind Beispiele für Fragestellungen, mit denen sich das APM befasst. Sie werden im Folgenden als Handlungsfelder des Application Portfolio Management zusammengefasst. Die Fragen wurden abgeleitet aus \cite{apm}. Hervorgehoben sind Fragen, auf die im weiteren Verlauf der Arbeit noch stärker eingegangen werden soll. Es gibt auch jeweils einen Verweis auf das jeweilige Kapitel, in denen entsprechende Verfahren zum Umgang mit den Fragen diskutiert werden.
+Das grundlegende Ziel von APM ist stets die Reduzierung der Komplexität von Anwendungslandschaften. Anwendungen werden dabei aus technischer (etwa Aktualität der Software) und betriebswirtschaftlicher Sicht (Betriebs- oder Lizenzkosten) untersucht. Es handelt sich um einen kontinuierlichen, andauernden Vorgang \cite{schoder}. Nachfolgend aufgelistet sind Beispiele für Fragestellungen, mit denen sich das APM befasst. Sie werden im Folgenden als Handlungsfelder des Application Portfolio Management zusammengefasst. Die Fragen wurden abgeleitet aus \cite{apm}. Hervorgehoben sind Fragen, auf die im weiteren Verlauf der Arbeit noch stärker eingegangen werden soll. Es gibt auch jeweils einen Verweis auf das jeweilige Kapitel, in denen entsprechende Verfahren zum Umgang mit den Fragen diskutiert werden.
 
-Werden bei der Implementierung von neuer Software Legacy-Systeme als Grundlage verwendet?
-Werden die Anforderungen aus dem operativen Geschäft durch neue Anwendungen abgedeckt?
-Sind Anwendungen aus technischer und fachlicher Sicht „fit“ für die Zukunft?
-Werden durch Anwendungen bestimmte rechtliche Anforderungen umgesetzt?
-Was ist für einzelne Anwendungen „in-scope“ und was ist „out-of-scope“? (vgl. Abschnitt 4.3)
-Gibt es in den Dokumentationen der geplanten Softwareprojekte einen Projektplan oder ein Gantt-Diagramm?
-Wurde schon einmal versucht, ein bestimmtes Vorhaben umzusetzen und wie war das Resultat? (vgl. Abschnitt 4.1)
-Was sind die fachlichen Anforderungen, die durch ein bestimmtes Projektvorhaben abgedeckt werden sollen?
-Wie verhalten sich die Kosten, die durch das Ersetzen einer Software anfallen im Vergleich zu den Kosten die bei einer Modernisierung/ Weiterentwicklung entstehen?
-Ist es möglich, einzelne Anwendung zu verbessern/ weiterzuentwickeln?
-Was spricht für eine Wartung einer bestehenden Software, was für eine Neuentwicklung?
-Welche Anwendungen sind Kandidaten für eine Restrukturierung/ Optimierung
-Welche Abhängigkeiten von einzelnen Anwendungen gibt es zu anderen Anwendungen im Application Portfolio? (vgl. Abschnitt 4.4)
-Werden bei Neueinführung von Software Abhängigkeiten geschaffen?
-Mit welchen Kosten/ Aufwänden muss gerechnet werden bei der Einführung einer Anwendung?
-Welche Auswirkungen hat eine Nicht-Verfügbarkeit von einzelnen Anwendungen?
-In welcher Phase im Lebenszyklus befinden sich bestimmte Anwendungen?
-Sind Performance-Verbesserungen durch die Einführung von neuer Software identifizierbar?
-Werden bestehende Prozesse angemessen durch neue/ bestehende Anwendungen unterstützt?
-Mit welchen Risiken wird die Organisation konfrontiert durch den Betrieb der Anwendungen im Portfolio und wie können die Risiken minimiert werden?
-Was sind Dinge, die schief gehen könnten bei Veränderungen am Application Portfolio
-Ist ein Produkt auf Basis der eigenen Bedürfnisse neu zu entwickeln oder kann ein Standardprodukt (z. B. für die Zeiterfassung) gewählt werden?
-In welchen Fällen muss über den Abbruch eines laufenden Projekts nachgedacht werden?
-Geht es bei Projekten eher um das „Bekämpfen von Bränden“ (Engl.: „Firefighting“) oder um echte Verbesserungen der Geschäftsprozesse?
-Wie gut ist die Dokumentation einer Anwendung? (vgl. Abschnitt 4.2)
-Passen Implementierungsplanungen und strategische Planungen des Unternehmens zusammen?
-Wie stark werden Standards (z. B. Standard-Entwicklungsmethoden) eingehalten?
-Wie ist die Aktualität der Anwendungen im Portfolio – welche Anwendungen sind veraltet?
-Wie lange werden Anwendungen vom Vendor noch unterstützt im Hinblick auf „Support“?
-Wie ist die Kritikalität von Anwendungen? (mission-critical, critical, high, medium, low).
-Wer sind die Verantwortlichen (Engl.: „Owner“) der Anwendungen?
-Ist die Funktionalität einer Anwendung einzigartig und nicht redundant?
-Was sind „Lessons Learned“ die sich ergeben haben durch Betrieb von Software?
-Wie einfach ist eine Anwendung nutzbar?
-Welche sind die am häufigsten/ seltensten genutzten Anwendungen im Portfolio
-Gibt es SSO-Unterstützung (Single-Sign-On), wie erfolgt der Zugriff auf Anwendungen?
-Wie viele Nutzer hat eine Anwendung?
-Ist die Anwendungslandschaft mit jener von Wettbewerbern vergleichbar?
+\begin{itemize}
+\item Werden bei der Implementierung von neuer Software Legacy-Systeme als Grundlage verwendet?
+\item Werden die Anforderungen aus dem operativen Geschäft durch neue Anwendungen abgedeckt?
+\item Sind Anwendungen aus technischer und fachlicher Sicht ``fit`` für die Zukunft?
+\item Werden durch Anwendungen bestimmte rechtliche Anforderungen umgesetzt?
+\item {\bf Was ist für einzelne Anwendungen ``in-scope`` und was ist ``out-of-scope``? (vgl. Abschnitt 4.3)}
+\item Gibt es in den Dokumentationen der geplanten Softwareprojekte einen Projektplan oder ein Gantt-Diagramm?
+\item {\bf Wurde schon einmal versucht, ein bestimmtes Vorhaben umzusetzen und wie war das Resultat? (vgl. Abschnitt 4.1)}
+\item Was sind die fachlichen Anforderungen, die durch ein bestimmtes Projektvorhaben abgedeckt werden sollen?
+\item Wie verhalten sich die Kosten, die durch das Ersetzen einer Software anfallen im Vergleich zu den Kosten die bei einer Modernisierung/ Weiterentwicklung entstehen?
+\item Ist es möglich, einzelne Anwendung zu verbessern/ weiterzuentwickeln?
+\item Was spricht für eine Wartung einer bestehenden Software, was für eine Neuentwicklung?
+\item Welche Anwendungen sind Kandidaten für eine Restrukturierung/ Optimierung
+\item {\bf Welche Abhängigkeiten von einzelnen Anwendungen gibt es zu anderen Anwendungen im Application Portfolio? (vgl. Abschnitt 4.4)}
+\item Werden bei Neueinführung von Software Abhängigkeiten geschaffen?
+\item Welcher Aufwand für die Einführung einer Anwendung ist realistisch?
+\item Welche Auswirkungen hat eine Nicht-Verfügbarkeit von einzelnen Anwendungen?
+\item In welcher Phase im Lebenszyklus befinden sich bestimmte Anwendungen?
+\item Sind Performance-Verbesserungen durch die Einführung von neuer Software identifizierbar?
+\item Werden bestehende Prozesse angemessen durch neue/ bestehende Anwendungen unterstützt?
+\item Mit welchen Risiken wird die Organisation konfrontiert durch den Betrieb der Anwendungenund wie können die Risiken minimiert werden?
+\item Was sind Dinge, die schief gehen könnten bei Veränderungen am Application Portfolio
+\item Ist ein Produkt auf Basis der eigenen Bedürfnisse neu zu entwickeln oder kann ein Standardprodukt (z. B. für die Zeiterfassung) gewählt werden?
+\item In welchen Fällen muss über den Abbruch eines laufenden Projekts nachgedacht werden?
+\item Geht es bei Projekten eher um das ``Bekämpfen von Bränden`` (Engl.: ``Firefighting``) oder um echte Verbesserungen der Geschäftsprozesse?
+\item {\bf Wie gut ist die Dokumentation einer Anwendung? (vgl. Abschnitt 4.2)}
+\item Passen Implementierungsplanungen und strategische Planungen des Unternehmens zusammen?
+\item Wie stark werden Standards (z. B. Standard-Entwicklungsmethoden) eingehalten?
+\item Wie ist die Aktualität der Anwendungen im Portfolio – welche Anwendungen sind veraltet?
+\item Wie lange werden Anwendungen vom Vendor noch unterstützt im Hinblick auf ``Support``?
+\item Wie ist die Kritikalität von Anwendungen? (mission-critical, critical, high, medium, low).
+\item Wer sind die Verantwortlichen (Engl.: ``Owner``) der Anwendungen?
+\item Ist die Funktionalität einer Anwendung einzigartig und nicht redundant?
+\item Was sind ``Lessons Learned`` die sich ergeben haben durch Betrieb von Software?
+\item Wie einfach ist eine Anwendung nutzbar?
+\item Welche sind die am häufigsten/ seltensten genutzten Anwendungen im Portfolio
+\item Wie viele Nutzer hat eine Anwendung?
+\item Ist die Anwendungslandschaft mit jener von Wettbewerbern vergleichbar?
+
+\end{itemize}
 
 Ein Großteil dieser Fragestellung setzt zur Beantwortung Expertenwissen voraus. Als Beispiel wird der Begriff der strategischen Planung herausgegriffen. Ein solcher Begriff wäre in der Realität zunächst durch Experten zu definieren. 
 
