@@ -332,7 +332,7 @@ Die Modelle (z. B. t5-small \cite{t5}) sowie die Transformer-Bibliothek \cite{Tr
 
 \section{Ergebnisse: Automatisierte Schnittstellen-Erkennung}
 
-Die beiden nachfolgenden Ansätze verwenden beschriftete Beispiele für das Training eines Klassifikationsmodells. Die so trainierten Modelle können anschließend genutzt werden, um einzelne Sätze von Textdokumenten in eine der beiden Klassen ``Technical Interface (TI)`` oder ``kein technisches Interface`` einzuordnen. Wenn die Vorhersage des Modells einem Satz aus der Testmenge die Klasse TI zuteilt, dann kann diese Vorhersage genutzt werden, um Sätze zu identifizieren, in denen eine technische Schnittstelle beschrieben wird. Die Genauigkeit (accuracy) dieser Vorhersage gilt es zu maximieren. Die Qualität und die Menge der Trainingsdaten haben entscheidenden Einfluss auf die Qualität der Vorhersage, wie nachfolgend beschrieben werden soll.
+Die beiden nachfolgenden Ansätze verwenden beschriftete Beispiele für das Training eines Klassifikationsmodells. Die so trainierten Modelle können anschließend genutzt werden, um einzelne Sätze von Textdokumenten in eine der beiden Klassen ``Technisches Interface (TI)`` oder ``kein technisches Interface`` einzuordnen. Wenn die Vorhersage des Modells einem Satz aus der Testmenge die Klasse TI zuteilt, dann kann diese Vorhersage genutzt werden, um Sätze zu identifizieren, in denen eine technische Schnittstelle beschrieben wird. Die Genauigkeit (accuracy) dieser Vorhersage gilt es zu maximieren. Die Qualität und die Menge der Trainingsdaten haben entscheidenden Einfluss auf die Qualität der Vorhersage, wie nachfolgend beschrieben werden soll.
 
 \subsection{Ansatz 1: Klassifizierung auf Grundlage eines BERT-Modells}
 
@@ -340,7 +340,7 @@ BERT, ein vortrainiertes Transformer-Modell, wird hier für die Klassifizierung 
 
 {\bf Kriterium 1: Einsetzbarkeit des Ansatzes unter den gegebenen Rahmenbedingungen}
 
-Die für die Feinabstimmung verwendeten Daten setzen sich zusammen aus 195 positiven Beispielen (Klasse TI), und 195 negativen Beispielen (zur Hälfte Sätze zu User Interfaces, zur anderen Hälfte Sätze vollständig ohne Interface-Information). Sie wurden manuell beschriftet. Es werden 70\% der Daten für das Training verwendet, 15\% für das Testen, und 15\% für die Validierung. Die Sätze wurden in einem vorausgegangenen Arbeitsschritt mit einem Ansatz, der auf Ontologien basiert, aus den Textdokumenten des Kunden extrahiert. Der erste Versuch ergab einen f1-score von 70\% (vgl. Abbildung \ref{Abbildung:bert-confusion}). Die interessierende Klasse TI ist erkennbar über die Ausprägung 1. die Ausprägung 0 gibt an, dass die Vorhersage ``kein TI`` lautete. Die 70\% sind zunächst ein Zeichen dafür, dass Overfitting hier nicht unbedingt ein Problem darstellt. Bei einer verdächtig hohen Genauigkeit müsste davon ausgegangen werden.
+Die für die Feinabstimmung verwendeten Daten setzen sich zusammen aus 195 positiven Beispielen (Klasse TI), und 195 negativen Beispielen (zur Hälfte Sätze zu User Interfaces, zur anderen Hälfte Sätze vollständig ohne Interface-Information). Sie wurden manuell beschriftet. Es werden 70\% der Daten für das Training verwendet, 15\% für das Testen, und 15\% für die Validierung. Die Sätze wurden in einem vorausgegangenen Arbeitsschritt mit einem Ansatz, der auf Ontologien basiert, aus den Textdokumenten des Kunden extrahiert. Der erste Versuch ergab einen f1-score von 70\% (vgl. Abbildung \ref{Abbildung:bert-confusion}). Die interessierende Klasse TI ist erkennbar über die Ausprägung 1. Die Ausprägung 0 gibt an, dass die Vorhersage ``kein TI`` lautete. Die 70\% sind zunächst ein Zeichen dafür, dass Overfitting hier nicht unbedingt ein Problem darstellt. Bei einer verdächtig hohen Genauigkeit müsste davon ausgegangen werden.
  
 \begin{figure}[h]
 \centering
@@ -429,7 +429,7 @@ scikit-learn kann kostenfrei genutzt werden \cite{scikit-license}. Zur Verbesser
 
 \section{Zusammenfassung der Ergebnisse}
 
-Dieser Abschnitt stellt die Ergebnisse der Evaluation zusammenfassend in einer Übersicht dar. Des Weiteren enthält \ref{tab:zusammenfassung} eine Handlungsempfehlung zum weiteren Vorgehen mit den Verfahren.
+Dieser Abschnitt stellt die Ergebnisse der Evaluation zusammenfassend in einer Übersicht dar. Des Weiteren enthält Tabelle \ref{tab:zusammenfassung} eine Handlungsempfehlung zum weiteren Vorgehen mit den Verfahren.
 
 
 % Please add the following required packages to your document preamble:
