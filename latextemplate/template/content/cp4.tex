@@ -74,6 +74,9 @@ Das Vergleichen von nur zwei Dokumenten mit durchschnittlich 5000 Wörtern dauer
 \end{equation}
 
 Der Rechenaufwand zur Erzeugung der fachspezifischen Vektoren ist abhängig von der Größe des jeweiligen Trainingskorpus. 
+\\
+\\
+\\ 
 
 {\bf Kriterium 4: Kosten}
 
@@ -86,7 +89,7 @@ Das Paragraph-Vector-Modell kann für die Ermittlung von Ähnlichkeiten eingeset
 
 {\bf Kriterium 1: Einsetzbarkeit des Ansatzes unter den gegebenen Rahmenbedingungen}
 
-Es wird hier ein eigenes Doc2Vec-Modell trainiert. Das Verfahren Doc2Vec von gensim erzeugt für jedes Dokument einen Vektor. Diese Vektoren können je nach Parameterwahl verschiedene Dimensionen haben. Um die Vektoren in einer zweidimensionalen Ebene darstellen zu können, wurde t-SNE (t-Distributed Stochastic Neighbor Embedding, nach \cite{t-SNE}) zur Dimensionsreduktion verwendet. Es wurde davon ausgegangen, dass ähnliche Dokumente auch ähnliche Vektoren haben. Dadurch sollten in Abbildung \ref{Abbildung:doc2vec1} Cluster erkennbar sein – wie nachfolgend unter Kriterium 2 beschrieben – dies ist jedoch hier zunächst nicht der Fall. Das Verfahren eignet sich also in der Variante die hier evaluiert wurde nicht für den Einsatz bei einer derart kleinen Datenmenge. Ein Punkt stellt ein Dokument dar, die Farbe zeigt den Dokumententyp des Dokuments. Auf eine Beschriftung der einzelnen Datenpunkte wird aus optischen Gründen sowie und aus Datenschutzgründen verzichtet. Es wurde erwartet, dass Dokumente des gleichen Dokumententyps Cluster bilden würden.
+Es wird hier ein eigenes Doc2Vec-Modell trainiert. Das Verfahren Doc2Vec von gensim erzeugt für jedes Dokument einen Vektor. Diese Vektoren können je nach Parameterwahl verschiedene Dimensionen haben. Um die Vektoren in einer zweidimensionalen Ebene darstellen zu können, wurde t-SNE (t-Distributed Stochastic Neighbor Embedding, nach \cite{t-SNE}) zur Dimensionsreduktion verwendet. Es wurde davon ausgegangen, dass ähnliche Dokumente auch ähnliche Vektoren haben. Dadurch sollten in Abbildung \ref{Abbildung:doc2vec1} Cluster erkennbar sein – wie nachfolgend unter Kriterium 2 beschrieben – dies ist jedoch hier zunächst nicht der Fall. Das Verfahren eignet sich also in der Variante die hier evaluiert wurde nicht für den Einsatz bei einer derart kleinen Datenmenge. Ein Punkt stellt ein Dokument dar, die Farbe zeigt den Dokumententyp des Dokuments. Auf eine Beschriftung der einzelnen Datenpunkte wird aus optischen Gründen sowie aus Datenschutzgründen verzichtet. Es wurde erwartet, dass Dokumente des gleichen Dokumententyps Cluster bilden würden.
 
 \begin{figure}[h]
 \centering
@@ -124,10 +127,12 @@ Der Paragraph Vector-Ansatz benötigt keine beschrifteten Beispiele und kann dah
 
 Dieser Ansatz basiert auf durchschnittlichen Wort-Vektoren. Auf Basis einer Trainingsdatenmenge werden zunächst durchschnittliche Wort-Vektoren berechnet. Die Trainingsdatenmenge setzt sich zusammen aus mehreren Textkörpern. Die unterschiedlichen Textkörper bestehen hier aus frei zugänglichen PDF-Dokumenten aus dem Internet. Unterschieden werden dabei die folgenden Dokumententypen:
 
--	Texte in denen Anforderungen beschrieben werden (Thema Requirements)
--	Texte zu Lösungs-Architekturen (Thema Architecture bzw. Architectural Language)
--	Texte zu Software-Design (Thema Design) 
--	Texte zu Logistik-Themen (Thema Logistics)
+\begin{itemize}
+\item Texte in denen Anforderungen beschrieben werden (Thema Requirements)
+\item Texte zu Lösungs-Architekturen (Thema Architecture bzw. Architectural Language)
+\item Texte zu Software-Design (Thema Design) 
+\item Texte zu Logistik-Themen (Thema Logistics)
+\end{itemize}
 
 Für jeden dieser Typen wird ein durchschnittlicher Wort-Vektor berechnet. Visualisiert wird das Vorgehen in Abbildung \ref{Abbildung:avgvec}. Nicht gezeigt wird hier der Logistik-Textkorpus.
 
@@ -189,7 +194,7 @@ Es können frei verfügbare Software-Bibliotheken (u. a. spaCy \cite{spacy-licen
 
 Wie oben bereits angedeutet, gäbe es für die Lösung des Anwendungsfalls ``Bestimmung von inhaltlicher Integrität`` weitere Möglichkeiten aus den Bereichen des überwachten, unüberwachten oder auch semi-überwachten Lernens. Mit verschiedenen Klassifizierungsverfahren können die Klassen beziehungsweise die Themen von einzelnen Kapiteln aus Text-Dokumenten geschätzt werden. In Frage kämen etwa Ansätze wie Naive Bayes, logistische Regression, neuronale Netze, und andere. Hier vorgestellt wird nun ein Ansatz auf Basis von Non-negative matrix factorization (Abk.: NMF). Zu beachten ist, dass es sich dabei nicht um ein Klassifizierungsverfahren, sondern um eine Methode aus der Kategorie des Topic Modelling handelt. Statt mit NMF könnten ähnliche Resultate auch unter Verwendung des Verfahrens Latent Dirichlet Allocation (Abk.: LDA) realisiert und evaluiert werden \cite{scikit1}.
 
-Als Trainingskorpus wird auch hier eine Menge von Dokumenten aus dem Internet verwendet. Verwendet wurden  wiederum die Textkorpora Requirements, Architectural Language, Design sowie Logistics. Bei näherer Betrachtung des Trainingskorpus fällt auf, dass die Trainingsdokumente in den einzelnen Kategorien sich durchaus durch bestimmte, typische Begriffe auszeichnen. Diese Begriffe sind die bedeutsamsten für ein bestimmtes Thema. Zur Visualisierung dieser Begriffe von Topics können Ansätze wie NMF oder LDA genutzt werden. Diese Ansätze verwenden intern den TF-IDF-Vectorizer. Zur Schätzung des Topics eines Testdokuments kann dann das erstellte Modell genutzt werden. Zunächst folgt allerdings in Abbildung \ref{Abbildung:word_clouds} eine Visualisierung der für die Themen typischen Begriffe. Die Begriffe die von Bedeutung sind für ein Thema wurden automatisch durch das Verfahren extrahiert und sind unten dargestellt.
+Als Trainingskorpus wird auch hier eine Menge von Dokumenten aus dem Internet verwendet. Verwendet wurden  wiederum die Textkorpora Requirements, Architectural Language, Design sowie Logistics. Bei näherer Betrachtung des Trainingskorpus fällt auf, dass die Trainingsdokumente in den einzelnen Kategorien sich durchaus durch bestimmte, typische Begriffe auszeichnen. Diese Begriffe sind die bedeutsamsten für ein bestimmtes Thema. Zur Visualisierung dieser Begriffe von Topics können Ansätze wie NMF oder LDA genutzt werden. Diese Ansätze verwenden intern als Vorverarabeitungsschritt die TF-IDF-Metrik. Zur Schätzung des Topics eines Testdokuments kann dann das erstellte Modell genutzt werden. Zunächst folgt allerdings in Abbildung \ref{Abbildung:word-clouds} eine Visualisierung der für die Themen typischen Begriffe. Die Begriffe die von Bedeutung sind für ein Thema wurden automatisch durch das Verfahren extrahiert und sind unten dargestellt.
  
 \begin{figure}[h]
 \centering
@@ -239,6 +244,7 @@ Es wurde also für 20 Test-Abschnitte eine Vorhersage mit dem Modell erstellt we
 \end{figure}
 
 {\bf Kriterium 2: Generelle Einsetzbarkeit des Ansatzes im APM-Kontext, unter der Annahme einer beliebig großen Datenmenge}
+
 Wie der Code im Anhang dieser Arbeit zeigt, arbeitet der Ansatz unüberwacht. Das bedeutet, dass auch größere Textmengen für die Erstellung des Modells genutzt werden könnten. Da bereits unter Kriterium 1 gezeigt wurde, dass der Ansatz durchaus Themen schätzen kann, wird das auch bei einer beliebig großen Datenmenge möglich sein. Zu beachten ist, dass die Themen sich inhaltlich stark genug voneinander unterscheiden sollten.
 
 {\bf Kriterium 3: Rechenaufwand}
@@ -247,7 +253,7 @@ Eine Implementierung des Verfahrens ist gekapselt in der scikit-learn-Funktion N
 
 {\bf Kriterium 4: Kosten}
 
-Es wurden für das Trainings des Modells aufgrund der geringen verwendbaren Datenmenge PDF-Dokumente aus dem Internet verwendet. In der Realität müsste ebenfalls eine ausreichende Trainingsdatenmenge bereitgestellt werden. Dafür sind Texte zusammenzutragen, und es ist insbesondere auf die Qualität der Texte zu achten. Dadurch entstehen Aufwand, der Kosten verursachen kann. Kosten für die Nutzung des Verfahrens, z. B. unter Verwendung von Bibliotheken wie scikit-learn \cite{scikit-license}, entstehen zunächst nicht.
+Es wurden für das Trainings des Modells aufgrund der geringen verwendbaren Datenmenge PDF-Dokumente aus dem Internet verwendet. In der Realität müsste ebenfalls eine ausreichende Trainingsdatenmenge bereitgestellt werden. Dafür sind Texte zusammenzutragen, und es ist insbesondere auf die Qualität der Texte zu achten. Dadurch entstünden Kosten. Kosten für die Nutzung des Verfahrens, z. B. unter Verwendung von Bibliotheken wie scikit-learn \cite{scikit-license}, ergeben sich zunächst nicht.
 
 \section{Ergebnisse: Automatisierte Erzeugung von Text-Zusammenfassungen}
 
@@ -259,12 +265,12 @@ Vor der Evaluation soll kurz die Funktionsweise dieses Ansatzes skizziert werden
 
 Der gesamte Textkorpus wird in einzelne Sätze aufgeteilt. Das Vorkommen von Wörtern in einzelnen Sätzen wird anschließend gezählt. Daraus kann nun die TF-Metrik berechnet werden, wie im Theorieteil beschrieben. Im Anschluss wird für jeden Begriff berechnet, in wie vielen Dokumenten dieser vorkommt.
 
-Der nächste Schritt besteht in der Multiplikation der beiden Metriken. Sätze aus dem Text der zusammengefasst werden soll werden nun für Zusammenfassung ausgewählt. Das geschieht, indem die TF-IDF-Werte der Begriffe innerhalb eines Satzes addiert werden. Dieser Wert wird geteilt durch die Länge des jeweiligen Satzes. Die Sätze mit den höchsten Werten gelten damit als die wichtigsten Sätze des Dokuments. Ein Grenzwert bestimmt letztendlich, welche Sätze in die finale Zusammenfassung übernommen werden.
+Der nächste Schritt besteht in der Multiplikation der beiden Metriken. Sätze aus dem Text, der zusammengefasst werden soll, werden nun ausgewählt. Das geschieht, indem die TF-IDF-Werte der Begriffe innerhalb eines Satzes addiert werden. Dieser Wert wird geteilt durch die Länge des jeweiligen Satzes. Die Sätze mit den höchsten Werten gelten damit als die wichtigsten Sätze des Dokuments. Ein Grenzwert bestimmt letztendlich, welche Sätze in die finale Zusammenfassung übernommen werden.
 
 {\bf Kriterium 1: Einsetzbarkeit des Ansatzes unter den gegebenen Rahmenbedingungen}
 
 Es wurde für diese Evaluation eins der zur Verfügung stehenden Dokumente ausgewählt.
-Um die Güte der durch den Ansatz erzeugten Zusammenfassungen objektiv bewerten zu können, werden von Menschen erzeugte Referenz-Zusammenfassungen benötigt. Diese haben in etwa die gleiche Länge wie die Zusammenfassungen, die automatisch generiert wurden. Bei der Erstellung dieser Referenz-Zusammenfassungen wurde darauf geachtet, dass möglichst viele Sätze so wie sie waren übernommen wurden, ohne manuelles Umschreiben. Es stellte sich heraus, dass die Auswahl von aussagekräftigen Sätzen auch für Menschen, die wenige Hintergrundinformationen zu eigentlichen Dokumenten besitzen, bereits eine Herausforderung ist.
+Um die Güte der durch den Ansatz erzeugten Zusammenfassungen objektiv bewerten zu können, werden von Menschen erzeugte Referenz-Zusammenfassungen benötigt. Diese haben in etwa die gleiche Länge wie die Zusammenfassungen, die automatisch generiert wurden. Bei der Erstellung dieser Referenz-Zusammenfassungen wurde darauf geachtet, dass möglichst viele Sätze so wie sie waren übernommen wurden, ohne manuelles Umschreiben. Es stellte sich heraus, dass die Auswahl von aussagekräftigen Sätzen auch für Menschen, die wenige Hintergrundinformationen zu den eigentlichen Inhalten der Dokumente besitzen, bereits eine Herausforderung ist.
  
 Eine ideale durch ein Modell erzeugte Zusammenfassung hätte einen F-Score von 1. In diesem Fall entspräche die Zusammenfassung der durch Menschen erzeugten Referenz-Zusammenfassung. Der F-Score kann interpretiert werden als gewichteter Mittelwert von Precision und Recall \cite{scikit2}. Abbildung \ref{Abbildung:rouge-metrics} stellt sehr geringe F-Scores dar. Das zeigt, dass die automatisch generierten Zusammenfassungen recht weit entfernt von Referenz-Zusammenfassungen liegen. Die Entwicklung der Metrik hängt auch mit der Länge von erzeugten Zusammenfassungen zusammen. Die Länge wird stets kleiner bzw. sie geht gegen Null, wenn der verwendete Korpus vergrößert wird.
 Referenz-Zusammenfassungen sind von Menschen mit entsprechender Sorgfalt erstellt worden. Diese Sorgfalt kann dem extraktiven Ansatz nicht bescheinigt werden, d. h. die Qualität der extraktiven Zusammenfassungen ist gering.
@@ -291,7 +297,7 @@ Wenn davon ausgegangen wird, dass die durch das Verfahren erzeugten Zusammenfass
 
 \subsection{Ansatz 2: Nutzung eines abstraktiven Verfahrens auf Transformer-Basis}
 
-Im Vergleich zu den extraktiven Verfahren ist das Gebiet der abstraktiven Verfahren zur Erzeugung von Text-Zusammenfassungen eher Gegenstand aktueller Forschung, als eine Klasse von in der Praxis nutzbaren Verfahren \cite[S. 261]{Gupta}. Abbildung \cite{Abbildung:t5} zeigt die erzielten Ergebnisse in einem eigenen Versuch. Evaluiert wird hier das von Google-Forschern entwickelte Modell T5: Text-To-Text-Transfer-Transformer \cite{Raffel}.
+Im Vergleich zu den extraktiven Verfahren ist das Gebiet der abstraktiven Verfahren zur Erzeugung von Text-Zusammenfassungen eher Gegenstand aktueller Forschung, als eine Klasse von in der Praxis nutzbaren Verfahren \cite[S. 261]{Gupta}. Abbildung \ref{Abbildung:t5} zeigt die erzielten Ergebnisse in einem eigenen Versuch. Evaluiert wird hier das von Google-Forschern entwickelte Modell T5: Text-To-Text-Transfer-Transformer \cite{Raffel}.
 
 \begin{figure}[h]
 \centering
@@ -306,7 +312,7 @@ Es ist möglich, ein vorbereitetes Modell  zu verwenden. Auf dieser Grundlage ka
 
 Es wurden in einer Veröffentlichung CNN/ Daily Mail-Nachrichtentexte unter Verwendung des Modells zusammengefasst und diese Zusammenfassungen wurden mit der Rouge-Metrik evaluiert. Die Ergebnisse dieses Ansatzes setzen neue Maßstäbe bei der Qualität von automatisch generierten Zusammenfassungen \cite[S. 39]{Raffel}. Daher kann gesagt werden, dass die Qualität der Zusammenfassungen als gut eingestuft werden kann, sofern eine Fein-Abstimmung auf den jeweiligen Kontext stattgefunden hat. Die maximale Länge der Eingabe-Sequenz des T5-Modells beträgt nach aktuellem Stand 512 Tokens. Damit können als Eingabe für Zusammenfassungen bislang nur Texte mit maximal 512 Wörtern verwendet werden \cite[S. 39]{Raffel}. Das reicht maximal zur Erzeugung der Zusammenfassung einzelner Abschnitte, die dann kombiniert werden könnten. Das würde jedoch nicht dazu beitragen, dass die wichtigsten Informationen aus einem Text extrahiert werden, was hier eigentlich angestrebt werden sollte.
 
-Longformer (The Long-Document Transformer) ist ein Transformer-Ansatz, der als Alternative zum T5-Modell in Frage käme. Hier wird kontinuierlich versucht die maximale Sequenzlänge der Eingabe zu erhöhen, dennoch gibt es auch hier derzeit noch Beschränkungen auf 4096 Tokens als Eingabe-Sequenz \cite{longformer} \cite{longformer2}, was ebenfalls als nicht ausreichend beurteilt werden muss.
+Longformer (The Long-Document Transformer) ist ein Transformer-Ansatz, der als Alternative zum T5-Modell in Frage käme. Hier wird kontinuierlich versucht die maximale Sequenzlänge der Eingabe zu erhöhen, dennoch gibt es auch hier derzeit noch Beschränkungen auf 4096 Tokens als Eingabe-Sequenz \cite{Longformer} \cite{Longformer2}, was ebenfalls als nicht ausreichend beurteilt werden muss.
 
 Als Fazit wird festgehalten, dass sich die Ansätze noch zu sehr im Entwicklungsstadium befinden und durch die Beschränkung auf sehr kleine Eingabesequenzen keine sinnvollen Ergebnisse im vorliegenden Kontext erzielt werden können. Die notwendige Datenmenge für eine Feinabstimmung wird nachfolgend erläutert. Vorweggenommen werden soll, dass 20-40 Textdokumente dafür nicht ausreichend sind. Unter den gegebenen Rahmenbedingungen ist dieses abstraktive Verfahren also nicht sinnvoll einsetzbar.
 
