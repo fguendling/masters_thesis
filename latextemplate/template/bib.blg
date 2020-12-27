@@ -1,38 +1,38 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'bib.blg'
-[37] biber-darwin:315> INFO - === Wed Dec 16, 2020, 16:21:18
-[65] Biber.pm:371> INFO - Reading 'bib.bcf'
-[163] Biber.pm:886> INFO - Using all citekeys in bib section 0
-[175] Biber.pm:4093> INFO - Processing section 0
-[187] Biber.pm:4254> INFO - Looking for bibtex format file 'literatur.bib' for section 0
-[190] bibtex.pm:1523> INFO - LaTeX decoding ...
-[268] bibtex.pm:1340> INFO - Found BibTeX data source 'literatur.bib'
-[280] Utils.pm:193> WARN - year field 'Abgerufen am 08. Oktober 2020' in entry 'rehurek2' is not an integer - this will probably not sort properly.
-[292] Utils.pm:193> WARN - year field 'Abgerufen am 15. August 2020' in entry 'facebook' is not an integer - this will probably not sort properly.
-[298] Utils.pm:193> WARN - year field 'Abgerufen am 02. August 2020' in entry 'spacy2' is not an integer - this will probably not sort properly.
-[311] Utils.pm:193> WARN - year field 'Abgerufen am 28. Oktober 2020' in entry 'Longformer2' is not an integer - this will probably not sort properly.
-[313] Utils.pm:193> WARN - year field 'Abgerufen am 20. November 2020' in entry 'scikit2' is not an integer - this will probably not sort properly.
-[316] Utils.pm:193> WARN - year field 'Abgerufen am 16. Dezember 2020' in entry 'gensim-license' is not an integer - this will probably not sort properly.
-[323] Utils.pm:193> WARN - year field 'Abgerufen am 02. August 2020' in entry 'spacy' is not an integer - this will probably not sort properly.
-[327] Utils.pm:193> WARN - year field 'Abgerufen am 16. Dezember 2020' in entry 'spacy-license' is not an integer - this will probably not sort properly.
-[336] Utils.pm:193> WARN - year field 'Abgerufen am 17. Dezember 2020' in entry 'numpy-license' is not an integer - this will probably not sort properly.
-[339] Utils.pm:193> WARN - year field 'Abgerufen am 20. Juli 2020' in entry 'Statista' is not an integer - this will probably not sort properly.
-[369] Utils.pm:193> WARN - year field 'Abgerufen am 13. Oktober 2020' in entry 'Transformers' is not an integer - this will probably not sort properly.
-[369] Utils.pm:193> WARN - year field 'Abgerufen am 16. Dezember 2020' in entry 'MIT' is not an integer - this will probably not sort properly.
-[372] Utils.pm:193> WARN - year field 'Abgerufen am 20. Juli 2020' in entry 'kaggle' is not an integer - this will probably not sort properly.
-[381] Utils.pm:193> WARN - year field 'Abgerufen am 20. November 2020' in entry 'scikit1' is not an integer - this will probably not sort properly.
-[397] Utils.pm:193> WARN - year field 'Abgerufen am 16. Dezember 2020' in entry 'scikit-license' is not an integer - this will probably not sort properly.
-[399] Utils.pm:193> WARN - year field 'Abgerufen am 30. Oktober 2020' in entry 't5' is not an integer - this will probably not sort properly.
-[454] Utils.pm:193> WARN - year field 'Abgerufen am 19. Dezember 2020' in entry 'togaf' is not an integer - this will probably not sort properly.
-[469] Utils.pm:193> WARN - year field 'Abgerufen am 19. Dezember 2020' in entry 'stanford' is not an integer - this will probably not sort properly.
-[470] Utils.pm:193> WARN - year field 'Abgerufen am 13. November 2020' in entry 'leanix2' is not an integer - this will probably not sort properly.
-[492] Utils.pm:193> WARN - year field '03. Dezember 2020' in entry 'bert' is not an integer - this will probably not sort properly.
-[497] Utils.pm:193> WARN - year field 'Abgerufen am 01. September 2020' in entry 'spacy3' is not an integer - this will probably not sort properly.
-[500] Utils.pm:193> WARN - year field 'Abgerufen am 05. August 2020' in entry 'rehurek' is not an integer - this will probably not sort properly.
-[606] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[606] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[606] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[607] Biber.pm:3927> INFO - No sort tailoring available for locale 'de-DE'
-[667] bbl.pm:636> INFO - Writing 'bib.bbl' with encoding 'UTF-8'
-[687] bbl.pm:739> INFO - Output to bib.bbl
-[687] Biber.pm:110> INFO - WARNINGS: 22
+[34] biber-darwin:315> INFO - === Sun Dec 27, 2020, 10:21:50
+[55] Biber.pm:371> INFO - Reading 'bib.bcf'
+[156] Biber.pm:886> INFO - Using all citekeys in bib section 0
+[167] Biber.pm:4093> INFO - Processing section 0
+[177] Biber.pm:4254> INFO - Looking for bibtex format file 'literatur.bib' for section 0
+[179] bibtex.pm:1523> INFO - LaTeX decoding ...
+[259] bibtex.pm:1340> INFO - Found BibTeX data source 'literatur.bib'
+[273] Utils.pm:193> WARN - year field 'Abgerufen am 02. August 2020' in entry 'spacy2' is not an integer - this will probably not sort properly.
+[282] Utils.pm:193> WARN - year field 'Abgerufen am 01. September 2020' in entry 'spacy3' is not an integer - this will probably not sort properly.
+[285] Utils.pm:193> WARN - year field 'Abgerufen am 02. August 2020' in entry 'spacy' is not an integer - this will probably not sort properly.
+[303] Utils.pm:193> WARN - year field 'Abgerufen am 28. Oktober 2020' in entry 'Longformer2' is not an integer - this will probably not sort properly.
+[310] Utils.pm:193> WARN - year field 'Abgerufen am 16. Dezember 2020' in entry 'MIT' is not an integer - this will probably not sort properly.
+[311] Utils.pm:193> WARN - year field 'Abgerufen am 13. November 2020' in entry 'leanix2' is not an integer - this will probably not sort properly.
+[337] Utils.pm:193> WARN - year field 'Abgerufen am 13. Oktober 2020' in entry 'Transformers' is not an integer - this will probably not sort properly.
+[348] Utils.pm:193> WARN - year field 'Abgerufen am 20. Juli 2020' in entry 'kaggle' is not an integer - this will probably not sort properly.
+[385] Utils.pm:193> WARN - year field 'Abgerufen am 08. Oktober 2020' in entry 'rehurek2' is not an integer - this will probably not sort properly.
+[395] Utils.pm:193> WARN - year field 'Abgerufen am 19. Dezember 2020' in entry 'togaf' is not an integer - this will probably not sort properly.
+[397] Utils.pm:193> WARN - year field '03. Dezember 2020' in entry 'bert' is not an integer - this will probably not sort properly.
+[404] Utils.pm:193> WARN - year field 'Abgerufen am 17. Dezember 2020' in entry 'numpy-license' is not an integer - this will probably not sort properly.
+[416] Utils.pm:193> WARN - year field 'Abgerufen am 20. November 2020' in entry 'scikit1' is not an integer - this will probably not sort properly.
+[419] Utils.pm:193> WARN - year field 'Abgerufen am 05. August 2020' in entry 'rehurek' is not an integer - this will probably not sort properly.
+[419] Utils.pm:193> WARN - year field 'Abgerufen am 15. August 2020' in entry 'facebook' is not an integer - this will probably not sort properly.
+[420] Utils.pm:193> WARN - year field 'Abgerufen am 16. Dezember 2020' in entry 'scikit-license' is not an integer - this will probably not sort properly.
+[425] Utils.pm:193> WARN - year field 'Abgerufen am 20. Juli 2020' in entry 'Statista' is not an integer - this will probably not sort properly.
+[440] Utils.pm:193> WARN - year field 'Abgerufen am 20. November 2020' in entry 'scikit2' is not an integer - this will probably not sort properly.
+[448] Utils.pm:193> WARN - year field 'Abgerufen am 30. Oktober 2020' in entry 't5' is not an integer - this will probably not sort properly.
+[453] Utils.pm:193> WARN - year field 'Abgerufen am 19. Dezember 2020' in entry 'stanford' is not an integer - this will probably not sort properly.
+[456] Utils.pm:193> WARN - year field 'Abgerufen am 16. Dezember 2020' in entry 'spacy-license' is not an integer - this will probably not sort properly.
+[474] Utils.pm:193> WARN - year field 'Abgerufen am 16. Dezember 2020' in entry 'gensim-license' is not an integer - this will probably not sort properly.
+[598] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[598] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[598] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[598] Biber.pm:3927> INFO - No sort tailoring available for locale 'de-DE'
+[656] bbl.pm:636> INFO - Writing 'bib.bbl' with encoding 'UTF-8'
+[676] bbl.pm:739> INFO - Output to bib.bbl
+[676] Biber.pm:110> INFO - WARNINGS: 22

@@ -11,79 +11,79 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Forschungsfrage- und Methode}{2}{section.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Ziele und Aufbau der Arbeit}{2}{section.1.2}% 
+\contentsline {section}{\numberline {1.2}Ziele und Aufbau der Arbeit}{3}{section.1.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}Themeneingrenzung}{3}{section.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Grundlagen}{4}{chapter.2}% 
+\contentsline {chapter}{\numberline {2}Grundlagen}{5}{chapter.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}K\IeC {\"u}nstliche Intelligenz, Machine Learning \& Deep Learning}{4}{section.2.1}% 
+\contentsline {section}{\numberline {2.1}K\IeC {\"u}nstliche Intelligenz, Machine Learning \& Deep Learning}{5}{section.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Natural Language Processing}{7}{section.2.2}% 
+\contentsline {section}{\numberline {2.2}Natural Language Processing}{8}{section.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Vorverarbeitung von Texten}{7}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.1}Vorverarbeitung von Texten}{8}{subsection.2.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Repr\IeC {\"a}sentation von Texten}{8}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.2}Repr\IeC {\"a}sentation von Texten}{9}{subsection.2.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Regelbasierte Ans\IeC {\"a}tze}{9}{subsection.2.2.3}% 
+\contentsline {subsection}{\numberline {2.2.3}Regelbasierte Ans\IeC {\"a}tze}{10}{subsection.2.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.4}Vektorbasierte Ans\IeC {\"a}tze}{10}{subsection.2.2.4}% 
+\contentsline {subsection}{\numberline {2.2.4}Vektorbasierte Ans\IeC {\"a}tze}{11}{subsection.2.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.5}Transformer-Ans\IeC {\"a}tze}{13}{subsection.2.2.5}% 
+\contentsline {subsection}{\numberline {2.2.5}Transformer-Ans\IeC {\"a}tze}{14}{subsection.2.2.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Das Application-Portfolio-Management als Teil der IT-Governance}{13}{section.2.3}% 
+\contentsline {section}{\numberline {2.3}Das Application-Portfolio-Management als Teil der IT-Governance}{15}{section.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}COBIT als m\IeC {\"o}gliche Grundlage f\IeC {\"u}r das APM?}{14}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.1}COBIT als m\IeC {\"o}gliche Grundlage f\IeC {\"u}r das APM?}{15}{subsection.2.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Die Rolle von Textdokumenten f\IeC {\"u}r die IT-Governance}{15}{subsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.3.2}Die Rolle von Textdokumenten f\IeC {\"u}r die IT-Governance}{17}{subsection.2.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Das APM und verwandte Begriffe}{16}{subsection.2.3.3}% 
+\contentsline {subsection}{\numberline {2.3.3}Das APM und verwandte Begriffe}{18}{subsection.2.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.4}Handlungsfelder des APM}{19}{subsection.2.3.4}% 
+\contentsline {subsection}{\numberline {2.3.4}Handlungsfelder des APM}{20}{subsection.2.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.5}Unterst\IeC {\"u}tzung von APM durch Tools}{21}{subsection.2.3.5}% 
+\contentsline {subsection}{\numberline {2.3.5}Unterst\IeC {\"u}tzung von APM durch Tools}{22}{subsection.2.3.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Relevante Verfahren und Kriterien f\IeC {\"u}r die Evaluation}{22}{chapter.3}% 
+\contentsline {chapter}{\numberline {3}Relevante Verfahren und Kriterien f\IeC {\"u}r die Evaluation}{24}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Verfahren zur Ermittlung von \IeC {\"A}hnlichkeiten}{22}{section.3.1}% 
+\contentsline {section}{\numberline {3.1}Verfahren zur Ermittlung von \IeC {\"A}hnlichkeiten}{24}{section.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Verfahren zur Bestimmung von inhaltlicher Integrit\IeC {\"a}t}{23}{section.3.2}% 
+\contentsline {section}{\numberline {3.2}Verfahren zur Bestimmung von inhaltlicher Integrit\IeC {\"a}t}{25}{section.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Verfahren zur automatisierten Erzeugung von Zusammenfassungen}{24}{section.3.3}% 
+\contentsline {section}{\numberline {3.3}Verfahren zur automatisierten Erzeugung von Zusammenfassungen}{27}{section.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Verfahren zur automatisierten Schnittstellen-Erkennung}{27}{section.3.4}% 
+\contentsline {section}{\numberline {3.4}Verfahren zur automatisierten Schnittstellen-Erkennung}{29}{section.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Zu untersuchende Kriterien}{28}{section.3.5}% 
+\contentsline {section}{\numberline {3.5}Zu untersuchende Kriterien}{30}{section.3.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Ergebnisse der Evaluation}{29}{chapter.4}% 
+\contentsline {chapter}{\numberline {4}Ergebnisse der Evaluation}{32}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Ergebnisse: Ermittlung von \IeC {\"A}hnlichkeiten}{29}{section.4.1}% 
+\contentsline {section}{\numberline {4.1}Ergebnisse: Ermittlung von \IeC {\"A}hnlichkeiten}{32}{section.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Ansatz 1: \IeC {\"A}hnlichkeitsvergleich mit einem Word2Vec-Modell}{30}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Ansatz 1: \IeC {\"A}hnlichkeitsvergleich mit einem Word2Vec-Modell}{33}{subsection.4.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Ansatz 2: \IeC {\"A}hnlichkeitsvergleich unter Verwendung des Paragraph-Vector-Modells (Doc2Vec)}{34}{subsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.1.2}Ansatz 2: \IeC {\"A}hnlichkeitsvergleich unter Verwendung des Paragraph-Vector-Modells (Doc2Vec)}{37}{subsection.4.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Ergebnisse: Bestimmung von inhaltlicher Integrit\IeC {\"a}t}{37}{section.4.2}% 
+\contentsline {section}{\numberline {4.2}Ergebnisse: Bestimmung von inhaltlicher Integrit\IeC {\"a}t}{40}{section.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Ansatz 1: Vergleich von Durchschnitts-Wort-Vektoren}{37}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.1}Ansatz 1: Vergleich von Durchschnitts-Wort-Vektoren}{40}{subsection.4.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Ansatz 2: Topic Modelling mit Non-negative matrix factorization}{40}{subsection.4.2.2}% 
+\contentsline {subsection}{\numberline {4.2.2}Ansatz 2: Topic Modelling mit Non-negative matrix factorization}{43}{subsection.4.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Ergebnisse: Automatisierte Erzeugung von Text-Zusammenfassungen}{44}{section.4.3}% 
+\contentsline {section}{\numberline {4.3}Ergebnisse: Automatisierte Erzeugung von Text-Zusammenfassungen}{47}{section.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Ansatz 1: Nutzung eines extraktiven Verfahrens auf Basis von TF-IDF}{44}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {4.3.1}Ansatz 1: Nutzung eines extraktiven Verfahrens auf Basis von TF-IDF}{47}{subsection.4.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Ansatz 2: Nutzung eines abstraktiven Verfahrens auf Transformer-Basis}{47}{subsection.4.3.2}% 
+\contentsline {subsection}{\numberline {4.3.2}Ansatz 2: Nutzung eines abstraktiven Verfahrens auf Transformer-Basis}{50}{subsection.4.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Ergebnisse: Automatisierte Schnittstellen-Erkennung}{50}{section.4.4}% 
+\contentsline {section}{\numberline {4.4}Ergebnisse: Automatisierte Schnittstellen-Erkennung}{53}{section.4.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Ansatz 1: Klassifizierung auf Grundlage eines BERT-Modells}{50}{subsection.4.4.1}% 
+\contentsline {subsection}{\numberline {4.4.1}Ansatz 1: Klassifizierung auf Grundlage eines BERT-Modells}{53}{subsection.4.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Ansatz 2: Klassifizierung mit logistischer Regression auf Basis von N-Grammen}{53}{subsection.4.4.2}% 
+\contentsline {subsection}{\numberline {4.4.2}Ansatz 2: Klassifizierung mit logistischer Regression auf Basis von N-Grammen}{56}{subsection.4.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Zusammenfassung der Ergebnisse}{56}{section.4.5}% 
+\contentsline {section}{\numberline {4.5}Zusammenfassung der Ergebnisse}{59}{section.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Fazit und Ausblick}{57}{chapter.5}% 
+\contentsline {chapter}{\numberline {5}Fazit und Ausblick}{60}{chapter.5}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Literatur}{i}{chapter*.5}% 
 \defcounter {refsection}{0}\relax 

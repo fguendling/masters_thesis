@@ -7,63 +7,63 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Zusammenhang von KI, ML und Deep Learning. Eigene Erstellung in Anlehnung an \cite {Kelleher}}}{4}{figure.2.1}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Zusammenhang von KI, ML und Deep Learning. Eigene Erstellung in Anlehnung an \cite {Kelleher}}}{5}{figure.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Ein neuronales Netz mit je einem Input-, Hidden- und Output-Layer, aus \cite {Nielsen}}}{6}{figure.2.2}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Ein neuronales Netz mit je einem Input-, Hidden- und Output-Layer, aus \cite {Nielsen}}}{7}{figure.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Funktionsweise von Word2Vec (links) und von Paragraph Vector (rechts), aus \cite {mikolov2014}}}{12}{figure.2.3}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Funktionsweise von Word2Vec (links) und von Paragraph Vector (rechts), aus \cite {mikolov2014}}}{13}{figure.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Vektoren der Begriffe ``the`` \& ``and``. Eigene Bildschirmaufnahme.}}{12}{figure.2.4}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Vektoren der Begriffe ``the`` \& ``and``. Eigene Bildschirmaufnahme.}}{14}{figure.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces COBIT-Kernmodell, aus \cite [S. 21]{isaca2}}}{15}{figure.2.5}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces COBIT-Kernmodell, aus \cite [S. 21]{isaca2}}}{16}{figure.2.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces EA-\IeC {\"U}berblick, aus \cite [S. 13]{Bitkom}}}{17}{figure.2.6}% 
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Potenziell m\IeC {\"o}gliche Befragung, eigener Entwurf in Anlehnung an \cite {Dang}}}{26}{figure.3.1}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Schnittstellen-Visualiserung (Interface Circle Map) aus LeanIX, aus \cite {leanix2} }}{27}{figure.3.2}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces EA-\IeC {\"U}berblick, aus \cite [S. 13]{Bitkom}}}{19}{figure.2.6}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Darstellung verschiedener W\IeC {\"o}rter in 2 Dimensionen , eigene Erstellung.}}{30}{figure.4.1}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Potenziell m\IeC {\"o}gliche Befragung, eigener Entwurf in Anlehnung an \cite {Dang}}}{29}{figure.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Similarity Berechnung mit spaCy. Die Texte wurden gek\IeC {\"u}rzt.}}{31}{figure.4.2}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Schnittstellen-Visualiserung (Interface Circle Map) aus LeanIX, aus \cite {leanix2} }}{30}{figure.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Heatmap zur Dokumenten\IeC {\"a}hnlichkeit, eigene Erstellung}}{32}{figure.4.3}% 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Heatmap zur Dokumenten\IeC {\"a}hnlichkeit, mit Stoppwortentfernung, eigene Erstellung}}{32}{figure.4.4}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Darstellung verschiedener W\IeC {\"o}rter in 2 Dimensionen , eigene Erstellung.}}{33}{figure.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Darstellung aller verf\IeC {\"u}gbaren Dokumente, gruppiert nach Dokumententypen, eigene Erstellung}}{35}{figure.4.5}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Similarity Berechnung mit spaCy. Die Texte wurden gek\IeC {\"u}rzt.}}{34}{figure.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Dokumenten-Cluster, erzeugt \IeC {\"u}ber Doc2Vec, aus \cite {Dai}}}{36}{figure.4.6}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Heatmap zur Dokumenten\IeC {\"a}hnlichkeit, eigene Erstellung}}{35}{figure.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Initiale Vorbereitung von durchschnittlichen Wort-Vektoren, eigene Erstellung}}{37}{figure.4.7}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Heatmap zur Dokumenten\IeC {\"a}hnlichkeit, mit Stoppwortentfernung, eigene Erstellung}}{35}{figure.4.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Inferenz-Phase. Vergleich von Kapitel-Vektoren mit Durchschnitts-Vektoren, eigene Erstellung}}{38}{figure.4.8}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Darstellung aller verf\IeC {\"u}gbaren Dokumente, gruppiert nach Dokumententypen, eigene Erstellung}}{38}{figure.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Tag Clouds zu 4 erkannten Topics, erstellt mit NMF (eigene Erstellung)}}{41}{figure.4.9}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Dokumenten-Cluster, erzeugt \IeC {\"u}ber Doc2Vec, aus \cite {Dai}}}{39}{figure.4.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Verwendung eines Abschnitts aus einem Testdokument f\IeC {\"u}r die Vorhersage des Topics, eigene Erstellung}}{42}{figure.4.10}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Initiale Vorbereitung von durchschnittlichen Wort-Vektoren, eigene Erstellung}}{40}{figure.4.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Struktur der Daten, die f\IeC {\"u}r Evaluation in diesem Abschnitt genutzt wurden (geschw\IeC {\"a}rzt und gek\IeC {\"u}rzt)}}{43}{figure.4.11}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Inferenz-Phase. Vergleich von Kapitel-Vektoren mit Durchschnitts-Vektoren, eigene Erstellung}}{41}{figure.4.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Evaluation der G\IeC {\"u}te von Zusammenfassungen, unter Ver\IeC {\"a}nderung des Ausgangs-Text-Korpus. Eigene Erstellung}}{46}{figure.4.12}% 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Tag Clouds zu 4 erkannten Topics, erstellt mit NMF (eigene Erstellung)}}{44}{figure.4.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Veranschaulichung eines abstraktiven Verfahrens. Eigene Erstellung in Anlehnung an \cite {Raffel}}}{47}{figure.4.13}% 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Verwendung eines Abschnitts aus einem Testdokument f\IeC {\"u}r die Vorhersage des Topics, eigene Erstellung}}{45}{figure.4.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Klassifizierungsergebnisse unter Verwendung von BERT nach der Feinabstimmung. Eigene Bildschirmaufnahme}}{51}{figure.4.14}% 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Struktur der Daten, die f\IeC {\"u}r Evaluation in diesem Abschnitt genutzt wurden (geschw\IeC {\"a}rzt und gek\IeC {\"u}rzt)}}{46}{figure.4.11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Klasse 0 (``kein TI``) gewinnt und bestimmt damit die Vorhersage. Eigene Bildschirmaufnahme}}{52}{figure.4.15}% 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Evaluation der G\IeC {\"u}te von Zusammenfassungen, unter Ver\IeC {\"a}nderung des Ausgangs-Text-Korpus. Eigene Erstellung}}{49}{figure.4.12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Beispiele, bei denen Klasse 1 als Vorhersage bestimmt wurde. Eigene Bildschirmaufnahme}}{52}{figure.4.16}% 
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Veranschaulichung eines abstraktiven Verfahrens. Eigene Erstellung in Anlehnung an \cite {Raffel}}}{50}{figure.4.13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Klassifizierung mit logistischer Regression. Eigene Erstellung}}{54}{figure.4.17}% 
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Klassifizierungsergebnisse unter Verwendung von BERT nach der Feinabstimmung. Eigene Bildschirmaufnahme}}{54}{figure.4.14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Ergebnisse der Klassifizierung von S\IeC {\"a}tzen aus der Testmenge. Eigene Bildschirmaufnahme}}{54}{figure.4.18}% 
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Klasse 0 (``kein TI``) gewinnt und bestimmt damit die Vorhersage. Eigene Bildschirmaufnahme}}{55}{figure.4.15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Einige Vorhersagen f\IeC {\"u}r ein Evaluations-Dokument. Eigene Bildschirmaufnahme}}{55}{figure.4.19}% 
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Beispiele, bei denen Klasse 1 als Vorhersage bestimmt wurde. Eigene Bildschirmaufnahme}}{55}{figure.4.16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Klassifizierung mit logistischer Regression. Eigene Erstellung}}{57}{figure.4.17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Ergebnisse der Klassifizierung von S\IeC {\"a}tzen aus der Testmenge. Eigene Bildschirmaufnahme}}{57}{figure.4.18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Einige Vorhersagen f\IeC {\"u}r ein Evaluations-Dokument. Eigene Bildschirmaufnahme}}{58}{figure.4.19}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

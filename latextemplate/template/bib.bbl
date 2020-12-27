@@ -1565,6 +1565,46 @@
       \field{year}{2018}
       \true{nocite}
     \endentry
+    \entry{rueter}{book}{}
+      \name{author}{4}{}{%
+        {{hash=ded3e62aed49a5c49a78e2d4a7ad3d5b}{%
+           family={R{ü}ter},
+           familyi={R\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=617bca74040835be4a228c5e28ea25bf}{%
+           family={Schr{ö}der},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9076836add67bff82e606f583c4aaca1}{%
+           family={G{ö}ldner},
+           familyi={G\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d356b8aff1b34b7002eff71793e38657}{%
+           family={Niebuhr},
+           familyi={N\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{4248f7675242abbe9dc85c74f0cb18bf}
+      \strng{fullhash}{4248f7675242abbe9dc85c74f0cb18bf}
+      \strng{bibnamehash}{4248f7675242abbe9dc85c74f0cb18bf}
+      \strng{authorbibnamehash}{4248f7675242abbe9dc85c74f0cb18bf}
+      \strng{authornamehash}{4248f7675242abbe9dc85c74f0cb18bf}
+      \strng{authorfullhash}{4248f7675242abbe9dc85c74f0cb18bf}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{IT-Governance in der Praxis}
+      \field{year}{2010}
+      \true{nocite}
+    \endentry
     \entry{samuel}{book}{}
       \name{author}{1}{}{%
         {{hash=a34c1ec201fc249b01c996cf319ea383}{%
