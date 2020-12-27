@@ -65,25 +65,25 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Ergebnisse: Bestimmung von inhaltlicher Integrit\IeC {\"a}t}{40}{section.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Ansatz 1: Vergleich von Durchschnitts-Wort-Vektoren}{40}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.1}Ansatz 1: Vergleich von Durchschnitts-Wort-Vektoren}{41}{subsection.4.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Ansatz 2: Topic Modelling mit Non-negative matrix factorization}{43}{subsection.4.2.2}% 
+\contentsline {subsection}{\numberline {4.2.2}Ansatz 2: Topic Modelling mit Non-negative matrix factorization}{44}{subsection.4.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Ergebnisse: Automatisierte Erzeugung von Text-Zusammenfassungen}{47}{section.4.3}% 
+\contentsline {section}{\numberline {4.3}Ergebnisse: Automatisierte Erzeugung von Text-Zusammenfassungen}{48}{section.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Ansatz 1: Nutzung eines extraktiven Verfahrens auf Basis von TF-IDF}{47}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {4.3.1}Ansatz 1: Nutzung eines extraktiven Verfahrens auf Basis von TF-IDF}{48}{subsection.4.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Ansatz 2: Nutzung eines abstraktiven Verfahrens auf Transformer-Basis}{50}{subsection.4.3.2}% 
+\contentsline {subsection}{\numberline {4.3.2}Ansatz 2: Nutzung eines abstraktiven Verfahrens auf Transformer-Basis}{51}{subsection.4.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Ergebnisse: Automatisierte Schnittstellen-Erkennung}{53}{section.4.4}% 
+\contentsline {section}{\numberline {4.4}Ergebnisse: Automatisierte Schnittstellen-Erkennung}{54}{section.4.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Ansatz 1: Klassifizierung auf Grundlage eines BERT-Modells}{53}{subsection.4.4.1}% 
+\contentsline {subsection}{\numberline {4.4.1}Ansatz 1: Klassifizierung auf Grundlage eines BERT-Modells}{54}{subsection.4.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Ansatz 2: Klassifizierung mit logistischer Regression auf Basis von N-Grammen}{56}{subsection.4.4.2}% 
+\contentsline {subsection}{\numberline {4.4.2}Ansatz 2: Klassifizierung mit logistischer Regression auf Basis von N-Grammen}{57}{subsection.4.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Zusammenfassung der Ergebnisse}{59}{section.4.5}% 
+\contentsline {section}{\numberline {4.5}Zusammenfassung der Ergebnisse}{60}{section.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Fazit und Ausblick}{60}{chapter.5}% 
+\contentsline {chapter}{\numberline {5}Fazit und Ausblick}{61}{chapter.5}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Literatur}{i}{chapter*.5}% 
 \defcounter {refsection}{0}\relax 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.8)  27 DEC 2020 16:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.8)  27 DEC 2020 18:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1564,7 +1564,7 @@ No file bib.nls.
 
  (./content/cp1.tex
 chapter 1.
-<content/pics/Picture_1.png, id=267, 455.301pt x 338.2236pt>
+<content/pics/Picture_1.png, id=268, 455.301pt x 338.2236pt>
 File: content/pics/Picture_1.png Graphic file (type png)
 <use content/pics/Picture_1.png>
 Package pdftex.def Info: content/pics/Picture_1.png  used on input line 11.
@@ -1608,7 +1608,7 @@ Class scrbook Warning: deprecated old font command `\bf' used.
 
  (./content/cp2.tex
 chapter 2.
-<content/pics/Picture_2.png, id=303, 227.4096pt x 219.7008pt>
+<content/pics/Picture_2.png, id=304, 227.4096pt x 219.7008pt>
 File: content/pics/Picture_2.png Graphic file (type png)
 <use content/pics/Picture_2.png>
 Package pdftex.def Info: content/pics/Picture_2.png  used on input line 13.
@@ -1618,7 +1618,7 @@ Package pdftex.def Info: content/pics/Picture_2.png  used on input line 13.
 
 
  <./content/pics/Picture_2.png>]
-<content/pics/Picture_3.png, id=318, 740.7675pt x 468.75125pt>
+<content/pics/Picture_3.png, id=319, 740.7675pt x 468.75125pt>
 File: content/pics/Picture_3.png Graphic file (type png)
 <use content/pics/Picture_3.png>
 Package pdftex.def Info: content/pics/Picture_3.png  used on input line 28.
@@ -1628,12 +1628,12 @@ Package pdftex.def Info: content/pics/Picture_3.png  used on input line 28.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6] [7 <./content/pics/Picture_3.png>] [8] [9] [10] [11] [12]
-<content/pics/Picture_5.png, id=409, 453.3738pt x 137.313pt>
+<content/pics/Picture_5.png, id=410, 453.3738pt x 137.313pt>
 File: content/pics/Picture_5.png Graphic file (type png)
 <use content/pics/Picture_5.png>
 Package pdftex.def Info: content/pics/Picture_5.png  used on input line 98.
 (pdftex.def)             Requested size: 408.03264pt x 123.58054pt.
-<content/pics/Picture_6.png, id=414, 453.3738pt x 167.1846pt>
+<content/pics/Picture_6.png, id=415, 453.3738pt x 167.1846pt>
 File: content/pics/Picture_6.png Graphic file (type png)
 <use content/pics/Picture_6.png>
 Package pdftex.def Info: content/pics/Picture_6.png  used on input line 107.
@@ -1644,13 +1644,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13 <./content/pics/Picture_5.png>] [14 <./content/pics/Picture_6.png>]
 [15]
-<content/pics/Picture_7.png, id=455, 458.6736pt x 326.1786pt>
+<content/pics/Picture_7.png, id=456, 458.6736pt x 326.1786pt>
 File: content/pics/Picture_7.png Graphic file (type png)
 <use content/pics/Picture_7.png>
 Package pdftex.def Info: content/pics/Picture_7.png  used on input line 135.
 (pdftex.def)             Requested size: 412.80241pt x 293.55801pt.
  [16 <./content/pics/Picture_7.png>] [17]
-<content/pics/Picture_8.png, id=480, 467.346pt x 284.7438pt>
+<content/pics/Picture_8.png, id=481, 467.346pt x 284.7438pt>
 File: content/pics/Picture_8.png Graphic file (type png)
 <use content/pics/Picture_8.png>
 Package pdftex.def Info: content/pics/Picture_8.png  used on input line 157.
@@ -1760,7 +1760,7 @@ chapter 3.
 
 
 ] [25] [26] [27]
-<content/pics/Picture_9.png, id=559, 451.4466pt x 209.583pt>
+<content/pics/Picture_9.png, id=560, 451.4466pt x 209.583pt>
 File: content/pics/Picture_9.png Graphic file (type png)
 <use content/pics/Picture_9.png>
 Package pdftex.def Info: content/pics/Picture_9.png  used on input line 77.
@@ -1770,15 +1770,11 @@ Package pdftex.def Info: content/pics/Picture_9.png  used on input line 77.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [28]
-<content/pics/Picture_10.png, id=571, 1126.2075pt x 785.93625pt>
+<content/pics/Picture_10.png, id=572, 1126.2075pt x 785.93625pt>
 File: content/pics/Picture_10.png Graphic file (type png)
 <use content/pics/Picture_10.png>
-Package pdftex.def Info: content/pics/Picture_10.png  used on input line 91.
-(pdftex.def)             Requested size: 450.47502pt x 314.36893pt.
-
-Overfull \hbox (23.68367pt too wide) in paragraph at lines 91--92
- [][] 
- []
+Package pdftex.def Info: content/pics/Picture_10.png  used on input line 93.
+(pdftex.def)             Requested size: 394.17854pt x 275.0818pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1789,31 +1785,31 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  (./content/cp4.tex
 chapter 4.
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 20.
-
-<content/pics/Picture_11.png, id=593, 208.6194pt x 186.4566pt>
-File: content/pics/Picture_11.png Graphic file (type png)
-<use content/pics/Picture_11.png>
-Package pdftex.def Info: content/pics/Picture_11.png  used on input line 22.
-(pdftex.def)             Requested size: 187.7557pt x 167.80939pt.
 [32
 
 
 
 ]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 21.
+
+<content/pics/Picture_11.png, id=604, 208.6194pt x 186.4566pt>
+File: content/pics/Picture_11.png Graphic file (type png)
+<use content/pics/Picture_11.png>
+Package pdftex.def Info: content/pics/Picture_11.png  used on input line 23.
+(pdftex.def)             Requested size: 187.7557pt x 167.80939pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
- [33 <./content/pics/Picture_11.png>]
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
+[33 <./content/pics/Picture_11.png>]
 <content/pics/Listing_1_.png, id=613, 1210.5225pt x 513.92pt>
 File: content/pics/Listing_1_.png Graphic file (type png)
 <use content/pics/Listing_1_.png>
-Package pdftex.def Info: content/pics/Listing_1_.png  used on input line 36.
+Package pdftex.def Info: content/pics/Listing_1_.png  used on input line 37.
 (pdftex.def)             Requested size: 423.68922pt x 179.87468pt.
 
 
@@ -1835,301 +1831,20 @@ Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              Otherwise you should reconfigure or replace the
 (scrbook)              package. If you have used the old font command
 (scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 41.
+(scrbook)              `\normalfont \bfseries ' on input line 42.
 
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 45.
-
-<content/pics/Picture_12.png, id=617, 345.9324pt x 259.6902pt>
+[34 <./content/pics/Listing_1_.png>]
+<content/pics/Picture_12.png, id=623, 345.9324pt x 259.6902pt>
 File: content/pics/Picture_12.png Graphic file (type png)
 <use content/pics/Picture_12.png>
-Package pdftex.def Info: content/pics/Picture_12.png  used on input line 47.
+Package pdftex.def Info: content/pics/Picture_12.png  used on input line 48.
 (pdftex.def)             Requested size: 328.63391pt x 246.70427pt.
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 52.
-
-<content/pics/Picture_13.png, id=618, 351.2322pt x 263.5446pt>
+<content/pics/Picture_13.png, id=624, 351.2322pt x 263.5446pt>
 File: content/pics/Picture_13.png Graphic file (type png)
 <use content/pics/Picture_13.png>
-Package pdftex.def Info: content/pics/Picture_13.png  used on input line 54.
+Package pdftex.def Info: content/pics/Picture_13.png  used on input line 55.
 (pdftex.def)             Requested size: 333.66869pt x 250.36594pt.
-[34 <./content/pics/Listing_1_.png>] [35 <./content/pics/Picture_12.png> <./con
-tent/pics/Picture_13.png>]
 
-Class scrbook Warning: deprecated old font command `\bf' used.
-(scrbook)              You should note, that since 1994 LaTeX2e provides a
-(scrbook)              new font selection scheme called NFSS2 with several
-(scrbook)              new, combinable font commands. New KOMA-Script classes
-(scrbook)              defined the old font commands like `\bf' only for
-(scrbook)              compatibility with LaTeX 2.09 document styles of
-(scrbook)              Script 2.0. These commands are deprecated and
-(scrbook)              undocumented at least since 2003. Since 2013,
-(scrbook)              KOMA-Script classes warned about soon removement of
-(scrbook)              these deprecated commands. Now, after two decades of
-(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
-(scrbook)              not work any longer. If loading a package results in
-(scrbook)              this message you should contact the author of that
-(scrbook)              package and ask him to replace the depracted font
-(scrbook)              command `\bf', e.g., by `\normalfont \bfseries '.
-(scrbook)              Otherwise you should reconfigure or replace the
-(scrbook)              package. If you have used the old font command
-(scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 64.
-
-
-Class scrbook Warning: deprecated old font command `\bf' used.
-(scrbook)              You should note, that since 1994 LaTeX2e provides a
-(scrbook)              new font selection scheme called NFSS2 with several
-(scrbook)              new, combinable font commands. New KOMA-Script classes
-(scrbook)              defined the old font commands like `\bf' only for
-(scrbook)              compatibility with LaTeX 2.09 document styles of
-(scrbook)              Script 2.0. These commands are deprecated and
-(scrbook)              undocumented at least since 2003. Since 2013,
-(scrbook)              KOMA-Script classes warned about soon removement of
-(scrbook)              these deprecated commands. Now, after two decades of
-(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
-(scrbook)              not work any longer. If loading a package results in
-(scrbook)              this message you should contact the author of that
-(scrbook)              package and ask him to replace the depracted font
-(scrbook)              command `\bf', e.g., by `\normalfont \bfseries '.
-(scrbook)              Otherwise you should reconfigure or replace the
-(scrbook)              package. If you have used the old font command
-(scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 68.
-
-
-Class scrbook Warning: deprecated old font command `\bf' used.
-(scrbook)              You should note, that since 1994 LaTeX2e provides a
-(scrbook)              new font selection scheme called NFSS2 with several
-(scrbook)              new, combinable font commands. New KOMA-Script classes
-(scrbook)              defined the old font commands like `\bf' only for
-(scrbook)              compatibility with LaTeX 2.09 document styles of
-(scrbook)              Script 2.0. These commands are deprecated and
-(scrbook)              undocumented at least since 2003. Since 2013,
-(scrbook)              KOMA-Script classes warned about soon removement of
-(scrbook)              these deprecated commands. Now, after two decades of
-(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
-(scrbook)              not work any longer. If loading a package results in
-(scrbook)              this message you should contact the author of that
-(scrbook)              package and ask him to replace the depracted font
-(scrbook)              command `\bf', e.g., by `\mathbf '.
-(scrbook)              Otherwise you should reconfigure or replace the
-(scrbook)              package. If you have used the old font command
-(scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\mathbf ' on input line 73.
-
-
-Class scrbook Warning: deprecated old font command `\bf' used.
-(scrbook)              You should note, that since 1994 LaTeX2e provides a
-(scrbook)              new font selection scheme called NFSS2 with several
-(scrbook)              new, combinable font commands. New KOMA-Script classes
-(scrbook)              defined the old font commands like `\bf' only for
-(scrbook)              compatibility with LaTeX 2.09 document styles of
-(scrbook)              Script 2.0. These commands are deprecated and
-(scrbook)              undocumented at least since 2003. Since 2013,
-(scrbook)              KOMA-Script classes warned about soon removement of
-(scrbook)              these deprecated commands. Now, after two decades of
-(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
-(scrbook)              not work any longer. If loading a package results in
-(scrbook)              this message you should contact the author of that
-(scrbook)              package and ask him to replace the depracted font
-(scrbook)              command `\bf', e.g., by `\mathbf '.
-(scrbook)              Otherwise you should reconfigure or replace the
-(scrbook)              package. If you have used the old font command
-(scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\mathbf ' on input line 73.
-
-
-Class scrbook Warning: deprecated old font command `\bf' used.
-(scrbook)              You should note, that since 1994 LaTeX2e provides a
-(scrbook)              new font selection scheme called NFSS2 with several
-(scrbook)              new, combinable font commands. New KOMA-Script classes
-(scrbook)              defined the old font commands like `\bf' only for
-(scrbook)              compatibility with LaTeX 2.09 document styles of
-(scrbook)              Script 2.0. These commands are deprecated and
-(scrbook)              undocumented at least since 2003. Since 2013,
-(scrbook)              KOMA-Script classes warned about soon removement of
-(scrbook)              these deprecated commands. Now, after two decades of
-(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
-(scrbook)              not work any longer. If loading a package results in
-(scrbook)              this message you should contact the author of that
-(scrbook)              package and ask him to replace the depracted font
-(scrbook)              command `\bf', e.g., by `\mathbf '.
-(scrbook)              Otherwise you should reconfigure or replace the
-(scrbook)              package. If you have used the old font command
-(scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\mathbf ' on input line 73.
-
-
-Class scrbook Warning: deprecated old font command `\bf' used.
-(scrbook)              You should note, that since 1994 LaTeX2e provides a
-(scrbook)              new font selection scheme called NFSS2 with several
-(scrbook)              new, combinable font commands. New KOMA-Script classes
-(scrbook)              defined the old font commands like `\bf' only for
-(scrbook)              compatibility with LaTeX 2.09 document styles of
-(scrbook)              Script 2.0. These commands are deprecated and
-(scrbook)              undocumented at least since 2003. Since 2013,
-(scrbook)              KOMA-Script classes warned about soon removement of
-(scrbook)              these deprecated commands. Now, after two decades of
-(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
-(scrbook)              not work any longer. If loading a package results in
-(scrbook)              this message you should contact the author of that
-(scrbook)              package and ask him to replace the depracted font
-(scrbook)              command `\bf', e.g., by `\mathbf '.
-(scrbook)              Otherwise you should reconfigure or replace the
-(scrbook)              package. If you have used the old font command
-(scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\mathbf ' on input line 73.
-
-
-Class scrbook Warning: deprecated old font command `\bf' used.
-(scrbook)              You should note, that since 1994 LaTeX2e provides a
-(scrbook)              new font selection scheme called NFSS2 with several
-(scrbook)              new, combinable font commands. New KOMA-Script classes
-(scrbook)              defined the old font commands like `\bf' only for
-(scrbook)              compatibility with LaTeX 2.09 document styles of
-(scrbook)              Script 2.0. These commands are deprecated and
-(scrbook)              undocumented at least since 2003. Since 2013,
-(scrbook)              KOMA-Script classes warned about soon removement of
-(scrbook)              these deprecated commands. Now, after two decades of
-(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
-(scrbook)              not work any longer. If loading a package results in
-(scrbook)              this message you should contact the author of that
-(scrbook)              package and ask him to replace the depracted font
-(scrbook)              command `\bf', e.g., by `\mathbf '.
-(scrbook)              Otherwise you should reconfigure or replace the
-(scrbook)              package. If you have used the old font command
-(scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\mathbf ' on input line 73.
-
-
-Class scrbook Warning: deprecated old font command `\bf' used.
-(scrbook)              You should note, that since 1994 LaTeX2e provides a
-(scrbook)              new font selection scheme called NFSS2 with several
-(scrbook)              new, combinable font commands. New KOMA-Script classes
-(scrbook)              defined the old font commands like `\bf' only for
-(scrbook)              compatibility with LaTeX 2.09 document styles of
-(scrbook)              Script 2.0. These commands are deprecated and
-(scrbook)              undocumented at least since 2003. Since 2013,
-(scrbook)              KOMA-Script classes warned about soon removement of
-(scrbook)              these deprecated commands. Now, after two decades of
-(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
-(scrbook)              not work any longer. If loading a package results in
-(scrbook)              this message you should contact the author of that
-(scrbook)              package and ask him to replace the depracted font
-(scrbook)              command `\bf', e.g., by `\mathbf '.
-(scrbook)              Otherwise you should reconfigure or replace the
-(scrbook)              package. If you have used the old font command
-(scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\mathbf ' on input line 73.
-
-
-Class scrbook Warning: deprecated old font command `\bf' used.
-(scrbook)              You should note, that since 1994 LaTeX2e provides a
-(scrbook)              new font selection scheme called NFSS2 with several
-(scrbook)              new, combinable font commands. New KOMA-Script classes
-(scrbook)              defined the old font commands like `\bf' only for
-(scrbook)              compatibility with LaTeX 2.09 document styles of
-(scrbook)              Script 2.0. These commands are deprecated and
-(scrbook)              undocumented at least since 2003. Since 2013,
-(scrbook)              KOMA-Script classes warned about soon removement of
-(scrbook)              these deprecated commands. Now, after two decades of
-(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
-(scrbook)              not work any longer. If loading a package results in
-(scrbook)              this message you should contact the author of that
-(scrbook)              package and ask him to replace the depracted font
-(scrbook)              command `\bf', e.g., by `\mathbf '.
-(scrbook)              Otherwise you should reconfigure or replace the
-(scrbook)              package. If you have used the old font command
-(scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\mathbf ' on input line 73.
-
-
-Class scrbook Warning: deprecated old font command `\bf' used.
-(scrbook)              You should note, that since 1994 LaTeX2e provides a
-(scrbook)              new font selection scheme called NFSS2 with several
-(scrbook)              new, combinable font commands. New KOMA-Script classes
-(scrbook)              defined the old font commands like `\bf' only for
-(scrbook)              compatibility with LaTeX 2.09 document styles of
-(scrbook)              Script 2.0. These commands are deprecated and
-(scrbook)              undocumented at least since 2003. Since 2013,
-(scrbook)              KOMA-Script classes warned about soon removement of
-(scrbook)              these deprecated commands. Now, after two decades of
-(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
-(scrbook)              not work any longer. If loading a package results in
-(scrbook)              this message you should contact the author of that
-(scrbook)              package and ask him to replace the depracted font
-(scrbook)              command `\bf', e.g., by `\mathbf '.
-(scrbook)              Otherwise you should reconfigure or replace the
-(scrbook)              package. If you have used the old font command
-(scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\mathbf ' on input line 73.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--80
-
- []
-
-
-Class scrbook Warning: deprecated old font command `\bf' used.
-(scrbook)              You should note, that since 1994 LaTeX2e provides a
-(scrbook)              new font selection scheme called NFSS2 with several
-(scrbook)              new, combinable font commands. New KOMA-Script classes
-(scrbook)              defined the old font commands like `\bf' only for
-(scrbook)              compatibility with LaTeX 2.09 document styles of
-(scrbook)              Script 2.0. These commands are deprecated and
-(scrbook)              undocumented at least since 2003. Since 2013,
-(scrbook)              KOMA-Script classes warned about soon removement of
-(scrbook)              these deprecated commands. Now, after two decades of
-(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
-(scrbook)              not work any longer. If loading a package results in
-(scrbook)              this message you should contact the author of that
-(scrbook)              package and ask him to replace the depracted font
-(scrbook)              command `\bf', e.g., by `\normalfont \bfseries '.
-(scrbook)              Otherwise you should reconfigure or replace the
-(scrbook)              package. If you have used the old font command
-(scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 81.
-
-[36]
-
-Class scrbook Warning: deprecated old font command `\bf' used.
-(scrbook)              You should note, that since 1994 LaTeX2e provides a
-(scrbook)              new font selection scheme called NFSS2 with several
-(scrbook)              new, combinable font commands. New KOMA-Script classes
-(scrbook)              defined the old font commands like `\bf' only for
-(scrbook)              compatibility with LaTeX 2.09 document styles of
-(scrbook)              Script 2.0. These commands are deprecated and
-(scrbook)              undocumented at least since 2003. Since 2013,
-(scrbook)              KOMA-Script classes warned about soon removement of
-(scrbook)              these deprecated commands. Now, after two decades of
-(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
-(scrbook)              not work any longer. If loading a package results in
-(scrbook)              this message you should contact the author of that
-(scrbook)              package and ask him to replace the depracted font
-(scrbook)              command `\bf', e.g., by `\normalfont \bfseries '.
-(scrbook)              Otherwise you should reconfigure or replace the
-(scrbook)              package. If you have used the old font command
-(scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 90.
-
-<content/pics/Picture_14.png, id=646, 427.3566pt x 319.9152pt>
-File: content/pics/Picture_14.png Graphic file (type png)
-<use content/pics/Picture_14.png>
-Package pdftex.def Info: content/pics/Picture_14.png  used on input line 96.
-(pdftex.def)             Requested size: 405.98645pt x 303.91771pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2152,15 +1867,274 @@ Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              Otherwise you should reconfigure or replace the
 (scrbook)              package. If you have used the old font command
 (scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 101.
+(scrbook)              `\normalfont \bfseries ' on input line 65.
+
+[35 <./content/pics/Picture_12.png>]
+
+Class scrbook Warning: deprecated old font command `\bf' used.
+(scrbook)              You should note, that since 1994 LaTeX2e provides a
+(scrbook)              new font selection scheme called NFSS2 with several
+(scrbook)              new, combinable font commands. New KOMA-Script classes
+(scrbook)              defined the old font commands like `\bf' only for
+(scrbook)              compatibility with LaTeX 2.09 document styles of
+(scrbook)              Script 2.0. These commands are deprecated and
+(scrbook)              undocumented at least since 2003. Since 2013,
+(scrbook)              KOMA-Script classes warned about soon removement of
+(scrbook)              these deprecated commands. Now, after two decades of
+(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrbook)              not work any longer. If loading a package results in
+(scrbook)              this message you should contact the author of that
+(scrbook)              package and ask him to replace the depracted font
+(scrbook)              command `\bf', e.g., by `\normalfont \bfseries '.
+(scrbook)              Otherwise you should reconfigure or replace the
+(scrbook)              package. If you have used the old font command
+(scrbook)              `\bf' yourself you should replace it, e.g., by
+(scrbook)              `\normalfont \bfseries ' on input line 69.
+
+[36 <./content/pics/Picture_13.png>]
+
+Class scrbook Warning: deprecated old font command `\bf' used.
+(scrbook)              You should note, that since 1994 LaTeX2e provides a
+(scrbook)              new font selection scheme called NFSS2 with several
+(scrbook)              new, combinable font commands. New KOMA-Script classes
+(scrbook)              defined the old font commands like `\bf' only for
+(scrbook)              compatibility with LaTeX 2.09 document styles of
+(scrbook)              Script 2.0. These commands are deprecated and
+(scrbook)              undocumented at least since 2003. Since 2013,
+(scrbook)              KOMA-Script classes warned about soon removement of
+(scrbook)              these deprecated commands. Now, after two decades of
+(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrbook)              not work any longer. If loading a package results in
+(scrbook)              this message you should contact the author of that
+(scrbook)              package and ask him to replace the depracted font
+(scrbook)              command `\bf', e.g., by `\mathbf '.
+(scrbook)              Otherwise you should reconfigure or replace the
+(scrbook)              package. If you have used the old font command
+(scrbook)              `\bf' yourself you should replace it, e.g., by
+(scrbook)              `\mathbf ' on input line 79.
+
+
+Class scrbook Warning: deprecated old font command `\bf' used.
+(scrbook)              You should note, that since 1994 LaTeX2e provides a
+(scrbook)              new font selection scheme called NFSS2 with several
+(scrbook)              new, combinable font commands. New KOMA-Script classes
+(scrbook)              defined the old font commands like `\bf' only for
+(scrbook)              compatibility with LaTeX 2.09 document styles of
+(scrbook)              Script 2.0. These commands are deprecated and
+(scrbook)              undocumented at least since 2003. Since 2013,
+(scrbook)              KOMA-Script classes warned about soon removement of
+(scrbook)              these deprecated commands. Now, after two decades of
+(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrbook)              not work any longer. If loading a package results in
+(scrbook)              this message you should contact the author of that
+(scrbook)              package and ask him to replace the depracted font
+(scrbook)              command `\bf', e.g., by `\mathbf '.
+(scrbook)              Otherwise you should reconfigure or replace the
+(scrbook)              package. If you have used the old font command
+(scrbook)              `\bf' yourself you should replace it, e.g., by
+(scrbook)              `\mathbf ' on input line 79.
+
+
+Class scrbook Warning: deprecated old font command `\bf' used.
+(scrbook)              You should note, that since 1994 LaTeX2e provides a
+(scrbook)              new font selection scheme called NFSS2 with several
+(scrbook)              new, combinable font commands. New KOMA-Script classes
+(scrbook)              defined the old font commands like `\bf' only for
+(scrbook)              compatibility with LaTeX 2.09 document styles of
+(scrbook)              Script 2.0. These commands are deprecated and
+(scrbook)              undocumented at least since 2003. Since 2013,
+(scrbook)              KOMA-Script classes warned about soon removement of
+(scrbook)              these deprecated commands. Now, after two decades of
+(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrbook)              not work any longer. If loading a package results in
+(scrbook)              this message you should contact the author of that
+(scrbook)              package and ask him to replace the depracted font
+(scrbook)              command `\bf', e.g., by `\mathbf '.
+(scrbook)              Otherwise you should reconfigure or replace the
+(scrbook)              package. If you have used the old font command
+(scrbook)              `\bf' yourself you should replace it, e.g., by
+(scrbook)              `\mathbf ' on input line 79.
+
+
+Class scrbook Warning: deprecated old font command `\bf' used.
+(scrbook)              You should note, that since 1994 LaTeX2e provides a
+(scrbook)              new font selection scheme called NFSS2 with several
+(scrbook)              new, combinable font commands. New KOMA-Script classes
+(scrbook)              defined the old font commands like `\bf' only for
+(scrbook)              compatibility with LaTeX 2.09 document styles of
+(scrbook)              Script 2.0. These commands are deprecated and
+(scrbook)              undocumented at least since 2003. Since 2013,
+(scrbook)              KOMA-Script classes warned about soon removement of
+(scrbook)              these deprecated commands. Now, after two decades of
+(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrbook)              not work any longer. If loading a package results in
+(scrbook)              this message you should contact the author of that
+(scrbook)              package and ask him to replace the depracted font
+(scrbook)              command `\bf', e.g., by `\mathbf '.
+(scrbook)              Otherwise you should reconfigure or replace the
+(scrbook)              package. If you have used the old font command
+(scrbook)              `\bf' yourself you should replace it, e.g., by
+(scrbook)              `\mathbf ' on input line 79.
+
+
+Class scrbook Warning: deprecated old font command `\bf' used.
+(scrbook)              You should note, that since 1994 LaTeX2e provides a
+(scrbook)              new font selection scheme called NFSS2 with several
+(scrbook)              new, combinable font commands. New KOMA-Script classes
+(scrbook)              defined the old font commands like `\bf' only for
+(scrbook)              compatibility with LaTeX 2.09 document styles of
+(scrbook)              Script 2.0. These commands are deprecated and
+(scrbook)              undocumented at least since 2003. Since 2013,
+(scrbook)              KOMA-Script classes warned about soon removement of
+(scrbook)              these deprecated commands. Now, after two decades of
+(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrbook)              not work any longer. If loading a package results in
+(scrbook)              this message you should contact the author of that
+(scrbook)              package and ask him to replace the depracted font
+(scrbook)              command `\bf', e.g., by `\mathbf '.
+(scrbook)              Otherwise you should reconfigure or replace the
+(scrbook)              package. If you have used the old font command
+(scrbook)              `\bf' yourself you should replace it, e.g., by
+(scrbook)              `\mathbf ' on input line 79.
+
+
+Class scrbook Warning: deprecated old font command `\bf' used.
+(scrbook)              You should note, that since 1994 LaTeX2e provides a
+(scrbook)              new font selection scheme called NFSS2 with several
+(scrbook)              new, combinable font commands. New KOMA-Script classes
+(scrbook)              defined the old font commands like `\bf' only for
+(scrbook)              compatibility with LaTeX 2.09 document styles of
+(scrbook)              Script 2.0. These commands are deprecated and
+(scrbook)              undocumented at least since 2003. Since 2013,
+(scrbook)              KOMA-Script classes warned about soon removement of
+(scrbook)              these deprecated commands. Now, after two decades of
+(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrbook)              not work any longer. If loading a package results in
+(scrbook)              this message you should contact the author of that
+(scrbook)              package and ask him to replace the depracted font
+(scrbook)              command `\bf', e.g., by `\mathbf '.
+(scrbook)              Otherwise you should reconfigure or replace the
+(scrbook)              package. If you have used the old font command
+(scrbook)              `\bf' yourself you should replace it, e.g., by
+(scrbook)              `\mathbf ' on input line 79.
+
+
+Class scrbook Warning: deprecated old font command `\bf' used.
+(scrbook)              You should note, that since 1994 LaTeX2e provides a
+(scrbook)              new font selection scheme called NFSS2 with several
+(scrbook)              new, combinable font commands. New KOMA-Script classes
+(scrbook)              defined the old font commands like `\bf' only for
+(scrbook)              compatibility with LaTeX 2.09 document styles of
+(scrbook)              Script 2.0. These commands are deprecated and
+(scrbook)              undocumented at least since 2003. Since 2013,
+(scrbook)              KOMA-Script classes warned about soon removement of
+(scrbook)              these deprecated commands. Now, after two decades of
+(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrbook)              not work any longer. If loading a package results in
+(scrbook)              this message you should contact the author of that
+(scrbook)              package and ask him to replace the depracted font
+(scrbook)              command `\bf', e.g., by `\mathbf '.
+(scrbook)              Otherwise you should reconfigure or replace the
+(scrbook)              package. If you have used the old font command
+(scrbook)              `\bf' yourself you should replace it, e.g., by
+(scrbook)              `\mathbf ' on input line 79.
+
+
+Class scrbook Warning: deprecated old font command `\bf' used.
+(scrbook)              You should note, that since 1994 LaTeX2e provides a
+(scrbook)              new font selection scheme called NFSS2 with several
+(scrbook)              new, combinable font commands. New KOMA-Script classes
+(scrbook)              defined the old font commands like `\bf' only for
+(scrbook)              compatibility with LaTeX 2.09 document styles of
+(scrbook)              Script 2.0. These commands are deprecated and
+(scrbook)              undocumented at least since 2003. Since 2013,
+(scrbook)              KOMA-Script classes warned about soon removement of
+(scrbook)              these deprecated commands. Now, after two decades of
+(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrbook)              not work any longer. If loading a package results in
+(scrbook)              this message you should contact the author of that
+(scrbook)              package and ask him to replace the depracted font
+(scrbook)              command `\bf', e.g., by `\mathbf '.
+(scrbook)              Otherwise you should reconfigure or replace the
+(scrbook)              package. If you have used the old font command
+(scrbook)              `\bf' yourself you should replace it, e.g., by
+(scrbook)              `\mathbf ' on input line 79.
+
+
+Class scrbook Warning: deprecated old font command `\bf' used.
+(scrbook)              You should note, that since 1994 LaTeX2e provides a
+(scrbook)              new font selection scheme called NFSS2 with several
+(scrbook)              new, combinable font commands. New KOMA-Script classes
+(scrbook)              defined the old font commands like `\bf' only for
+(scrbook)              compatibility with LaTeX 2.09 document styles of
+(scrbook)              Script 2.0. These commands are deprecated and
+(scrbook)              undocumented at least since 2003. Since 2013,
+(scrbook)              KOMA-Script classes warned about soon removement of
+(scrbook)              these deprecated commands. Now, after two decades of
+(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrbook)              not work any longer. If loading a package results in
+(scrbook)              this message you should contact the author of that
+(scrbook)              package and ask him to replace the depracted font
+(scrbook)              command `\bf', e.g., by `\normalfont \bfseries '.
+(scrbook)              Otherwise you should reconfigure or replace the
+(scrbook)              package. If you have used the old font command
+(scrbook)              `\bf' yourself you should replace it, e.g., by
+(scrbook)              `\normalfont \bfseries ' on input line 87.
+
+
+Class scrbook Warning: deprecated old font command `\bf' used.
+(scrbook)              You should note, that since 1994 LaTeX2e provides a
+(scrbook)              new font selection scheme called NFSS2 with several
+(scrbook)              new, combinable font commands. New KOMA-Script classes
+(scrbook)              defined the old font commands like `\bf' only for
+(scrbook)              compatibility with LaTeX 2.09 document styles of
+(scrbook)              Script 2.0. These commands are deprecated and
+(scrbook)              undocumented at least since 2003. Since 2013,
+(scrbook)              KOMA-Script classes warned about soon removement of
+(scrbook)              these deprecated commands. Now, after two decades of
+(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrbook)              not work any longer. If loading a package results in
+(scrbook)              this message you should contact the author of that
+(scrbook)              package and ask him to replace the depracted font
+(scrbook)              command `\bf', e.g., by `\normalfont \bfseries '.
+(scrbook)              Otherwise you should reconfigure or replace the
+(scrbook)              package. If you have used the old font command
+(scrbook)              `\bf' yourself you should replace it, e.g., by
+(scrbook)              `\normalfont \bfseries ' on input line 96.
 
 [37]
-<content/pics/Picture_15.png, id=656, 394.1124pt x 303.0522pt>
+<content/pics/Picture_14.png, id=654, 427.3566pt x 319.9152pt>
+File: content/pics/Picture_14.png Graphic file (type png)
+<use content/pics/Picture_14.png>
+Package pdftex.def Info: content/pics/Picture_14.png  used on input line 102.
+(pdftex.def)             Requested size: 405.98645pt x 303.91771pt.
+ [38 <./content/pics/Picture_14.png>]
+
+Class scrbook Warning: deprecated old font command `\bf' used.
+(scrbook)              You should note, that since 1994 LaTeX2e provides a
+(scrbook)              new font selection scheme called NFSS2 with several
+(scrbook)              new, combinable font commands. New KOMA-Script classes
+(scrbook)              defined the old font commands like `\bf' only for
+(scrbook)              compatibility with LaTeX 2.09 document styles of
+(scrbook)              Script 2.0. These commands are deprecated and
+(scrbook)              undocumented at least since 2003. Since 2013,
+(scrbook)              KOMA-Script classes warned about soon removement of
+(scrbook)              these deprecated commands. Now, after two decades of
+(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrbook)              not work any longer. If loading a package results in
+(scrbook)              this message you should contact the author of that
+(scrbook)              package and ask him to replace the depracted font
+(scrbook)              command `\bf', e.g., by `\normalfont \bfseries '.
+(scrbook)              Otherwise you should reconfigure or replace the
+(scrbook)              package. If you have used the old font command
+(scrbook)              `\bf' yourself you should replace it, e.g., by
+(scrbook)              `\normalfont \bfseries ' on input line 111.
+
+<content/pics/Picture_15.png, id=664, 394.1124pt x 303.0522pt>
 File: content/pics/Picture_15.png Graphic file (type png)
 <use content/pics/Picture_15.png>
-Package pdftex.def Info: content/pics/Picture_15.png  used on input line 109.
+Package pdftex.def Info: content/pics/Picture_15.png  used on input line 121.
 (pdftex.def)             Requested size: 374.40463pt x 287.89795pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2183,9 +2157,8 @@ Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              Otherwise you should reconfigure or replace the
 (scrbook)              package. If you have used the old font command
 (scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 116.
+(scrbook)              `\normalfont \bfseries ' on input line 128.
 
-[38 <./content/pics/Picture_14.png>]
 
 Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              You should note, that since 1994 LaTeX2e provides a
@@ -2205,22 +2178,22 @@ Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              Otherwise you should reconfigure or replace the
 (scrbook)              package. If you have used the old font command
 (scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 120.
+(scrbook)              `\normalfont \bfseries ' on input line 132.
 
-[39 <./content/pics/Picture_15.png>]
-<content/pics/Picture_16.png, id=674, 396.0396pt x 284.7438pt>
+[39] [40 <./content/pics/Picture_15.png>]
+<content/pics/Picture_16.png, id=681, 396.0396pt x 284.7438pt>
 File: content/pics/Picture_16.png Graphic file (type png)
 <use content/pics/Picture_16.png>
-Package pdftex.def Info: content/pics/Picture_16.png  used on input line 141.
+Package pdftex.def Info: content/pics/Picture_16.png  used on input line 155.
 (pdftex.def)             Requested size: 376.23547pt x 270.50507pt.
- [40 <./content/pics/Picture_16.png>]
-<content/pics/Picture_17.png, id=681, 401.3394pt x 199.4652pt>
+ [41 <./content/pics/Picture_16.png>]
+<content/pics/Picture_17.png, id=688, 401.3394pt x 199.4652pt>
 File: content/pics/Picture_17.png Graphic file (type png)
 <use content/pics/Picture_17.png>
-Package pdftex.def Info: content/pics/Picture_17.png  used on input line 150.
+Package pdftex.def Info: content/pics/Picture_17.png  used on input line 164.
 (pdftex.def)             Requested size: 381.27026pt x 189.49086pt.
 
-Underfull \hbox (badness 1917) in paragraph at lines 151--151
+Underfull \hbox (badness 1917) in paragraph at lines 165--165
 [][][]\T1/ptm/m/n/12 (+20) Inferenz-Phase. Ver-gleich von Kapitel-Vektoren mit 
 Durchschnitts-
  []
@@ -2244,12 +2217,12 @@ Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              Otherwise you should reconfigure or replace the
 (scrbook)              package. If you have used the old font command
 (scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 155.
+(scrbook)              `\normalfont \bfseries ' on input line 169.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[41 <./content/pics/Picture_17.png>]
+[42 <./content/pics/Picture_17.png>]
 
 Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              You should note, that since 1994 LaTeX2e provides a
@@ -2269,7 +2242,7 @@ Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              Otherwise you should reconfigure or replace the
 (scrbook)              package. If you have used the old font command
 (scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 178.
+(scrbook)              `\normalfont \bfseries ' on input line 192.
 
 
 Class scrbook Warning: deprecated old font command `\bf' used.
@@ -2290,46 +2263,45 @@ Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              Otherwise you should reconfigure or replace the
 (scrbook)              package. If you have used the old font command
 (scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 185.
-
-[42]
-
-Class scrbook Warning: deprecated old font command `\bf' used.
-(scrbook)              You should note, that since 1994 LaTeX2e provides a
-(scrbook)              new font selection scheme called NFSS2 with several
-(scrbook)              new, combinable font commands. New KOMA-Script classes
-(scrbook)              defined the old font commands like `\bf' only for
-(scrbook)              compatibility with LaTeX 2.09 document styles of
-(scrbook)              Script 2.0. These commands are deprecated and
-(scrbook)              undocumented at least since 2003. Since 2013,
-(scrbook)              KOMA-Script classes warned about soon removement of
-(scrbook)              these deprecated commands. Now, after two decades of
-(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
-(scrbook)              not work any longer. If loading a package results in
-(scrbook)              this message you should contact the author of that
-(scrbook)              package and ask him to replace the depracted font
-(scrbook)              command `\bf', e.g., by `\normalfont \bfseries '.
-(scrbook)              Otherwise you should reconfigure or replace the
-(scrbook)              package. If you have used the old font command
-(scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 189.
+(scrbook)              `\normalfont \bfseries ' on input line 199.
 
 [43]
-<content/pics/Picture_18.png, id=707, 344.0052pt x 240.4182pt>
+
+Class scrbook Warning: deprecated old font command `\bf' used.
+(scrbook)              You should note, that since 1994 LaTeX2e provides a
+(scrbook)              new font selection scheme called NFSS2 with several
+(scrbook)              new, combinable font commands. New KOMA-Script classes
+(scrbook)              defined the old font commands like `\bf' only for
+(scrbook)              compatibility with LaTeX 2.09 document styles of
+(scrbook)              Script 2.0. These commands are deprecated and
+(scrbook)              undocumented at least since 2003. Since 2013,
+(scrbook)              KOMA-Script classes warned about soon removement of
+(scrbook)              these deprecated commands. Now, after two decades of
+(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrbook)              not work any longer. If loading a package results in
+(scrbook)              this message you should contact the author of that
+(scrbook)              package and ask him to replace the depracted font
+(scrbook)              command `\bf', e.g., by `\normalfont \bfseries '.
+(scrbook)              Otherwise you should reconfigure or replace the
+(scrbook)              package. If you have used the old font command
+(scrbook)              `\bf' yourself you should replace it, e.g., by
+(scrbook)              `\normalfont \bfseries ' on input line 203.
+
+[44]
+<content/pics/Picture_18.png, id=714, 344.0052pt x 240.4182pt>
 File: content/pics/Picture_18.png Graphic file (type png)
 <use content/pics/Picture_18.png>
-Package pdftex.def Info: content/pics/Picture_18.png  used on input line 201.
+Package pdftex.def Info: content/pics/Picture_18.png  used on input line 215.
 (pdftex.def)             Requested size: 326.80307pt x 228.39598pt.
-<content/pics/Picture_19.png, id=711, 423.5022pt x 52.998pt>
+<content/pics/Picture_19.png, id=718, 423.5022pt x 52.998pt>
 File: content/pics/Picture_19.png Graphic file (type png)
 <use content/pics/Picture_19.png>
-Package pdftex.def Info: content/pics/Picture_19.png  used on input line 210.
+Package pdftex.def Info: content/pics/Picture_19.png  used on input line 224.
 (pdftex.def)             Requested size: 402.32478pt x 50.34781pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[44 <./content/pics/Picture_18.png>]
 
 Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              You should note, that since 1994 LaTeX2e provides a
@@ -2349,16 +2321,16 @@ Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              Otherwise you should reconfigure or replace the
 (scrbook)              package. If you have used the old font command
 (scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 217.
+(scrbook)              `\normalfont \bfseries ' on input line 231.
 
-[45 <./content/pics/Picture_19.png>]
-<content/pics/Picture_20.png, id=726, 450.483pt x 171.5208pt>
+[45 <./content/pics/Picture_18.png>] [46 <./content/pics/Picture_19.png>]
+<content/pics/Picture_20.png, id=733, 450.483pt x 171.5208pt>
 File: content/pics/Picture_20.png Graphic file (type png)
 <use content/pics/Picture_20.png>
-Package pdftex.def Info: content/pics/Picture_20.png  used on input line 241.
+Package pdftex.def Info: content/pics/Picture_20.png  used on input line 255.
 (pdftex.def)             Requested size: 427.9564pt x 162.94382pt.
 
-Overfull \hbox (1.16505pt too wide) in paragraph at lines 241--242
+Overfull \hbox (1.16505pt too wide) in paragraph at lines 255--256
  [][] 
  []
 
@@ -2381,7 +2353,7 @@ Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              Otherwise you should reconfigure or replace the
 (scrbook)              package. If you have used the old font command
 (scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 246.
+(scrbook)              `\normalfont \bfseries ' on input line 260.
 
 
 Class scrbook Warning: deprecated old font command `\bf' used.
@@ -2402,7 +2374,7 @@ Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              Otherwise you should reconfigure or replace the
 (scrbook)              package. If you have used the old font command
 (scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 250.
+(scrbook)              `\normalfont \bfseries ' on input line 264.
 
 
 Class scrbook Warning: deprecated old font command `\bf' used.
@@ -2423,9 +2395,9 @@ Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              Otherwise you should reconfigure or replace the
 (scrbook)              package. If you have used the old font command
 (scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 254.
+(scrbook)              `\normalfont \bfseries ' on input line 268.
 
-[46 <./content/pics/Picture_20.png>] [47]
+[47 <./content/pics/Picture_20.png>] [48]
 
 Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              You should note, that since 1994 LaTeX2e provides a
@@ -2445,12 +2417,12 @@ Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              Otherwise you should reconfigure or replace the
 (scrbook)              package. If you have used the old font command
 (scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 270.
+(scrbook)              `\normalfont \bfseries ' on input line 284.
 
-<content/pics/Picture_21.png, id=742, 326.1786pt x 217.7736pt>
+<content/pics/Picture_21.png, id=750, 326.1786pt x 217.7736pt>
 File: content/pics/Picture_21.png Graphic file (type png)
 <use content/pics/Picture_21.png>
-Package pdftex.def Info: content/pics/Picture_21.png  used on input line 280.
+Package pdftex.def Info: content/pics/Picture_21.png  used on input line 294.
 (pdftex.def)             Requested size: 309.8679pt x 206.88373pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2474,29 +2446,7 @@ Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              Otherwise you should reconfigure or replace the
 (scrbook)              package. If you have used the old font command
 (scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 285.
-
-[48]
-
-Class scrbook Warning: deprecated old font command `\bf' used.
-(scrbook)              You should note, that since 1994 LaTeX2e provides a
-(scrbook)              new font selection scheme called NFSS2 with several
-(scrbook)              new, combinable font commands. New KOMA-Script classes
-(scrbook)              defined the old font commands like `\bf' only for
-(scrbook)              compatibility with LaTeX 2.09 document styles of
-(scrbook)              Script 2.0. These commands are deprecated and
-(scrbook)              undocumented at least since 2003. Since 2013,
-(scrbook)              KOMA-Script classes warned about soon removement of
-(scrbook)              these deprecated commands. Now, after two decades of
-(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
-(scrbook)              not work any longer. If loading a package results in
-(scrbook)              this message you should contact the author of that
-(scrbook)              package and ask him to replace the depracted font
-(scrbook)              command `\bf', e.g., by `\normalfont \bfseries '.
-(scrbook)              Otherwise you should reconfigure or replace the
-(scrbook)              package. If you have used the old font command
-(scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 291.
+(scrbook)              `\normalfont \bfseries ' on input line 299.
 
 
 Class scrbook Warning: deprecated old font command `\bf' used.
@@ -2517,15 +2467,9 @@ Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              Otherwise you should reconfigure or replace the
 (scrbook)              package. If you have used the old font command
 (scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 295.
+(scrbook)              `\normalfont \bfseries ' on input line 305.
 
-[49 <./content/pics/Picture_21.png>]
-<content/pics/Picture_22.png, id=757, 426.393pt x 237.5274pt>
-File: content/pics/Picture_22.png Graphic file (type png)
-<use content/pics/Picture_22.png>
-Package pdftex.def Info: content/pics/Picture_22.png  used on input line 304.
-(pdftex.def)             Requested size: 405.07104pt x 225.64973pt.
-
+[49]
 
 Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              You should note, that since 1994 LaTeX2e provides a
@@ -2547,49 +2491,12 @@ Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              `\bf' yourself you should replace it, e.g., by
 (scrbook)              `\normalfont \bfseries ' on input line 309.
 
-[50 <./content/pics/Picture_22.png>]
-
-Class scrbook Warning: deprecated old font command `\bf' used.
-(scrbook)              You should note, that since 1994 LaTeX2e provides a
-(scrbook)              new font selection scheme called NFSS2 with several
-(scrbook)              new, combinable font commands. New KOMA-Script classes
-(scrbook)              defined the old font commands like `\bf' only for
-(scrbook)              compatibility with LaTeX 2.09 document styles of
-(scrbook)              Script 2.0. These commands are deprecated and
-(scrbook)              undocumented at least since 2003. Since 2013,
-(scrbook)              KOMA-Script classes warned about soon removement of
-(scrbook)              these deprecated commands. Now, after two decades of
-(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
-(scrbook)              not work any longer. If loading a package results in
-(scrbook)              this message you should contact the author of that
-(scrbook)              package and ask him to replace the depracted font
-(scrbook)              command `\bf', e.g., by `\normalfont \bfseries '.
-(scrbook)              Otherwise you should reconfigure or replace the
-(scrbook)              package. If you have used the old font command
-(scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 319.
-
-[51]
-
-Class scrbook Warning: deprecated old font command `\bf' used.
-(scrbook)              You should note, that since 1994 LaTeX2e provides a
-(scrbook)              new font selection scheme called NFSS2 with several
-(scrbook)              new, combinable font commands. New KOMA-Script classes
-(scrbook)              defined the old font commands like `\bf' only for
-(scrbook)              compatibility with LaTeX 2.09 document styles of
-(scrbook)              Script 2.0. These commands are deprecated and
-(scrbook)              undocumented at least since 2003. Since 2013,
-(scrbook)              KOMA-Script classes warned about soon removement of
-(scrbook)              these deprecated commands. Now, after two decades of
-(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
-(scrbook)              not work any longer. If loading a package results in
-(scrbook)              this message you should contact the author of that
-(scrbook)              package and ask him to replace the depracted font
-(scrbook)              command `\bf', e.g., by `\normalfont \bfseries '.
-(scrbook)              Otherwise you should reconfigure or replace the
-(scrbook)              package. If you have used the old font command
-(scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 325.
+[50 <./content/pics/Picture_21.png>]
+<content/pics/Picture_22.png, id=764, 426.393pt x 237.5274pt>
+File: content/pics/Picture_22.png Graphic file (type png)
+<use content/pics/Picture_22.png>
+Package pdftex.def Info: content/pics/Picture_22.png  used on input line 318.
+(pdftex.def)             Requested size: 405.07104pt x 225.64973pt.
 
 
 Class scrbook Warning: deprecated old font command `\bf' used.
@@ -2610,7 +2517,29 @@ Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              Otherwise you should reconfigure or replace the
 (scrbook)              package. If you have used the old font command
 (scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 329.
+(scrbook)              `\normalfont \bfseries ' on input line 323.
+
+[51 <./content/pics/Picture_22.png>]
+
+Class scrbook Warning: deprecated old font command `\bf' used.
+(scrbook)              You should note, that since 1994 LaTeX2e provides a
+(scrbook)              new font selection scheme called NFSS2 with several
+(scrbook)              new, combinable font commands. New KOMA-Script classes
+(scrbook)              defined the old font commands like `\bf' only for
+(scrbook)              compatibility with LaTeX 2.09 document styles of
+(scrbook)              Script 2.0. These commands are deprecated and
+(scrbook)              undocumented at least since 2003. Since 2013,
+(scrbook)              KOMA-Script classes warned about soon removement of
+(scrbook)              these deprecated commands. Now, after two decades of
+(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrbook)              not work any longer. If loading a package results in
+(scrbook)              this message you should contact the author of that
+(scrbook)              package and ask him to replace the depracted font
+(scrbook)              command `\bf', e.g., by `\normalfont \bfseries '.
+(scrbook)              Otherwise you should reconfigure or replace the
+(scrbook)              package. If you have used the old font command
+(scrbook)              `\bf' yourself you should replace it, e.g., by
+(scrbook)              `\normalfont \bfseries ' on input line 333.
 
 [52]
 
@@ -2632,39 +2561,82 @@ Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              Otherwise you should reconfigure or replace the
 (scrbook)              package. If you have used the old font command
 (scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 341.
+(scrbook)              `\normalfont \bfseries ' on input line 339.
 
-<content/pics/Picture_23.png, id=791, 452.4102pt x 146.4672pt>
-File: content/pics/Picture_23.png Graphic file (type png)
-<use content/pics/Picture_23.png>
-Package pdftex.def Info: content/pics/Picture_23.png  used on input line 347.
-(pdftex.def)             Requested size: 429.78725pt x 139.14304pt.
 
-Overfull \hbox (2.9959pt too wide) in paragraph at lines 347--348
- [][] 
- []
+Class scrbook Warning: deprecated old font command `\bf' used.
+(scrbook)              You should note, that since 1994 LaTeX2e provides a
+(scrbook)              new font selection scheme called NFSS2 with several
+(scrbook)              new, combinable font commands. New KOMA-Script classes
+(scrbook)              defined the old font commands like `\bf' only for
+(scrbook)              compatibility with LaTeX 2.09 document styles of
+(scrbook)              Script 2.0. These commands are deprecated and
+(scrbook)              undocumented at least since 2003. Since 2013,
+(scrbook)              KOMA-Script classes warned about soon removement of
+(scrbook)              these deprecated commands. Now, after two decades of
+(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrbook)              not work any longer. If loading a package results in
+(scrbook)              this message you should contact the author of that
+(scrbook)              package and ask him to replace the depracted font
+(scrbook)              command `\bf', e.g., by `\normalfont \bfseries '.
+(scrbook)              Otherwise you should reconfigure or replace the
+(scrbook)              package. If you have used the old font command
+(scrbook)              `\bf' yourself you should replace it, e.g., by
+(scrbook)              `\normalfont \bfseries ' on input line 343.
 
 [53]
-<content/pics/Picture_25.png, id=799, 452.4102pt x 111.2958pt>
+
+Class scrbook Warning: deprecated old font command `\bf' used.
+(scrbook)              You should note, that since 1994 LaTeX2e provides a
+(scrbook)              new font selection scheme called NFSS2 with several
+(scrbook)              new, combinable font commands. New KOMA-Script classes
+(scrbook)              defined the old font commands like `\bf' only for
+(scrbook)              compatibility with LaTeX 2.09 document styles of
+(scrbook)              Script 2.0. These commands are deprecated and
+(scrbook)              undocumented at least since 2003. Since 2013,
+(scrbook)              KOMA-Script classes warned about soon removement of
+(scrbook)              these deprecated commands. Now, after two decades of
+(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrbook)              not work any longer. If loading a package results in
+(scrbook)              this message you should contact the author of that
+(scrbook)              package and ask him to replace the depracted font
+(scrbook)              command `\bf', e.g., by `\normalfont \bfseries '.
+(scrbook)              Otherwise you should reconfigure or replace the
+(scrbook)              package. If you have used the old font command
+(scrbook)              `\bf' yourself you should replace it, e.g., by
+(scrbook)              `\normalfont \bfseries ' on input line 355.
+
+<content/pics/Picture_23.png, id=798, 452.4102pt x 146.4672pt>
+File: content/pics/Picture_23.png Graphic file (type png)
+<use content/pics/Picture_23.png>
+Package pdftex.def Info: content/pics/Picture_23.png  used on input line 361.
+(pdftex.def)             Requested size: 429.78725pt x 139.14304pt.
+
+Overfull \hbox (2.9959pt too wide) in paragraph at lines 361--362
+ [][] 
+ []
+
+[54]
+<content/pics/Picture_25.png, id=807, 452.4102pt x 111.2958pt>
 File: content/pics/Picture_25.png Graphic file (type png)
 <use content/pics/Picture_25.png>
-Package pdftex.def Info: content/pics/Picture_25.png  used on input line 356.
+Package pdftex.def Info: content/pics/Picture_25.png  used on input line 370.
 (pdftex.def)             Requested size: 429.78725pt x 105.7304pt.
 
-Overfull \hbox (2.9959pt too wide) in paragraph at lines 356--357
+Overfull \hbox (2.9959pt too wide) in paragraph at lines 370--371
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<content/pics/Picture_26.png, id=800, 453.3738pt x 118.041pt>
+<content/pics/Picture_26.png, id=808, 453.3738pt x 118.041pt>
 File: content/pics/Picture_26.png Graphic file (type png)
 <use content/pics/Picture_26.png>
-Package pdftex.def Info: content/pics/Picture_26.png  used on input line 363.
+Package pdftex.def Info: content/pics/Picture_26.png  used on input line 377.
 (pdftex.def)             Requested size: 430.70265pt x 112.13829pt.
 
-Overfull \hbox (3.9113pt too wide) in paragraph at lines 363--364
+Overfull \hbox (3.9113pt too wide) in paragraph at lines 377--378
  [][] 
  []
 
@@ -2690,31 +2662,9 @@ Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              Otherwise you should reconfigure or replace the
 (scrbook)              package. If you have used the old font command
 (scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 370.
+(scrbook)              `\normalfont \bfseries ' on input line 384.
 
-[54 <./content/pics/Picture_23.png>]
-
-Class scrbook Warning: deprecated old font command `\bf' used.
-(scrbook)              You should note, that since 1994 LaTeX2e provides a
-(scrbook)              new font selection scheme called NFSS2 with several
-(scrbook)              new, combinable font commands. New KOMA-Script classes
-(scrbook)              defined the old font commands like `\bf' only for
-(scrbook)              compatibility with LaTeX 2.09 document styles of
-(scrbook)              Script 2.0. These commands are deprecated and
-(scrbook)              undocumented at least since 2003. Since 2013,
-(scrbook)              KOMA-Script classes warned about soon removement of
-(scrbook)              these deprecated commands. Now, after two decades of
-(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
-(scrbook)              not work any longer. If loading a package results in
-(scrbook)              this message you should contact the author of that
-(scrbook)              package and ask him to replace the depracted font
-(scrbook)              command `\bf', e.g., by `\normalfont \bfseries '.
-(scrbook)              Otherwise you should reconfigure or replace the
-(scrbook)              package. If you have used the old font command
-(scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 374.
-
-[55 <./content/pics/Picture_25.png> <./content/pics/Picture_26.png>]
+[55 <./content/pics/Picture_23.png>]
 
 Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              You should note, that since 1994 LaTeX2e provides a
@@ -2734,12 +2684,34 @@ Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              Otherwise you should reconfigure or replace the
 (scrbook)              package. If you have used the old font command
 (scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 379.
+(scrbook)              `\normalfont \bfseries ' on input line 388.
 
-<content/pics/Listing_2_.png, id=819, 921.4425pt x 516.93124pt>
+[56 <./content/pics/Picture_25.png> <./content/pics/Picture_26.png>]
+
+Class scrbook Warning: deprecated old font command `\bf' used.
+(scrbook)              You should note, that since 1994 LaTeX2e provides a
+(scrbook)              new font selection scheme called NFSS2 with several
+(scrbook)              new, combinable font commands. New KOMA-Script classes
+(scrbook)              defined the old font commands like `\bf' only for
+(scrbook)              compatibility with LaTeX 2.09 document styles of
+(scrbook)              Script 2.0. These commands are deprecated and
+(scrbook)              undocumented at least since 2003. Since 2013,
+(scrbook)              KOMA-Script classes warned about soon removement of
+(scrbook)              these deprecated commands. Now, after two decades of
+(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrbook)              not work any longer. If loading a package results in
+(scrbook)              this message you should contact the author of that
+(scrbook)              package and ask him to replace the depracted font
+(scrbook)              command `\bf', e.g., by `\normalfont \bfseries '.
+(scrbook)              Otherwise you should reconfigure or replace the
+(scrbook)              package. If you have used the old font command
+(scrbook)              `\bf' yourself you should replace it, e.g., by
+(scrbook)              `\normalfont \bfseries ' on input line 393.
+
+<content/pics/Listing_2_.png, id=826, 921.4425pt x 516.93124pt>
 File: content/pics/Listing_2_.png Graphic file (type png)
 <use content/pics/Listing_2_.png>
-Package pdftex.def Info: content/pics/Listing_2_.png  used on input line 391.
+Package pdftex.def Info: content/pics/Listing_2_.png  used on input line 405.
 (pdftex.def)             Requested size: 368.57048pt x 206.76883pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2763,26 +2735,26 @@ Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              Otherwise you should reconfigure or replace the
 (scrbook)              package. If you have used the old font command
 (scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 396.
+(scrbook)              `\normalfont \bfseries ' on input line 410.
 
-[56]
-<content/pics/Picture_27.png, id=828, 453.3738pt x 143.0946pt>
+[57]
+<content/pics/Picture_27.png, id=835, 453.3738pt x 143.0946pt>
 File: content/pics/Picture_27.png Graphic file (type png)
 <use content/pics/Picture_27.png>
-Package pdftex.def Info: content/pics/Picture_27.png  used on input line 402.
+Package pdftex.def Info: content/pics/Picture_27.png  used on input line 416.
 (pdftex.def)             Requested size: 430.70265pt x 135.93909pt.
 
-Overfull \hbox (3.9113pt too wide) in paragraph at lines 402--403
+Overfull \hbox (3.9113pt too wide) in paragraph at lines 416--417
  [][] 
  []
 
-<content/pics/Picture_28.png, id=831, 453.3738pt x 247.6452pt>
+<content/pics/Picture_28.png, id=838, 453.3738pt x 247.6452pt>
 File: content/pics/Picture_28.png Graphic file (type png)
 <use content/pics/Picture_28.png>
-Package pdftex.def Info: content/pics/Picture_28.png  used on input line 411.
+Package pdftex.def Info: content/pics/Picture_28.png  used on input line 425.
 (pdftex.def)             Requested size: 430.70265pt x 235.26158pt.
 
-Overfull \hbox (3.9113pt too wide) in paragraph at lines 411--412
+Overfull \hbox (3.9113pt too wide) in paragraph at lines 425--426
  [][] 
  []
 
@@ -2808,30 +2780,9 @@ Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              Otherwise you should reconfigure or replace the
 (scrbook)              package. If you have used the old font command
 (scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 418.
+(scrbook)              `\normalfont \bfseries ' on input line 432.
 
-[57 <./content/pics/Listing_2_.png> <./content/pics/Picture_27.png>]
-
-Class scrbook Warning: deprecated old font command `\bf' used.
-(scrbook)              You should note, that since 1994 LaTeX2e provides a
-(scrbook)              new font selection scheme called NFSS2 with several
-(scrbook)              new, combinable font commands. New KOMA-Script classes
-(scrbook)              defined the old font commands like `\bf' only for
-(scrbook)              compatibility with LaTeX 2.09 document styles of
-(scrbook)              Script 2.0. These commands are deprecated and
-(scrbook)              undocumented at least since 2003. Since 2013,
-(scrbook)              KOMA-Script classes warned about soon removement of
-(scrbook)              these deprecated commands. Now, after two decades of
-(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
-(scrbook)              not work any longer. If loading a package results in
-(scrbook)              this message you should contact the author of that
-(scrbook)              package and ask him to replace the depracted font
-(scrbook)              command `\bf', e.g., by `\normalfont \bfseries '.
-(scrbook)              Otherwise you should reconfigure or replace the
-(scrbook)              package. If you have used the old font command
-(scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 422.
-
+[58 <./content/pics/Listing_2_.png> <./content/pics/Picture_27.png>]
 
 Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              You should note, that since 1994 LaTeX2e provides a
@@ -2851,39 +2802,60 @@ Class scrbook Warning: deprecated old font command `\bf' used.
 (scrbook)              Otherwise you should reconfigure or replace the
 (scrbook)              package. If you have used the old font command
 (scrbook)              `\bf' yourself you should replace it, e.g., by
-(scrbook)              `\normalfont \bfseries ' on input line 426.
+(scrbook)              `\normalfont \bfseries ' on input line 436.
 
-[58 <./content/pics/Picture_28.png>]
-Overfull \vbox (14.49998pt too high) detected at line 442
+
+Class scrbook Warning: deprecated old font command `\bf' used.
+(scrbook)              You should note, that since 1994 LaTeX2e provides a
+(scrbook)              new font selection scheme called NFSS2 with several
+(scrbook)              new, combinable font commands. New KOMA-Script classes
+(scrbook)              defined the old font commands like `\bf' only for
+(scrbook)              compatibility with LaTeX 2.09 document styles of
+(scrbook)              Script 2.0. These commands are deprecated and
+(scrbook)              undocumented at least since 2003. Since 2013,
+(scrbook)              KOMA-Script classes warned about soon removement of
+(scrbook)              these deprecated commands. Now, after two decades of
+(scrbook)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrbook)              not work any longer. If loading a package results in
+(scrbook)              this message you should contact the author of that
+(scrbook)              package and ask him to replace the depracted font
+(scrbook)              command `\bf', e.g., by `\normalfont \bfseries '.
+(scrbook)              Otherwise you should reconfigure or replace the
+(scrbook)              package. If you have used the old font command
+(scrbook)              `\bf' yourself you should replace it, e.g., by
+(scrbook)              `\normalfont \bfseries ' on input line 440.
+
+[59 <./content/pics/Picture_28.png>]
+Overfull \vbox (14.49998pt too high) detected at line 456
  []
 
 
-Overfull \vbox (14.49998pt too high) detected at line 444
+Overfull \vbox (14.49998pt too high) detected at line 458
  []
 
 
-Overfull \vbox (28.99997pt too high) detected at line 446
+Overfull \vbox (28.99997pt too high) detected at line 460
  []
 
 
-Overfull \vbox (14.49998pt too high) detected at line 448
+Overfull \vbox (14.49998pt too high) detected at line 462
  []
 
 
-Overfull \hbox (30.04854pt too wide) in paragraph at lines 439--451
+Overfull \hbox (30.04854pt too wide) in paragraph at lines 453--465
  [][] 
  []
 
-) [59]
+) [60]
 \openout2 = `content/cp5.aux'.
 
  (./content/cp5.tex
 chapter 5.
-[60
+[61
 
 
 
-]) [61]
+]) [62]
 chapter without number
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: T1).
@@ -2924,15 +2896,23 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 89.
 Package rerunfilecheck Info: File `bib.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'bib.run.xml'.
 \openout1 = `bib.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
  ) 
 Here is how much of TeX's memory you used:
- 31417 strings out of 492616
- 587356 string characters out of 6129482
- 1212630 words of memory out of 5000000
+ 31418 strings out of 492616
+ 587363 string characters out of 6129482
+ 1213663 words of memory out of 5000000
  34220 multiletter control sequences out of 15000+600000
  90714 words of font info for 275 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -2953,11 +2933,12 @@ mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-dist
 /fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
 1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.p
-fb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bib.pdf (75 pages, 5847011 bytes).
+fb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/
+local/texlive/2019/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
+Output written on bib.pdf (76 pages, 5852718 bytes).
 PDF statistics:
- 1158 PDF objects out of 1200 (max. 8388607)
- 975 compressed objects within 10 object streams
- 238 named destinations out of 1000 (max. 500000)
+ 1168 PDF objects out of 1200 (max. 8388607)
+ 983 compressed objects within 10 object streams
+ 239 named destinations out of 1000 (max. 500000)
  52838 words of extra memory for PDF output out of 61914 (max. 10000000)
 
