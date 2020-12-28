@@ -37,11 +37,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Darstellung aller verf\IeC {\"u}gbaren Dokumente, gruppiert nach Dokumententypen, eigene Erstellung}}{38}{figure.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Wikipedia-Dokumenten-Cluster, gruppiert nach Kategorien, erzeugt \IeC {\"u}ber Doc2Vec, aus \cite {Dai}}}{40}{figure.4.6}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Wikipedia-Dokumenten-Cluster, gruppiert nach Kategorien, erzeugt \IeC {\"u}ber Doc2Vec, aus \cite {Dai}}}{39}{figure.4.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Initiale Vorbereitung von durchschnittlichen Wort-Vektoren, eigene Erstellung}}{42}{figure.4.7}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Initiale Vorbereitung von durchschnittlichen Wort-Vektoren, eigene Erstellung}}{41}{figure.4.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Inferenz-Phase. Vergleich von Kapitel-Vektoren mit Durchschnitts-Vektoren, eigene Erstellung}}{43}{figure.4.8}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Inferenz-Phase. Vergleich von Kapitel-Vektoren mit Durchschnitts-Vektoren, eigene Erstellung}}{42}{figure.4.8}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Tag Clouds zu 4 erkannten Topics, erstellt mit NMF (eigene Erstellung)}}{45}{figure.4.9}% 
 \defcounter {refsection}{0}\relax 

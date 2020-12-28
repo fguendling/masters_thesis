@@ -116,10 +116,6 @@ Für das APM geschlussfolgert wird, dass auch die Suche nach Dokumenten-Clustern
 
 Man kann mit dem Verfahren grundsätzlich Cluster bilden. Dies belegt ein Beispiel aus der Literatur, auf das hier eingegangen wird. Die Dimensionsreduktion erfolgte ebenfalls mit t-SNE (vgl. Abbildung \ref{Abbildung:doc2vec2}) \cite{Dai}. 
 
-Es werden in dem Beispiel ähnliche Wikipedia-Artikel zu Dokumenten-Clustern zusammengefasst, wodurch die generelle Einsetzbarkeit unter der Annahme einer beliebig großen Menge von Dokumenten bestätigt werden kann. Es kann allerdings nicht ausgeschlossen werden, dass die APM-Dokumente sich nicht genug voneinander unterschieden, womit das Wikipedia-Ergebnis im Kontext des APM nicht erzielt werden könnte. 
-
-In einer realen Anwendung könnte sich z. B. durch das Auswählen einzelner Datenpunkte ein Fenster mit Details zum jeweiligen Dokument öffnen. Im Falle eines neuen Dokuments könnte die Position in der Visualisierung Hinweise darauf geben, welche ähnlichen Dokumente (bzw. Anwendungen) es bereits gibt. 
-
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.95]{content/pics/Picture_15.png}
@@ -127,13 +123,16 @@ In einer realen Anwendung könnte sich z. B. durch das Auswählen einzelner Date
 \label{Abbildung:doc2vec2}
 \end{figure}
 
+Es werden in dem Beispiel ähnliche Wikipedia-Artikel zu Dokumenten-Clustern zusammengefasst, wodurch die generelle Einsetzbarkeit unter der Annahme einer beliebig großen Menge von Dokumenten bestätigt werden kann. Es kann allerdings nicht ausgeschlossen werden, dass die APM-Dokumente sich nicht genug voneinander unterschieden, womit das Wikipedia-Ergebnis im Kontext des APM nicht erzielt werden könnte. 
+
+In einer realen Anwendung könnte sich z. B. durch das Auswählen einzelner Datenpunkte ein Fenster mit Details zum jeweiligen Dokument öffnen. Im Falle eines neuen Dokuments könnte die Position in der Visualisierung Hinweise darauf geben, welche ähnlichen Dokumente (bzw. Anwendungen) es bereits gibt. 
+
+
 %\smallskip
 
 {\bf Kriterium 3: Rechenaufwand}
 
 Das Erzeugen eines Scatter-Plots wie in Abbildung \ref{Abbildung:doc2vec2} erfordert zunächst das Training eines Modells. Die Trainingszeit ist abhängig von der Anzahl der Dokumente. Ein solches Modell kann auch nachts trainiert werden und dann gespeichert werden. Neue Dokumente können dann durch das Modell in Vektorform gebracht und visualisiert werden, z. B. in einer interaktiven Darstellung etwa auf einer Webseite. Die Inferenz (Erzeugung von Dokumenten-Vektoren) erfolgt ohne Verzögerungen.
-\\
-\\
 
 {\bf Kriterium 4: Kosten}
 
@@ -145,7 +144,7 @@ Bei der ``Bestimmung von inhaltlicher Integrität`` wird der Inhalt von einzelne
 
 \subsection{Ansatz 1: Vergleich von Durchschnitts-Wort-Vektoren}
 
-Dieser Ansatz basiert auf durchschnittlichen Wort-Vektoren. Auf Basis einer Trainingsdatenmenge werden zunächst durchschnittliche Wort-Vektoren berechnet. Die Trainingsdatenmenge setzt sich zusammen aus mehreren Textkörpern. Die unterschiedlichen Textkörper bestehen hier aus frei zugänglichen PDF-Dokumenten aus dem Internet. Unterschieden werden dabei die folgenden Dokumententypen:
+Dieser Ansatz basiert auf durchschnittlichen Wort-Vektoren. Auf Basis einer Trainingsdatenmenge werden zunächst durchschnittliche Wort-Vektoren berechnet (vgl. Anhang). Die Trainingsdatenmenge setzt sich zusammen aus mehreren Textkörpern. Die unterschiedlichen Textkörper bestehen hier aus frei zugänglichen PDF-Dokumenten aus dem Internet. Unterschieden werden dabei die folgenden Dokumententypen:
 
 \begin{itemize}
 \item Texte, in denen Anforderungen beschrieben werden (Thema Requirements)
@@ -197,7 +196,7 @@ Aus den Ergebnissen folgt jedoch, dass man mit dem Verfahren zumindest ein Gefü
 
 {\bf Kriterium 2: Generelle Einsetzbarkeit des Ansatzes im APM-Kontext, unter der Annahme einer beliebig großen Datenmenge}
 
-Wie oben beschrieben (vgl. Tabelle \ref{table:4}), sind die gewählten Themen, mit Ausnahme des Themas Logistics, sich inhaltlich sehr ähnlich. Das ändert sich auch bei größeren Trainingsdatenmengen nicht, da die Dokumente sich inhaltlich stets sehr ähnlich sein werden. Daher kann hier die generelle Einsetzbarkeit dieses Ansatzes nicht bestätigt werden, sofern zwischen sehr ähnlichen Themen (wie im vorliegenden Kontext) unterschieden werden soll.
+Wie oben beschrieben (vgl. Tabelle \ref{table:4}), sind die gewählten Themen, mit Ausnahme des Themas Logistics, sich inhaltlich sehr ähnlich. Das ändert sich auch bei größeren Trainingsdatenmengen nicht, da die Dokumente sich inhaltlich stets sehr ähnlich sein werden. Daher kann hier die generelle Einsetzbarkeit dieses Ansatzes für das APM nicht bestätigt werden, sofern zwischen sehr ähnlichen Themen (wie im vorliegenden Kontext) unterschieden werden soll.
 
 Die Autoren dieser Studie \cite{dilawar} evaluierten ebenfalls verschiedene Ansätze zur Kombination von Wort-Vektoren, so wie es bis hierhin beschrieben wurde. Allerdings unterscheidet sich der Ansatz der Autoren darin, dass kein schlichter Vektor-Vergleich mit Durchschnittsvektoren durchgeführt wird. Stattdessen werden Vektor-Repräsentationen des Texts noch als Eingabe für ein Klassifizierungsverfahren verwendet, wobei ein neuronales Netz zum Einsatz kommt. Dabei handelt es sich im Prinzip um einen eigenen Ansatz. Da es in diesem Abschnitt um den Vergleich von Durchschnitts-Vektoren ging, wird der Klassifizierungsansatz hier nicht näher betrachtet, er soll aber als Möglichkeit für weitere Versuche dokumentiert werden.
 
@@ -266,12 +265,11 @@ Es wurde also für 20 Test-Abschnitte eine Vorhersage mit dem Modell erstellt. D
 {\bf Kriterium 2: Generelle Einsetzbarkeit des Ansatzes im APM-Kontext, unter der Annahme einer beliebig großen Datenmenge}
 
 Wie der Code im Anhang dieser Arbeit zeigt, arbeitet der Ansatz unüberwacht. Das bedeutet, dass auch größere Textmengen für die Erstellung des Modells genutzt werden könnten. Da bereits unter Kriterium 1 gezeigt wurde, dass der Ansatz durchaus Themen schätzen kann, wird das auch bei einer beliebig großen Datenmenge möglich sein. Zu beachten ist, dass die Themen sich inhaltlich stark genug voneinander unterscheiden sollten, was jedoch im APM eher nicht der Fall ist. Daher sind weitere Verfeinerungen notwendig, um im APM ausreichend gute Ergebnisse mit dem Ansatz erzielen zu können.
+\\
 
 {\bf Kriterium 3: Rechenaufwand}
 
-Eine Implementierung des Verfahrens ist gekapselt in der scikit-learn-Funktion NMF, weshalb auf eine detaillierte Algorithmus-Beschreibung verzichtet wird. Das Verfahren zeichnet sich jedoch durch eine polynomiale Komplexität aus:
-
-$\mathcal{O}(n^k)$ 
+Eine Implementierung des Verfahrens ist gekapselt in der scikit-learn-Funktion NMF, weshalb auf eine detaillierte Algorithmus-Beschreibung verzichtet wird. Das Verfahren zeichnet sich jedoch durch eine polynomiale Komplexität aus: $\mathcal{O}(n^k)$.
 
 Das bedeutet, dass der Rechenaufwand je nach Parameterwahl bei der Initialisierung des Modells entsprechend stark steigen kann, je nachdem welche Parameter ausgewählt werden. Zu den Parametern zählt sowohl die Anzahl der Themen, sowie die Textmenge, die für die Modellerstellung verwendet wird \cite{scikit1}.
 
