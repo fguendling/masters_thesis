@@ -39,19 +39,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Wikipedia-Dokumenten-Cluster, gruppiert nach Kategorien, erzeugt \IeC {\"u}ber Doc2Vec, aus \cite {Dai}}}{40}{figure.4.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Initiale Vorbereitung von durchschnittlichen Wort-Vektoren, eigene Erstellung}}{41}{figure.4.7}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Initiale Vorbereitung von durchschnittlichen Wort-Vektoren, eigene Erstellung}}{42}{figure.4.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Inferenz-Phase. Vergleich von Kapitel-Vektoren mit Durchschnitts-Vektoren, eigene Erstellung}}{42}{figure.4.8}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Inferenz-Phase. Vergleich von Kapitel-Vektoren mit Durchschnitts-Vektoren, eigene Erstellung}}{43}{figure.4.8}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Tag Clouds zu 4 erkannten Topics, erstellt mit NMF (eigene Erstellung)}}{45}{figure.4.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Verwendung eines Abschnitts aus einem Testdokument f\IeC {\"u}r die Vorhersage des Topics, eigene Erstellung}}{46}{figure.4.10}% 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Verwendung eines Abschnitts aus einem Testdokument f\IeC {\"u}r die Vorhersage des Topics, geschw\IeC {\"a}rzt, eigene Erstellung}}{46}{figure.4.10}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.11}{\ignorespaces Struktur der Daten, die f\IeC {\"u}r Evaluation in diesem Abschnitt genutzt wurden (geschw\IeC {\"a}rzt und gek\IeC {\"u}rzt)}}{47}{figure.4.11}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.12}{\ignorespaces Evaluation der G\IeC {\"u}te von Zusammenfassungen, unter Ver\IeC {\"a}nderung des Ausgangs-Text-Korpus. Eigene Erstellung}}{50}{figure.4.12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Veranschaulichung eines abstraktiven Verfahrens. Eigene Erstellung in Anlehnung an \cite {Raffel}}}{51}{figure.4.13}% 
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Veranschaulichung eines abstraktiven Verfahrens. Eigene Erstellung in Anlehnung an \cite {Raffel}}}{52}{figure.4.13}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.14}{\ignorespaces Klassifizierungsergebnisse unter Verwendung von BERT nach der Feinabstimmung. Eigene Bildschirmaufnahme}}{55}{figure.4.14}% 
 \defcounter {refsection}{0}\relax 
@@ -61,9 +61,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.17}{\ignorespaces Klassifizierung mit logistischer Regression. Eigene Erstellung}}{58}{figure.4.17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Ergebnisse der Klassifizierung von S\IeC {\"a}tzen aus der Testmenge. Eigene Bildschirmaufnahme}}{58}{figure.4.18}% 
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Ergebnisse der Klassifizierung von S\IeC {\"a}tzen aus der Testmenge. Eigene Bildschirmaufnahme}}{59}{figure.4.18}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Einige Vorhersagen f\IeC {\"u}r ein Evaluations-Dokument. Eigene Bildschirmaufnahme}}{59}{figure.4.19}% 
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Einige Vorhersagen f\IeC {\"u}r ein Evaluations-Dokument. Eigene Bildschirmaufnahme}}{60}{figure.4.19}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
